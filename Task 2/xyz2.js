@@ -7,25 +7,24 @@ const sc_path = __dirname + '\\' + "screenshots" + '\\';
 const csv_path = __dirname + '\\' + 'csv' + '\\';
 const dom_path = __dirname + '\\' + 'dom' + '\\';
 
-if (!fs.existsSync(sc_path)){
-  fs.mkdirSync(sc_path);
-}
-if (!fs.existsSync(csv_path)){
-  fs.mkdirSync(csv_path);
-}
-if (!fs.existsSync(dom_path)){
-  fs.mkdirSync(dom_path);
-}
+file_path = [sc_path, csv_path, dom_path]
+
+file_path.forEach(element => {
+  if (!fs.existsSync(element)) {
+    fs.mkdirSync(element);
+  }
+});
 
 var file_array = fs.readFileSync('file.txt').toString().split("\n");
 
 tocsv1 = [];
 tocsv2 = [];
 
+
 (async () => {
   // -> Open browser, inside the browser open page, then goto given URL in the page
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
     args: [`--window-size=1280,720`],
     defaultViewport: {
       width: 1280,
@@ -34,34 +33,31 @@ tocsv2 = [];
   });
 
   const page = await browser.newPage();
+  await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-GB' });
 
   for (k in file_array) {
     console.log("Print: " + k);
     await page.goto(file_array[k],{waitUntil: 'networkidle0',});
-    
+
     await screenShot(page);
 
     await createDOM(page);
 
     arr = await getData(page);
 
-    console.log(arr);
-
     await convertToCsv(arr);
-
-    csv = new ObjectsToCsv(tocsv1);
-    await csv.toDisk(csv_path + 'file1.csv');
-
-    csv = new ObjectsToCsv(tocsv2);
-    await csv.toDisk(csv_path + 'file2.csv');
-
   }
+  csv = new ObjectsToCsv(tocsv1);
+  await csv.toDisk(csv_path + 'file1.csv');
+  
+  csv = new ObjectsToCsv(tocsv2);
+  await csv.toDisk(csv_path + 'file2.csv');
 
   // -> Close Browser
   await browser.close();
 })();
 
-async function screenShot(page){
+async function screenShot(page) {
   // -> Get webpage height
   const bodyHandle = await page.$('body');
   const boundingBox = await bodyHandle.boundingBox();
@@ -85,7 +81,7 @@ async function screenShot(page){
 
 }
 
-async function createDOM(page){
+async function createDOM(page) {
   //  -> Create DOM file
   try {
     const cdp = await page.target().createCDPSession();
@@ -97,72 +93,75 @@ async function createDOM(page){
   }
 }
 
-async function getData(page){
-  //start
-  let title_arr = []
-  let link_arr = []
-  let details_arr = []
+async function getData(page) {
+  arr = []
+  title_xpath = []
+  title = []
+  links_xpath = []
+  links = []
+  details_xpath = []
+  details = []
 
   // await page.waitForNavigation({timeout: 20000})
   // wait for element defined by XPath appear in page
-  await page.waitForXPath("//*[@id='rso']/div//a/h3[not(ancestor::li) and not(ancestor::div/@class = 'Wt5Tfe')]");
+  section_path = "//h3/parent::a/ancestor::div[@data-hveid and @data-ved and @class='g tF2Cxc'] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/parent::div[contains(@class,'g')][not(./ancestor::ul)]/parent::div[not(@id) or @id='rso']/div[contains(@class,'g')][not(./ancestor::ul)][not(@data-md)][not(descendant::table)][not(./g-card)][not(parent::div[contains(@class,'V3FYCf')])] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/ancestor::div[@class='g']/parent::div[@data-hveid]//div[@data-hveid and @data-ved][not(./ancestor::ul)][not(parent::div[contains(@class,'g ')])] | //h3/parent::a/ancestor::div[contains(@class,'ZINbbc') and contains(@class,'uUPGi')]/parent::div | //a[contains(@href,'youtube')][./h3][not(ancestor::div[contains(@style,'display:none')])]/ancestor::div[not(@*)][parent::div[contains(@class,'g')]]"
+  await page.waitForXPath(section_path);
+  let section = await page.$x(section_path);
 
-  // evaluate XPath expression of the target selector (it return array)
-  let titles = await page.$x("//*[@id='rso']/div//a/h3[not(ancestor::li) and not(ancestor::div/@class = 'Wt5Tfe')]");
+  for (let i = 0; i < section.length; i++) {
+    i_plus_one = i + 1
 
+    title_xpath[i] = "(" + section_path + ")[" + i_plus_one + "]//a/h3";
+    links_xpath[i] = "(" + section_path + ")[" + i_plus_one + "]//a/@href";
+    details_xpath[i] = "(" + section_path + ")[" + i_plus_one + "]/div[//a/h3]//div[(contains(@class,'VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc'))]";
 
-  // prepare to get the textContent of the selector above (use page.evaluate)
-  for (let i = 0; i < titles.length; i++) {
-    let title = await page.evaluate(t => t.textContent, titles[i]);
-    title_arr.push(title)
+    title[i] = await page.$x(title_xpath[i]);
+    links[i] = await page.$x(links_xpath[i]);
+    details[i] = await page.$x(details_xpath[i]);
+
+    for (let j = 0; j < title[i].length; j++) {
+      title_str = await page.evaluate(tit => tit.textContent, title[i][j]);
+      links_str = await page.evaluate(lnk => lnk.textContent, links[i][j]);
+      details_str = await page.evaluate(det => det.textContent, details[i][j]);
+    }
+
+    if (!title_str) {
+      title_str = "N/A";
+    } if (!links_str) {
+      links_str = "N/A";
+    } if (!details_str) {
+      details_str = "N/A";
+    }
+
+    arr.push({ "Title": title_str, "Link": links_str, "Details": details_str });
   }
+  return arr
 
-  let links = await page.$x("//*[@id='rso']/div//a[child::h3 and not(ancestor::li) and not(ancestor::div/@class = 'Wt5Tfe')]/@href");
-
-  for (let i = 0; i < links.length; i++) {
-    let link = await page.evaluate(l => l.textContent, links[i]);
-    link_arr.push(link)
-  }
-
-  console.log("Break")
-  let details = await page.$x("//*[@id='rso']/div//div[//a/h3[not(ancestor::li) and not(ancestor::div/@class = 'Wt5Tfe')]]/div[(@class='Uroaid' or contains(@class,'VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc')) and not(ancestor::li) and not(ancestor::div/@class = 'Wt5Tfe')]");
-
-  // prepare to get the textContent of the selector above (use page.evaluate)
-  for (let i = 0; i < details.length; i++) {
-    let detail = await page.evaluate(d => d.textContent, details[i]);
-    details_arr.push(detail)
-  }
-
-  return { "Title": title_arr, "Link": link_arr, "Detail": details_arr }
 }
 
-async function convertToCsv(arr){
-  if (arr["Title"].length == arr["Link"].length && arr["Title"].length == arr["Detail"].length) {
-    tocsv_arr1 = []
-    tocsv_arr2 = []
+async function convertToCsv(arr) {
 
-    for (i = 0; i < title_arr.length; i++) {
-      obj = { "Title": arr["Title"][i], "Details": arr["Detail"][i], "Link": arr["Link"][i] }
-      tocsv_arr1.push(obj)
-    }
-    tocsv1 = tocsv1.concat(tocsv_arr1);
-    csv = new ObjectsToCsv(tocsv_arr1);
-    await csv.toDisk(csv_path + k + 'a.csv');
-
-    x = 1
-    for (key in arr) {
-      for (i = 0; i < arr[key].length; i++) {
-        obj = { "Index": k + '.' + x + '.' + (i + 1), "Field": key, "Value": arr[key][i] }
-        tocsv_arr2.push(obj)
-
-      }
-      x++
-    }
-    tocsv2 = tocsv2.concat(tocsv_arr2);
-    csv = new ObjectsToCsv(tocsv_arr2);
-    await csv.toDisk(csv_path + k + 'b.csv');
+  tocsv_arr1 = [];
+  tocsv_arr2 = [];
+  for (i = 0; i < arr.length; i++) {
+    obj = arr[i];
+    tocsv_arr1.push(obj);
   }
-  else {
-    console.log("Error")
+  tocsv1 = tocsv1.concat(tocsv_arr1);
+  csv = new ObjectsToCsv(tocsv_arr1);
+  await csv.toDisk(csv_path + k + 'a.csv');
+
+  for (i = 0; i < arr.length; i++) {
+    j = 1
+    for (key in arr[i]) {
+      obj = { "Index": k + '.' + (i + 1) + '.' + j, "Field": key, "Value": arr[i][key] };
+      tocsv_arr2.push(obj);
+      j++;
+    }
   }
+  tocsv2 = tocsv2.concat(tocsv_arr2);
+  csv = new ObjectsToCsv(tocsv_arr2);
+  await csv.toDisk(csv_path + k + 'b.csv');
+  
+
 }

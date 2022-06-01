@@ -520,7 +520,7 @@ index,Fields,Values
 80.2.13,Details & special offers,Free delivery
 80.2.14,Details & special offers,"Free delivery by Sun, May 22"
 80.3.1,Item price,$8.99
-80.3.2,Item price,
+80.3.2,Item price,NA
 80.3.3,Item price,$8.99
 80.3.4,Item price,$9.95
 80.3.5,Item price,$9.99
@@ -534,7 +534,7 @@ index,Fields,Values
 80.3.13,Item price,$23.99
 80.3.14,Item price,$31.28
 80.4.1,Total price,$8.99+Tax
-80.4.2,Total price,
+80.4.2,Total price,NA
 80.4.3,Total price,$15.88
 80.4.4,Total price,$16.90
 80.4.5,Total price,$16.94
