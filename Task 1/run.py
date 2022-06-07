@@ -1,4 +1,4 @@
-from mymodule2 import *
+from mymodule import *
 
 def main ():
 
@@ -12,13 +12,8 @@ def main ():
     all_hor(json_files)
     for i in range(0,len(json_files),4):
         convert_one_file_ver(mapper[json_files[i]], vertical_df(mapper[json_files[i]],  horizantal_df(json_files[i])))
-        # convert_one_file_ver("36.json", vertical_df("36.json",  horizantal_df("36.json")))
-        # convert_one_file_ver("40.json", vertical_df("40.json",  horizantal_df("40.json")))
-        # convert_one_file_ver("80.json", vertical_df("80.json",  horizantal_df("80.json")))
         convert_one_file_hor(json_files[i], horizantal_df(json_files[i]))
-        # convert_one_file_hor("36.json", horizantal_df("36.json"))
-        # convert_one_file_hor("40.json", horizantal_df("40.json"))
-        # convert_one_file_hor("80.json", horizantal_df("80.json"))
+
   
 if __name__ == '__main__':
     main()

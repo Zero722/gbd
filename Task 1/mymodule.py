@@ -5,44 +5,43 @@ import pandas as pd
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-
+# Declare file path
 csvfiles = os.path.dirname(os.path.abspath(__file__)) + "\csv"
 path_to_json = os.path.dirname(os.path.abspath(__file__)) + "\json"
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 json_files = sorted(json_files, key=lambda files: int(files.split(".")[0]))
 
-
+# Create required  folder if it doesn't exist
 def check_folder():
     if(not os.path.isdir(csvfiles)):
         os.mkdir(csvfiles)
 
-
+# Convert json file to horizantal dataframe
 def horizantal_df(file):
     index_hor=[]
     data = json.load(open(path_to_json + "\\" + file))
     df = pd.json_normalize(data["data"])
     df = pd.DataFrame(df)
 
+    # Extract title
     title_df = df[df['element'] == "TH"]
     title_df = title_df[["text"]]
     title_ser = title_df['text'].squeeze()
     titles = title_ser.tolist()
     titles.append("")
 
+    # Extract required data
     df2 = df[df['element'].str.contains('TD') & df['attributes.class'].str.contains('SH30Lb') & df['y']!=0]
-    # df2.to_csv(csvfiles + '\\' + "test.csv")
-
     unique_y = df2['y'].unique()
-    # index_hor.clear()
     x = file
-    # x = file.split(".")
-    # x = x[0]
 
+    # Process for empty table
     if (len(df2) == 0):
         df_new = pd.DataFrame(columns=titles)
         df_new.loc[0] = ["NA"] * len(titles)
         index_hor.append(str(x))
 
+    # Process for non-empty table
     else:
         l = len(unique_y)
         df_split = [None] * l
@@ -61,12 +60,13 @@ def horizantal_df(file):
 
         df_new = df_new.iloc[:, :5]
         df_new.columns = titles
-        # df_new.head()
 
+        # Clean data
         df_new["Sold by"] = df_new["Sold by"].str.split('Opens in a new window').str[0]
         df_new["Total price"] = df_new["Total price"].str.split('Item').str[0]
     df_new = df_new.iloc[:, :-1]
 
+    # Process Empty cell
     for i in range(df_new.shape[0]):  # iterate over rows
         for j in range(df_new.shape[1]):  # iterate over columns
             if df_new.loc[i][j] == "":
@@ -76,22 +76,16 @@ def horizantal_df(file):
     df_new = df_new.set_index("Index")
     df_new.index.names = ['File Name']
 
-    # print(df_new)
     return df_new
 
-
+# Convert horizantal dataframe to vertical dataframe
 def vertical_df(mapper, df):
     index_ver = []
-
-    # df_new = horizantal_df(file)
-    # df_new = df.iloc[:, :-1]
     df = df.reset_index(drop = True)
 
     total_col = len(df.columns)
     series2 = [None] * total_col
     x= mapper
-    # x = file.split(".")
-    # x = x[0]
     index_ver.clear()
 
     for i in range(total_col):
@@ -101,6 +95,7 @@ def vertical_df(mapper, df):
         series2[i].name = None
         series2[i] = pd.concat([series_title, series2[i]], axis=1)
 
+        # Indexing
         for j in range(len(df)):
             index_ver.append(str(x) + '.' + str(j+1) + '.' + str(i+1))
 
@@ -116,24 +111,17 @@ def vertical_df(mapper, df):
 
 
 def convert_one_file_hor(file, df):
-    # df = horizantal_df(file)
-    # if len(index_hor) != 0:
-    #     df['Index'] = index_hor
-    #     df = df.set_index("Index")
-    #     df.index.names = ['File name']
     x = file.split(".")
     x = x[0]
-    x_to_csv = x + ".csv"
+    x_to_csv = x + "_hor.csv"
     df.to_csv(csvfiles + '\\' + x_to_csv)
 
 
 def convert_one_file_ver(mapper, df):
-    # x = file.split(".")
-    # x = x[0]
-    df_to_csv = str(mapper) + "a.csv"
+    df_to_csv = str(mapper) + "_ver.csv"
     df.to_csv(csvfiles + '\\' + df_to_csv)
 
-
+# Convert all file to 1 horizantal csv
 def all_hor(json_files):
     final_df0 = pd.DataFrame()
 
@@ -141,9 +129,9 @@ def all_hor(json_files):
         df = horizantal_df(file)
         final_df0 = final_df0.append(df)
 
-    final_df0.to_csv(csvfiles + '\\' + "final0.csv")
+    final_df0.to_csv(csvfiles + '\\' + "final_horizantal.csv")
 
-
+# Convert all file to 1 vertical csv
 def all_ver(json_files):
     final_df = pd.DataFrame()
     mapper = mapping(json_files)
@@ -151,7 +139,7 @@ def all_ver(json_files):
         df = vertical_df(mapper[file], horizantal_df(file))
         final_df = final_df.append(df)
 
-    final_df.to_csv(csvfiles + '\\' + "final.csv")
+    final_df.to_csv(csvfiles + '\\' + "final_vertical.csv")
 
 
 def mapping(json_files):
