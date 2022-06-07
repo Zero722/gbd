@@ -3,25 +3,30 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const ObjectsToCsv = require('objects-to-csv');
 
+// Declare File Path
 const sc_path = __dirname + '\\' + "screenshots" + '\\';
 const csv_path = __dirname + '\\' + 'csv' + '\\';
-const dom_path = __dirname + '\\' + 'dom' + '\\';
+const dump_path = __dirname + '\\' + 'dump' + '\\';
 
-file_path = [sc_path, csv_path, dom_path]
+file_path = [sc_path, csv_path, dump_path]
 
+// Make required Folders if it doesnt exist
 file_path.forEach(element => {
   if (!fs.existsSync(element)) {
     fs.mkdirSync(element);
   }
 });
 
-var file_array = fs.readFileSync('file.txt').toString().split("\n");
+// Get urls from csv File
+var file_array = fs.readFileSync('url.csv').toString().split("\r\n");
+file_array.shift()
 
 tocsv1 = [];
 tocsv2 = [];
 
 
 (async () => {
+
   // -> Open browser, inside the browser open page, then goto given URL in the page
   const browser = await puppeteer.launch({
     headless: false,
@@ -41,7 +46,7 @@ tocsv2 = [];
 
     await screenShot(page);
 
-    await createDOM(page);
+    await createDump(page);
 
     arr = await getData(page);
 
@@ -81,12 +86,12 @@ async function screenShot(page) {
 
 }
 
-async function createDOM(page) {
-  //  -> Create DOM file
+async function createDump(page) {
+  //  -> Create Dump file
   try {
-    const cdp = await page.target().createCDPSession();
-    const { data } = await cdp.send('Page.captureSnapshot', { format: 'mhtml' });
-    fs.writeFileSync(dom_path + k + '.mhtml', data);
+
+    html = await page.content();
+    fs.writeFileSync(dump_path + k + '.html', html);
 
   } catch (err) {
     console.error(err);
@@ -102,9 +107,8 @@ async function getData(page) {
   details_xpath = []
   details = []
 
-  // await page.waitForNavigation({timeout: 20000})
-  // wait for element defined by XPath appear in page
   section_path = "//h3/parent::a/ancestor::div[@data-hveid and @data-ved and @class='g tF2Cxc'] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/parent::div[contains(@class,'g')][not(./ancestor::ul)]/parent::div[not(@id) or @id='rso']/div[contains(@class,'g')][not(./ancestor::ul)][not(@data-md)][not(descendant::table)][not(./g-card)][not(parent::div[contains(@class,'V3FYCf')])] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/ancestor::div[@class='g']/parent::div[@data-hveid]//div[@data-hveid and @data-ved][not(./ancestor::ul)][not(parent::div[contains(@class,'g ')])] | //h3/parent::a/ancestor::div[contains(@class,'ZINbbc') and contains(@class,'uUPGi')]/parent::div | //a[contains(@href,'youtube')][./h3][not(ancestor::div[contains(@style,'display:none')])]/ancestor::div[not(@*)][parent::div[contains(@class,'g')]]"
+  // wait for element defined by XPath appear in page
   await page.waitForXPath(section_path);
   let section = await page.$x(section_path);
 
@@ -118,6 +122,7 @@ async function getData(page) {
     title[i] = await page.$x(title_xpath[i]);
     links[i] = await page.$x(links_xpath[i]);
     details[i] = await page.$x(details_xpath[i]);
+    console.log(details[i])
 
     for (let j = 0; j < title[i].length; j++) {
       title_str = await page.evaluate(tit => tit.textContent, title[i][j]);
@@ -125,6 +130,14 @@ async function getData(page) {
       details_str = await page.evaluate(det => det.textContent, details[i][j]);
     }
 
+    data_arr = [title_str, links_str, details_str]
+
+    data_arr.forEach(element => {
+      if (!element) {
+        element="N/A";
+      }
+    });
+    
     if (!title_str) {
       title_str = "N/A";
     } if (!links_str) {
@@ -143,6 +156,8 @@ async function convertToCsv(arr) {
 
   tocsv_arr1 = [];
   tocsv_arr2 = [];
+  keys = [];
+
   for (i = 0; i < arr.length; i++) {
     obj = arr[i];
     tocsv_arr1.push(obj);
@@ -151,17 +166,20 @@ async function convertToCsv(arr) {
   csv = new ObjectsToCsv(tocsv_arr1);
   await csv.toDisk(csv_path + k + 'a.csv');
 
-  for (i = 0; i < arr.length; i++) {
-    j = 1
-    for (key in arr[i]) {
-      obj = { "Index": k + '.' + (i + 1) + '.' + j, "Field": key, "Value": arr[i][key] };
-      tocsv_arr2.push(obj);
-      j++;
+  if (keys.length == 0) {
+    for ( key in arr[0] ) {
+      keys.push(key)
     }
   }
+
+  for (i = 0; i < keys.length; i++){    
+    for (j = 0; j < arr.length; j++){
+      obj = { "Index": (parseInt(k) + 1) + '.' + (j + 1) + '.' + (i + 1), "Field": keys[i], "Value": arr[j][keys[i]] };
+      tocsv_arr2.push(obj);
+    }
+  }
+
   tocsv2 = tocsv2.concat(tocsv_arr2);
   csv = new ObjectsToCsv(tocsv_arr2);
   await csv.toDisk(csv_path + k + 'b.csv');
-  
-
 }

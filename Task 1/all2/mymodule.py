@@ -25,7 +25,6 @@ def horizantal_df(file):
     data = json.load(open(path_to_json + "\\" + file))
     df = pd.json_normalize(data["data"])
     df = pd.DataFrame(df)
-    # df.to_csv(csvfiles + '\\' + "80.csv")
 
     title_df = df[df['element'] == "TH"]
     title_df = title_df[["text"]]
@@ -33,8 +32,9 @@ def horizantal_df(file):
     titles = title_ser.tolist()
     titles.append("")
 
-    df2 = df[df['element'].str.contains(
-        'TD') & df['attributes.class'].str.contains('SH30Lb')]
+    df2 = df[df['element'].str.contains('TD') & df['attributes.class'].str.contains('SH30Lb') & df['y']!=0]
+    # df2.to_csv(csvfiles + '\\' + "test.csv")
+
     unique_y = df2['y'].unique()
     index.clear()
     x = file1.split(".")
@@ -54,8 +54,8 @@ def horizantal_df(file):
             df_split[i] = df2[df2['y'] == unique_y[i]]
             df_split[i] = df_split[i][["text"]]
             df_split[i] = df_split[i].reset_index(drop=True)
-            df_split[i] = df_split[i].replace(
-                'Opens in a new window', '', regex=True)
+            # df_split[i] = df_split[i].replace(
+            #     'Opens in a new window', '', regex=True)
             series[i] = df_split[i]['text'].squeeze()
             index.append(str(x))
 
@@ -67,20 +67,23 @@ def horizantal_df(file):
         df_new.columns = titles
         # df_new.head()
 
+        df_new["Sold by"] = df_new["Sold by"].str.split('Opens in a new window').str[0]
         df_new["Total price"] = df_new["Total price"].str.split('Item').str[0]
+    df_new = df_new.iloc[:, :-1]
 
     for i in range(df_new.shape[0]):  # iterate over rows
         for j in range(df_new.shape[1]):  # iterate over columns
             if df_new.loc[i][j] == "":
                 df_new.loc[i][j] = "NA"
 
+    # print(df_new)
     return df_new
 
 
 def vertical_df(file):
     file1 = file
-    df = horizantal_df(file)
-    df_new = df.iloc[:, :-1]
+    df_new = horizantal_df(file)
+    # df_new = df.iloc[:, :-1]
     total_col = len(df_new.columns)
     series2 = [None] * total_col
     x = file1.split(".")
@@ -89,7 +92,7 @@ def vertical_df(file):
 
     for i in range(total_col):
         series2[i] = df_new.iloc[:, i]
-        series2[i].to_frame()
+        # series2[i].to_frame()
         title_list = [series2[i].name] * len(df_new)
         series_title = pd.Series(title_list)
         series2[i].name = None
@@ -102,6 +105,7 @@ def vertical_df(file):
     for i in range(total_col):
         final_series = final_series.append(series2[i], ignore_index=True)
 
+    # print(final_series)
     return final_series
 
 
