@@ -40,7 +40,6 @@ def get_data(ing):
 
     return data, search_query
 
-    
 def main():
     for ing in ingredients:
 

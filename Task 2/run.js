@@ -119,11 +119,13 @@ async function getData(page) {
     links_xpath[i] = "(" + section_path + ")[" + i_plus_one + "]//a/@href";
     details_xpath[i] = "(" + section_path + ")[" + i_plus_one + "]/div[//a/h3]//div[(contains(@class,'VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc'))]";
 
+    // Get data
     title[i] = await page.$x(title_xpath[i]);
     links[i] = await page.$x(links_xpath[i]);
     details[i] = await page.$x(details_xpath[i]);
     console.log(details[i])
 
+    // Process data
     for (let j = 0; j < title[i].length; j++) {
       title_str = await page.evaluate(tit => tit.textContent, title[i][j]);
       links_str = await page.evaluate(lnk => lnk.textContent, links[i][j]);
@@ -138,6 +140,7 @@ async function getData(page) {
       }
     });
     
+    // Process if empty dataSSSS
     if (!title_str) {
       title_str = "N/A";
     } if (!links_str) {
