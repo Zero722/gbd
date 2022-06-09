@@ -29,7 +29,7 @@ tocsv2 = [];
 
   // -> Open browser, inside the browser open page, then goto given URL in the page
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     args: [`--window-size=1280,720`],
     defaultViewport: {
       width: 1280,
@@ -95,6 +95,8 @@ async function createDump(page) {
 
   } catch (err) {
     console.error(err);
+    console.log("Error");
+
   }
 }
 
@@ -109,7 +111,7 @@ async function getData(page) {
 
   section_path = "//h3/parent::a/ancestor::div[@data-hveid and @data-ved and @class='g tF2Cxc'] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/parent::div[contains(@class,'g')][not(./ancestor::ul)]/parent::div[not(@id) or @id='rso']/div[contains(@class,'g')][not(./ancestor::ul)][not(@data-md)][not(descendant::table)][not(./g-card)][not(parent::div[contains(@class,'V3FYCf')])] | //h3//parent::a/ancestor::div[@data-hveid and @data-ved]/ancestor::div[@class='g']/parent::div[@data-hveid]//div[@data-hveid and @data-ved][not(./ancestor::ul)][not(parent::div[contains(@class,'g ')])] | //h3/parent::a/ancestor::div[contains(@class,'ZINbbc') and contains(@class,'uUPGi')]/parent::div | //a[contains(@href,'youtube')][./h3][not(ancestor::div[contains(@style,'display:none')])]/ancestor::div[not(@*)][parent::div[contains(@class,'g')]]"
   // wait for element defined by XPath appear in page
-  await page.waitForXPath(section_path);
+  // await page.waitForXPath(section_path);
   let section = await page.$x(section_path);
 
   for (let i = 0; i < section.length; i++) {
@@ -123,14 +125,20 @@ async function getData(page) {
     title[i] = await page.$x(title_xpath[i]);
     links[i] = await page.$x(links_xpath[i]);
     details[i] = await page.$x(details_xpath[i]);
-    console.log(details[i])
 
     // Process data
     for (let j = 0; j < title[i].length; j++) {
       title_str = await page.evaluate(tit => tit.textContent, title[i][j]);
+    }
+
+    for (let j = 0; j < links[i].length; j++) {
       links_str = await page.evaluate(lnk => lnk.textContent, links[i][j]);
+    }
+
+    for (let j = 0; j < details[i].length; j++) {
       details_str = await page.evaluate(det => det.textContent, details[i][j]);
     }
+
 
     data_arr = [title_str, links_str, details_str]
 
