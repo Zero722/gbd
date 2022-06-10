@@ -4,9 +4,9 @@ const fs = require('fs');
 const ObjectsToCsv = require('objects-to-csv');
 
 // Declare File Path
-const sc_path = __dirname + '\\' + "screenshots2" + '\\';
-const csv_path = __dirname + '\\' + 'csv2' + '\\';
-const dump_path = __dirname + '\\' + 'dump2' + '\\';
+const sc_path = __dirname + '\\' + "gshopping_sc" + '\\';
+const csv_path = __dirname + '\\' + 'gshopping_csv' + '\\';
+const dump_path = __dirname + '\\' + 'gshopping_dump' + '\\';
 
 file_path = [sc_path, csv_path, dump_path]
 
