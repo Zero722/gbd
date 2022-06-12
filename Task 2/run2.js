@@ -42,6 +42,8 @@ tocsv2 = [];
   
   for (k in file_array) {
     console.log("Print: " + k);
+    await page.setGeolocation({latitude: 44.5, longitude: -89.5});
+
     await page.goto(file_array[k],{waitUntil: 'networkidle0',});
     
     await page.setGeolocation({latitude: 44.5, longitude: -89.5});
