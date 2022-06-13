@@ -1,0 +1,25 @@
+search_query,id,missedIngredientCount,type,aisle,usedIngredientCount,title,name,unit,amount
+ oats,635446,2,missed_ingredient,"Nut butters, Jams, and Honey",1,Blueberry Cinnamon Porridge,blueberry jam,tbsp,1.0
+ oats,635446,2,missed_ingredient,Spices and Seasonings,1,Blueberry Cinnamon Porridge,cinnamon,teaspoon,1.0
+ oats,635446,2,used_ingredient,Cereal,1,Blueberry Cinnamon Porridge,oats,g,30.0
+ oats,652111,3,missed_ingredient,Produce,1,Mixed Berry Yogurt with Almonds,berries,cup,1.0
+ oats,652111,3,missed_ingredient,"Milk, Eggs, Other Dairy",1,Mixed Berry Yogurt with Almonds,plain greek yogurt,cup,1.0
+ oats,652111,3,missed_ingredient,Nuts,1,Mixed Berry Yogurt with Almonds,whole almonds,,10.0
+ oats,652111,3,used_ingredient,Cereal,1,Mixed Berry Yogurt with Almonds,oats,cup,0.25
+ apple,633547,2,missed_ingredient,Spices and Seasonings,1,Baked Cinnamon Apple Slices,cinnamon,tablespoons,1.5
+ apple,633547,2,missed_ingredient,Dried Fruits;Produce;Baking,1,Baked Cinnamon Apple Slices,raisins,cup,0.5
+ apple,633547,2,used_ingredient,Produce,1,Baked Cinnamon Apple Slices,apples,,4.0
+ apple,662665,3,missed_ingredient,"Milk, Eggs, Other Dairy",1,Swiss Bircher Muesli,milk,cup,0.5
+ apple,662665,3,missed_ingredient,Cereal,1,Swiss Bircher Muesli,muesli,cup,0.5
+ apple,662665,3,missed_ingredient,"Milk, Eggs, Other Dairy",1,Swiss Bircher Muesli,skim vanilla yoghurt,tablespoons,3.0
+ apple,662665,3,used_ingredient,Produce,1,Swiss Bircher Muesli,apple,,1.0
+" oats, cranberries",640352,2,missed_ingredient,Produce,2,Cranberry Apple Crisp,granny smith apples,cups,4.0
+" oats, cranberries",640352,2,missed_ingredient,"Milk, Eggs, Other Dairy",2,Cranberry Apple Crisp,unsalted butter,Tbs,4.0
+" oats, cranberries",640352,2,used_ingredient,Produce,2,Cranberry Apple Crisp,cranberries,cups,2.0
+" oats, cranberries",640352,2,used_ingredient,Cereal,2,Cranberry Apple Crisp,oats,cups,1.5
+" oats, cranberries",640443,4,missed_ingredient,Spices and Seasonings,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,cinnamon stick,,1.0
+" oats, cranberries",640443,4,missed_ingredient,Produce;Ethnic Foods;Spices and Seasonings,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,fresh ginger root,inch,1.0
+" oats, cranberries",640443,4,missed_ingredient,Baking,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,hazelnuts,cup,0.25
+" oats, cranberries",640443,4,missed_ingredient,Spices and Seasonings,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,nutmeg,teaspoon,0.25
+" oats, cranberries",640443,4,used_ingredient,Produce,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,cranberries,cup,0.5
+" oats, cranberries",640443,4,used_ingredient,Cereal,2,Cranberry-Ginger Oatmeal With Toasted Hazelnuts,rolled oats,cup,0.5
