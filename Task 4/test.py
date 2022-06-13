@@ -1,4 +1,5 @@
-from module import mapping, to_dict, data_cleaning
+from extract_data import to_dict, data_cleaning
+from files_folders import mapping
 import json, os, pprint
 import pandas as pd
 from itertools import cycle
