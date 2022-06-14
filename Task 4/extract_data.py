@@ -1,6 +1,6 @@
 from itertools import cycle
 
-def data_cleaning(df_list, split_key, category):
+def data_cleaning(df_list, split_key):
 
     data_value = [None] * len(df_list)
     for i in range(len(df_list)):
@@ -17,8 +17,6 @@ def data_cleaning(df_list, split_key, category):
 
     if (data_value[3] != "N/A"):
         data_value[3] = data_value[3][1:-1]
-
-    data_value.append(category)
     
     return data_value
 
@@ -44,9 +42,8 @@ def price_filtering(price_block):
         return price_list[0]
             
 
-def to_dict(data_value):
+def to_dict(data_value, headers):
 
-    headers = ["Title", "Price", "Rating", "Rating Count", "Links", "Category"]
     dictionary = {}
     for i in range(len(headers)):
         dictionary[headers[i]] = data_value[i]
@@ -73,10 +70,10 @@ def popular_product(df):
         df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
         split_key = ". Rated"
 
-        data_value = data_cleaning(df_list, split_key, "Popular")
+        data_value = data_cleaning(df_list, split_key)
 
-        
-        dictionary = to_dict(data_value)
+        headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
+        dictionary = to_dict(data_value, headers)
         dict_list.append(dictionary)
 
     # for i in dict_list:
@@ -105,9 +102,10 @@ def ads_product(df):
         df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
         split_key = ","
 
-        data_value = data_cleaning(df_list, split_key, "Advertisement")        
+        data_value = data_cleaning(df_list, split_key)        
                 
-        dictionary = to_dict(data_value)
+        headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
+        dictionary = to_dict(data_value, headers)        
         dict_list.append(dictionary)
 
     # for i in dict_list:
@@ -144,13 +142,14 @@ def organic_data(df):
         df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
         split_key = ","
 
-        data_value = data_cleaning(df_list, split_key, "Organic")
+        data_value = data_cleaning(df_list, split_key)
                 
         if data_value[1] != "N/A":
             data_value[1] = price_filtering(data_value[1])
 
 
-        dictionary = to_dict(data_value)
+        headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
+        dictionary = to_dict(data_value, headers)
         dict_list.append(dictionary)
 
     # for i in dict_list:
