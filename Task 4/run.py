@@ -16,13 +16,14 @@ def main ():
     final_ver_df = pd.DataFrame()
 
     for file in json_files:
+    # file = "4.json"
 
         hor_df = horizantal_df(path_to_json, file)
-        ver_df = vertical_df(mapper[file], hor_df)
+        ver_df = vertical_df(mapper[file], path_to_json, file)
 
         final_hor_df = pd.concat([final_hor_df, hor_df])
         final_ver_df = pd.concat([final_ver_df, ver_df])
-    
+
     convert_to_csv(final_hor_df, csvfiles, "hor.csv")
     convert_to_csv(final_ver_df, csvfiles, "ver.csv")
 
