@@ -29,11 +29,11 @@ Index,Fields,Values
 1.1.4.5,Popular_Links,N/A
 1.1.5.5,Popular_Links,N/A
 1.1.6.5,Popular_Links,N/A
-1.2.1.1,Sponsered_Title,N/A
-1.2.1.2,Sponsered_Price,N/A
-1.2.1.3,Sponsered_Rating,N/A
-1.2.1.4,Sponsered_ReviewCount,N/A
-1.2.1.5,Sponsered_Links,N/A
+1.2.1.1,Sponsored_Title,N/A
+1.2.1.2,Sponsored_Price,N/A
+1.2.1.3,Sponsored_Rating,N/A
+1.2.1.4,Sponsored_ReviewCount,N/A
+1.2.1.5,Sponsored_Links,N/A
 1.3.1.1,Organic_Title,Tarte and YouTuber Adelaine Morin Launch Eye & Cheek Palette | Allure
 1.3.2.1,Organic_Title,Tarte Adelaine Morin Eye & Cheek Eyeshadow Face Palette
 1.3.3.1,Organic_Title,Tarte Adelaine Morin Eye & Cheek Palette Review & Swatches
@@ -240,16 +240,16 @@ Index,Fields,Values
 2.1.28.5,Popular_Links,https://thepurist.life/beauty/makeup/ilia-review-true-skin-serum-foundation-concealer-and-colorblock-lipstick/
 2.1.29.5,Popular_Links,"https://thebitterlemon.com/2020/11/06/a-review-beauty-bakerie-insta-bake-concealer/#:~:text=Our%20full-coverage%20InstaBake%203-in-1,one%20of%20effortless%20beauty."
 2.1.30.5,Popular_Links,https://www.reviewed.com/beauty/best-right-now/best-concealers
-2.2.1.1,Sponsered_Title,NARS Mini Radiant Creamy Concealer - Custard
-2.2.2.1,Sponsered_Title,NARS Mini Radiant Creamy Concealer Custard 0.05 oz - mini/ 1.4 g
-2.2.1.2,Sponsered_Price,$14.00
-2.2.2.2,Sponsered_Price,$14.00
-2.2.1.3,Sponsered_Rating,Rated 4.5 out of 5
-2.2.2.3,Sponsered_Rating,Rated 4.5 out of 5
-2.2.1.4,Sponsered_ReviewCount,9k+
-2.2.2.4,Sponsered_ReviewCount,9k+
-2.2.1.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiT1vq85v73AhWwwsIEHSRQCFIYABACGgJwdg&ohost=www.google.com&cid=CAASJORoDPrxWlI-68U_qPgqug6isgQ0g1V3oraondYfEF_85zk2dw&sig=AOD64_0gnk2BejqKXG5ruXS4xnmEe4dwTA&ctype=46&q=&ved=2ahUKEwiAtPK85v73AhU9m44IHbjmCXkQzzkoAHoECAEQCA&adurl=
-2.2.2.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiT1vq85v73AhWwwsIEHSRQCFIYABADGgJwdg&ohost=www.google.com&cid=CAASJORoDPrxWlI-68U_qPgqug6isgQ0g1V3oraondYfEF_85zk2dw&sig=AOD64_1KAZ-s6vQH9lKgZUHxVQoymXKRxg&ctype=46&q=&ved=2ahUKEwiAtPK85v73AhU9m44IHbjmCXkQzzkoAHoECAEQEA&adurl=
+2.2.1.1,Sponsored_Title,NARS Mini Radiant Creamy Concealer - Custard
+2.2.2.1,Sponsored_Title,NARS Mini Radiant Creamy Concealer Custard 0.05 oz - mini/ 1.4 g
+2.2.1.2,Sponsored_Price,$14.00
+2.2.2.2,Sponsored_Price,$14.00
+2.2.1.3,Sponsored_Rating,Rated 4.5 out of 5
+2.2.2.3,Sponsored_Rating,Rated 4.5 out of 5
+2.2.1.4,Sponsored_ReviewCount,9k+
+2.2.2.4,Sponsored_ReviewCount,9k+
+2.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiT1vq85v73AhWwwsIEHSRQCFIYABACGgJwdg&ohost=www.google.com&cid=CAASJORoDPrxWlI-68U_qPgqug6isgQ0g1V3oraondYfEF_85zk2dw&sig=AOD64_0gnk2BejqKXG5ruXS4xnmEe4dwTA&ctype=46&q=&ved=2ahUKEwiAtPK85v73AhU9m44IHbjmCXkQzzkoAHoECAEQCA&adurl=
+2.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiT1vq85v73AhWwwsIEHSRQCFIYABADGgJwdg&ohost=www.google.com&cid=CAASJORoDPrxWlI-68U_qPgqug6isgQ0g1V3oraondYfEF_85zk2dw&sig=AOD64_1KAZ-s6vQH9lKgZUHxVQoymXKRxg&ctype=46&q=&ved=2ahUKEwiAtPK85v73AhU9m44IHbjmCXkQzzkoAHoECAEQEA&adurl=
 2.3.1.1,Organic_Title,These 16 Best Concealers That Go Beyond Hiding Dark Circles - Byrdie
 2.3.2.1,Organic_Title,"The 20 Best Concealers, According to Makeup Artists 2022 | SELF"
 2.3.3.1,Organic_Title,The Concealer That Hides Everything Yet Looks Like Bare Skin
@@ -442,11 +442,11 @@ Index,Fields,Values
 3.1.28.5,Popular_Links,https://freekaamaal.com/health-beauty-personal-care-offers/best-foundation-in-india
 3.1.29.5,Popular_Links,https://www.stylecraze.com/articles/best-satin-finish-foundations/
 3.1.30.5,Popular_Links,https://www.stylecraze.com/articles/best-satin-finish-foundations/
-3.2.1.1,Sponsered_Title,N/A
-3.2.1.2,Sponsered_Price,N/A
-3.2.1.3,Sponsered_Rating,N/A
-3.2.1.4,Sponsered_ReviewCount,N/A
-3.2.1.5,Sponsered_Links,N/A
+3.2.1.1,Sponsored_Title,N/A
+3.2.1.2,Sponsored_Price,N/A
+3.2.1.3,Sponsored_Rating,N/A
+3.2.1.4,Sponsored_ReviewCount,N/A
+3.2.1.5,Sponsored_Links,N/A
 3.3.1.1,Organic_Title,Best Full Coverage Foundations of 2022 | Sephora
 3.3.2.1,Organic_Title,10 of the Best Full-Coverage Foundations for a Flawless Complexion
 3.3.3.1,Organic_Title,We tested 50 full-coverage foundations and found our top 15 favorites
@@ -899,11 +899,11 @@ Index,Fields,Values
 4.1.78.5,Popular_Links,N/A
 4.1.79.5,Popular_Links,https://www.thejeromydiaries.com/real-techniques-mini-brush-set-trio-review/
 4.1.80.5,Popular_Links,"http://www.lolassecretbeautyblog.com/2019/09/bareminerals-beautiful-finish.html#:~:text=The%20bristles%20are%20very,and%20blend%20powder%20formulas."
-4.2.1.1,Sponsered_Title,N/A
-4.2.1.2,Sponsered_Price,N/A
-4.2.1.3,Sponsered_Rating,N/A
-4.2.1.4,Sponsered_ReviewCount,N/A
-4.2.1.5,Sponsered_Links,N/A
+4.2.1.1,Sponsored_Title,N/A
+4.2.1.2,Sponsored_Price,N/A
+4.2.1.3,Sponsored_Rating,N/A
+4.2.1.4,Sponsored_ReviewCount,N/A
+4.2.1.5,Sponsored_Links,N/A
 4.3.1.1,Organic_Title,The Ultimate Guide to Buying the Best Makeup Brushes for Every Task
 4.3.2.1,Organic_Title,The 17 Best Makeup Brushes for Pro-Level Application - Byrdie
 4.3.3.1,Organic_Title,The 20 Best Makeup Brushes That Professionals Swear By
@@ -1117,11 +1117,11 @@ Index,Fields,Values
 5.1.28.5,Popular_Links,https://reallyree.com/elf-16-hr-camo-concealer-review-swatches-18-shades/
 5.1.29.5,Popular_Links,https://mademoiselleolantern.com/2019/12/26/review-flex-concealer-by-milk-makeup/
 5.1.30.5,Popular_Links,https://www.reviewed.com/beauty/best-right-now/best-concealers
-5.2.1.1,Sponsered_Title,N/A
-5.2.1.2,Sponsered_Price,N/A
-5.2.1.3,Sponsered_Rating,N/A
-5.2.1.4,Sponsered_ReviewCount,N/A
-5.2.1.5,Sponsered_Links,N/A
+5.2.1.1,Sponsored_Title,N/A
+5.2.1.2,Sponsored_Price,N/A
+5.2.1.3,Sponsored_Rating,N/A
+5.2.1.4,Sponsored_ReviewCount,N/A
+5.2.1.5,Sponsored_Links,N/A
 5.3.1.1,Organic_Title,Concealer | Ulta Beauty
 5.3.2.1,Organic_Title,Concealers | Sephora
 5.3.3.1,Organic_Title,"The 20 Best Concealers, According to Makeup Artists 2022 | SELF"
@@ -1578,11 +1578,11 @@ Index,Fields,Values
 6.1.78.5,Popular_Links,N/A
 6.1.79.5,Popular_Links,N/A
 6.1.80.5,Popular_Links,https://makeupandbeauty.com/guerlain-lip-liner-feve-tonka-43-review-swatch-fotd/
-6.2.1.1,Sponsered_Title,N/A
-6.2.1.2,Sponsered_Price,N/A
-6.2.1.3,Sponsered_Rating,N/A
-6.2.1.4,Sponsered_ReviewCount,N/A
-6.2.1.5,Sponsered_Links,N/A
+6.2.1.1,Sponsored_Title,N/A
+6.2.1.2,Sponsored_Price,N/A
+6.2.1.3,Sponsored_Rating,N/A
+6.2.1.4,Sponsored_ReviewCount,N/A
+6.2.1.5,Sponsored_Links,N/A
 6.3.1.1,Organic_Title,Shop the Best Contour Makeup & Palettes | Sephora
 6.3.2.1,Organic_Title,Contouring | Ulta Beauty
 6.3.3.1,Organic_Title,Contour Palette - Amazon.com
@@ -2049,11 +2049,11 @@ Index,Fields,Values
 7.1.78.5,Popular_Links,https://www.stylecraze.com/articles/best-contouring-kits/
 7.1.79.5,Popular_Links,N/A
 7.1.80.5,Popular_Links,"https://singaporebeautyproducts.com/blush-reviews-singapore/rihanna-fenty-beauty-match-stix-shimmer-skinstick-review/#:~:text=The%20matte%20ones%20are,used%20as%20cream%20shadows."
-7.2.1.1,Sponsered_Title,N/A
-7.2.1.2,Sponsered_Price,N/A
-7.2.1.3,Sponsered_Rating,N/A
-7.2.1.4,Sponsered_ReviewCount,N/A
-7.2.1.5,Sponsered_Links,N/A
+7.2.1.1,Sponsored_Title,N/A
+7.2.1.2,Sponsored_Price,N/A
+7.2.1.3,Sponsored_Rating,N/A
+7.2.1.4,Sponsored_ReviewCount,N/A
+7.2.1.5,Sponsored_Links,N/A
 7.3.1.1,Organic_Title,Contouring | Ulta Beauty
 7.3.2.1,Organic_Title,Shop the Best Contour Makeup & Palettes | Sephora
 7.3.3.1,Organic_Title,Sculpt and Define With the Best Contour Sticks Available - Byrdie
@@ -2251,11 +2251,11 @@ Index,Fields,Values
 8.1.28.5,Popular_Links,"http://www.bellyrubzbeauty.com/2020/08/25/tom-ford-eye-color-quad/#:~:text=I%20love%20mostly%20everything,for%20a%20smokey%20look."
 8.1.29.5,Popular_Links,"https://www.marieclaire.co.uk/beauty/make-up/best-eyeshadow-palettes-24513#:~:text=The%20nudey%20brown%20and,make%20them%20stand%20out."
 8.1.30.5,Popular_Links,"https://anitamichaela.com/dior-backstage-custom-eye-palette-swatches-review/#:~:text=Besides%206%20matte%20and,an%20ultra-metallic%20top%20coat."
-8.2.1.1,Sponsered_Title,N/A
-8.2.1.2,Sponsered_Price,N/A
-8.2.1.3,Sponsered_Rating,N/A
-8.2.1.4,Sponsered_ReviewCount,N/A
-8.2.1.5,Sponsered_Links,N/A
+8.2.1.1,Sponsored_Title,N/A
+8.2.1.2,Sponsored_Price,N/A
+8.2.1.3,Sponsored_Rating,N/A
+8.2.1.4,Sponsored_ReviewCount,N/A
+8.2.1.5,Sponsored_Links,N/A
 8.3.1.1,Organic_Title,Eyeshadow Palettes | Ulta Beauty
 8.3.2.1,Organic_Title,Eyeshadow Palettes | Sephora
 8.3.3.1,Organic_Title,Best Eyeshadow Palette - Amazon.com
@@ -2327,16 +2327,16 @@ Index,Fields,Values
 9.1.1.3,Popular_Rating,N/A
 9.1.1.4,Popular_ReviewCount,N/A
 9.1.1.5,Popular_Links,N/A
-9.2.1.1,Sponsered_Title,Tarte Face Tape Foundation 12N Fair Neutral
-9.2.2.1,Sponsered_Title,Tarte Face Tape Foundation - 12N Fair Neutral
-9.2.1.2,Sponsered_Price,$38.51
-9.2.2.2,Sponsered_Price,$40.00
-9.2.1.3,Sponsered_Rating,N/A
-9.2.2.3,Sponsered_Rating,Rated 4.2 out of 5
-9.2.1.4,Sponsered_ReviewCount,N/A
-9.2.2.4,Sponsered_ReviewCount,7k+
-9.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwiMz5To5v73AhXQP60GHXsxCkMYABACGgJwdg&sig=AOD64_1lFJAwyAJB96UfI-8mPtFVG3N7sg&ctype=5&q=&ved=2ahUKEwjZp4ro5v73AhW1oY4IHRJsCxoQwg8oAHoECAEQCA&adurl=
-9.2.2.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiMz5To5v73AhXQP60GHXsxCkMYABADGgJwdg&ohost=www.google.com&cid=CAASJORosfc3MQgSD19vqkj6xt4GCVSrTVSy1eb3oi7Lm_-jJeVUgg&sig=AOD64_0uLRRGX9yHC3w1IJe9Mnfm265KeQ&ctype=46&q=&ved=2ahUKEwjZp4ro5v73AhW1oY4IHRJsCxoQzzkoAHoECAEQDQ&adurl=
+9.2.1.1,Sponsored_Title,Tarte Face Tape Foundation 12N Fair Neutral
+9.2.2.1,Sponsored_Title,Tarte Face Tape Foundation - 12N Fair Neutral
+9.2.1.2,Sponsored_Price,$38.51
+9.2.2.2,Sponsored_Price,$40.00
+9.2.1.3,Sponsored_Rating,N/A
+9.2.2.3,Sponsored_Rating,Rated 4.2 out of 5
+9.2.1.4,Sponsored_ReviewCount,N/A
+9.2.2.4,Sponsored_ReviewCount,7k+
+9.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwiMz5To5v73AhXQP60GHXsxCkMYABACGgJwdg&sig=AOD64_1lFJAwyAJB96UfI-8mPtFVG3N7sg&ctype=5&q=&ved=2ahUKEwjZp4ro5v73AhW1oY4IHRJsCxoQwg8oAHoECAEQCA&adurl=
+9.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiMz5To5v73AhXQP60GHXsxCkMYABADGgJwdg&ohost=www.google.com&cid=CAASJORosfc3MQgSD19vqkj6xt4GCVSrTVSy1eb3oi7Lm_-jJeVUgg&sig=AOD64_0uLRRGX9yHC3w1IJe9Mnfm265KeQ&ctype=46&q=&ved=2ahUKEwjZp4ro5v73AhW1oY4IHRJsCxoQzzkoAHoECAEQDQ&adurl=
 9.3.1.1,Organic_Title,Face Tapes Are TikTok's Way To Achieve An Instant Face Lift | InStyle
 9.3.2.1,Organic_Title,face lift tape - Amazon.com
 9.3.3.1,Organic_Title,"120 Piece Refill Tapes for Instant Face, Neck and Eye Lift Kit Tape"
@@ -2393,11 +2393,11 @@ Index,Fields,Values
 10.1.1.3,Popular_Rating,N/A
 10.1.1.4,Popular_ReviewCount,N/A
 10.1.1.5,Popular_Links,N/A
-10.2.1.1,Sponsered_Title,N/A
-10.2.1.2,Sponsered_Price,N/A
-10.2.1.3,Sponsered_Rating,N/A
-10.2.1.4,Sponsered_ReviewCount,N/A
-10.2.1.5,Sponsered_Links,N/A
+10.2.1.1,Sponsored_Title,N/A
+10.2.1.2,Sponsored_Price,N/A
+10.2.1.3,Sponsored_Rating,N/A
+10.2.1.4,Sponsored_ReviewCount,N/A
+10.2.1.5,Sponsored_Links,N/A
 10.3.1.1,Organic_Title,Foundation (TV series) - Wikipedia
 10.3.2.1,Organic_Title,Foundation series - Wikipedia
 10.3.3.1,Organic_Title,Foundation
@@ -2854,11 +2854,11 @@ Index,Fields,Values
 11.1.78.5,Popular_Links,N/A
 11.1.79.5,Popular_Links,N/A
 11.1.80.5,Popular_Links,N/A
-11.2.1.1,Sponsered_Title,N/A
-11.2.1.2,Sponsered_Price,N/A
-11.2.1.3,Sponsered_Rating,N/A
-11.2.1.4,Sponsered_ReviewCount,N/A
-11.2.1.5,Sponsered_Links,N/A
+11.2.1.1,Sponsored_Title,N/A
+11.2.1.2,Sponsored_Price,N/A
+11.2.1.3,Sponsored_Rating,N/A
+11.2.1.4,Sponsored_ReviewCount,N/A
+11.2.1.5,Sponsored_Links,N/A
 11.3.1.1,Organic_Title,Foundation Brushes & Face Brushes | Sephora
 11.3.2.1,Organic_Title,The 14 Best Foundation Brushes That Will Make Application a Breeze
 11.3.3.1,Organic_Title,"14 Best Foundation Brushes, According to Makeup Artists"
@@ -2945,21 +2945,21 @@ Index,Fields,Values
 12.1.2.5,Popular_Links,N/A
 12.1.3.5,Popular_Links,N/A
 12.1.4.5,Popular_Links,N/A
-12.2.1.1,Sponsered_Title,Tarte - Maneater Mascara - Black
-12.2.2.1,Sponsered_Title,Tarte - Maneater Magnetic Volumptuous Mascara .30 Ounce Black Full Size
-12.2.3.1,Sponsered_Title,Thrive Liquid Lash Extensions Mascara in Brynn (Black) | Thrive Causemetics | Best Lengthening Mascara for Sensitive Eyes & Thin Lashes
-12.2.1.2,Sponsered_Price,$24.00
-12.2.2.2,Sponsered_Price,$20.34
-12.2.3.2,Sponsered_Price,$24.00
-12.2.1.3,Sponsered_Rating,Rated 4.5 out of 5
-12.2.2.3,Sponsered_Rating,N/A
-12.2.3.3,Sponsered_Rating,Rated 4.2 out of 5
-12.2.1.4,Sponsered_ReviewCount,9k+
-12.2.2.4,Sponsered_ReviewCount,N/A
-12.2.3.4,Sponsered_ReviewCount,9k+
-12.2.1.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABAEGgJwdg&ohost=www.google.com&cid=CAASJeRoXCcZTP2-QW9jtimqsxbFo5aU1QfdgO0AMb8PKn_1NgDVOtI&sig=AOD64_2gxXeH6LV284SLLvsT_VJHeer3_w&ctype=46&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQzzkoAHoECAEQCw&adurl=
-12.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABADGgJwdg&sig=AOD64_1F5nOtI9vjloKRVucna_ThfgHccA&ctype=5&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQwg8oAHoECAEQEw&adurl=
-12.2.3.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABAFGgJwdg&ohost=www.google.com&cid=CAASJeRoXCcZTP2-QW9jtimqsxbFo5aU1QfdgO0AMb8PKn_1NgDVOtI&sig=AOD64_03D1lrPRnKFCUO0Y0Vc3Xwo0pM2Q&ctype=5&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQwg8oAHoECAEQFw&adurl=
+12.2.1.1,Sponsored_Title,Tarte - Maneater Mascara - Black
+12.2.2.1,Sponsored_Title,Tarte - Maneater Magnetic Volumptuous Mascara .30 Ounce Black Full Size
+12.2.3.1,Sponsored_Title,Thrive Liquid Lash Extensions Mascara in Brynn (Black) | Thrive Causemetics | Best Lengthening Mascara for Sensitive Eyes & Thin Lashes
+12.2.1.2,Sponsored_Price,$24.00
+12.2.2.2,Sponsored_Price,$20.34
+12.2.3.2,Sponsored_Price,$24.00
+12.2.1.3,Sponsored_Rating,Rated 4.5 out of 5
+12.2.2.3,Sponsored_Rating,N/A
+12.2.3.3,Sponsored_Rating,Rated 4.2 out of 5
+12.2.1.4,Sponsored_ReviewCount,9k+
+12.2.2.4,Sponsored_ReviewCount,N/A
+12.2.3.4,Sponsored_ReviewCount,9k+
+12.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABAEGgJwdg&ohost=www.google.com&cid=CAASJeRoXCcZTP2-QW9jtimqsxbFo5aU1QfdgO0AMb8PKn_1NgDVOtI&sig=AOD64_2gxXeH6LV284SLLvsT_VJHeer3_w&ctype=46&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQzzkoAHoECAEQCw&adurl=
+12.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABADGgJwdg&sig=AOD64_1F5nOtI9vjloKRVucna_ThfgHccA&ctype=5&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQwg8oAHoECAEQEw&adurl=
+12.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjjkuzL5v73AhV4IK0GHY34CdQYABAFGgJwdg&ohost=www.google.com&cid=CAASJeRoXCcZTP2-QW9jtimqsxbFo5aU1QfdgO0AMb8PKn_1NgDVOtI&sig=AOD64_03D1lrPRnKFCUO0Y0Vc3Xwo0pM2Q&ctype=5&q=&ved=2ahUKEwjCtOLL5v73AhU-nI4IHbj3CQIQwg8oAHoECAEQFw&adurl=
 12.3.1.1,Organic_Title,Tarte Maneater Mascara | Ulta Beauty
 12.3.2.1,Organic_Title,Tarte Maneater Magnetic Volumptuous Mascara .30 Ounce Black Full Size
 12.3.3.1,Organic_Title,Maneater Voluptuous Mascara | Tarte Cosmetics
@@ -3436,31 +3436,31 @@ Index,Fields,Values
 13.1.78.5,Popular_Links,N/A
 13.1.79.5,Popular_Links,N/A
 13.1.80.5,Popular_Links,N/A
-13.2.1.1,Sponsered_Title,Neutrogena Invisible Daily Defense Sunscreen Face Serum - SPF 60 - 1.7 fl oz
-13.2.2.1,Sponsered_Title,Hawaiian Tropic Mineral Skin Nourishing Sunscreen Powder Brush - SPF 30 - 0.15oz
-13.2.3.1,Sponsered_Title,Sun Protection Mineral Powder SPF 30 | DERMA E
-13.2.4.1,Sponsered_Title,Physicians Formula Mineral Wear Talc-Free Mineral Airbrushing Pressed Powder SPF 30 - Translucent - 0.26oz
-13.2.5.1,Sponsered_Title,Derma E Sun Protection Mineral Face Powder SPF 30
-13.2.1.2,Sponsered_Price,$12.99
-13.2.2.2,Sponsered_Price,$16.99
-13.2.3.2,Sponsered_Price,$21.95
-13.2.4.2,Sponsered_Price,$12.99
-13.2.5.2,Sponsered_Price,$21.95
-13.2.1.3,Sponsered_Rating,Rated 4.4 out of 5
-13.2.2.3,Sponsered_Rating,Rated 4.3 out of 5
-13.2.3.3,Sponsered_Rating,N/A
-13.2.4.3,Sponsered_Rating,Rated 4.2 out of 5
-13.2.5.3,Sponsered_Rating,Rated 4.3 out of 5
-13.2.1.4,Sponsered_ReviewCount,519
-13.2.2.4,Sponsered_ReviewCount,53
-13.2.3.4,Sponsered_ReviewCount,N/A
-13.2.4.4,Sponsered_ReviewCount,2k+
-13.2.5.4,Sponsered_ReviewCount,1k+
-13.2.1.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAHGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_3757z1vhNBaYIK-E5z21m_pBbBmw&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQCw&adurl=
-13.2.2.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAJGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_0f0F-HnJ5oTu_vQXLNd5PW6bEUhw&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQFA&adurl=
-13.2.3.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAGGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_0VpsJOItuaL2oxMHCYdQzD6LndcQ&ctype=5&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0Qwg8oAHoECAEQHQ&adurl=
-13.2.4.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAIGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_1FP-JuSVnvmTGPdsJMTcxePlBMVA&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQKA&adurl=
-13.2.5.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAFGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_1fnMnDz4gAFMkT8yEmVHMhgE0KOQ&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQMQ&adurl=
+13.2.1.1,Sponsored_Title,Neutrogena Invisible Daily Defense Sunscreen Face Serum - SPF 60 - 1.7 fl oz
+13.2.2.1,Sponsored_Title,Hawaiian Tropic Mineral Skin Nourishing Sunscreen Powder Brush - SPF 30 - 0.15oz
+13.2.3.1,Sponsored_Title,Sun Protection Mineral Powder SPF 30 | DERMA E
+13.2.4.1,Sponsored_Title,Physicians Formula Mineral Wear Talc-Free Mineral Airbrushing Pressed Powder SPF 30 - Translucent - 0.26oz
+13.2.5.1,Sponsored_Title,Derma E Sun Protection Mineral Face Powder SPF 30
+13.2.1.2,Sponsored_Price,$12.99
+13.2.2.2,Sponsored_Price,$16.99
+13.2.3.2,Sponsored_Price,$21.95
+13.2.4.2,Sponsored_Price,$12.99
+13.2.5.2,Sponsored_Price,$21.95
+13.2.1.3,Sponsored_Rating,Rated 4.4 out of 5
+13.2.2.3,Sponsored_Rating,Rated 4.3 out of 5
+13.2.3.3,Sponsored_Rating,N/A
+13.2.4.3,Sponsored_Rating,Rated 4.2 out of 5
+13.2.5.3,Sponsored_Rating,Rated 4.3 out of 5
+13.2.1.4,Sponsored_ReviewCount,519
+13.2.2.4,Sponsored_ReviewCount,53
+13.2.3.4,Sponsored_ReviewCount,N/A
+13.2.4.4,Sponsored_ReviewCount,2k+
+13.2.5.4,Sponsored_ReviewCount,1k+
+13.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAHGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_3757z1vhNBaYIK-E5z21m_pBbBmw&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQCw&adurl=
+13.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAJGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_0f0F-HnJ5oTu_vQXLNd5PW6bEUhw&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQFA&adurl=
+13.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAGGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_0VpsJOItuaL2oxMHCYdQzD6LndcQ&ctype=5&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0Qwg8oAHoECAEQHQ&adurl=
+13.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAIGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_1FP-JuSVnvmTGPdsJMTcxePlBMVA&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQKA&adurl=
+13.2.5.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiInavQ5v73AhWQIK0GHWSWDWwYABAFGgJwdg&ohost=www.google.com&cid=CAASJeRodYhKbqhA7q5yjPNVMWN3YafEsyfmFNu9GOAFODzfi6fYT2E&sig=AOD64_1fnMnDz4gAFMkT8yEmVHMhgE0KOQ&ctype=46&q=&ved=2ahUKEwiT1aLQ5v73AhV6n44IHWDnCZ0QzzkoAHoECAEQMQ&adurl=
 13.3.1.1,Organic_Title,Best Mineral Powder Sunscreen 2022 - Colorescience
 13.3.2.1,Organic_Title,"These Are the 12 Best Powder Sunscreens, Say Dermatologists - Oprah Daily"
 13.3.3.1,Organic_Title,"The 12 Best Powder Sunscreens for People Who Hate Thick, Goopy SPF"
@@ -3542,16 +3542,16 @@ Index,Fields,Values
 14.1.1.3,Popular_Rating,N/A
 14.1.1.4,Popular_ReviewCount,N/A
 14.1.1.5,Popular_Links,N/A
-14.2.1.1,Sponsered_Title,Tarte Shape Tape Concealer - 20B Light
-14.2.2.1,Sponsered_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-14.2.1.2,Sponsered_Price,$30.00
-14.2.2.2,Sponsered_Price,$24.90
-14.2.1.3,Sponsered_Rating,Rated 4.7 out of 5
-14.2.2.3,Sponsered_Rating,N/A
-14.2.1.4,Sponsered_ReviewCount,9k+
-14.2.2.4,Sponsered_ReviewCount,N/A
-14.2.1.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj1h9LV5v73AhU4Pq0GHTz-A1MYABACGgJwdg&ohost=www.google.com&cid=CAASJeRoHr_R2h6qbtGCwMA9TL8Cgfjgx2FPjVasGJBeM7nRikOdy9w&sig=AOD64_2OfL54uRce5TUf3TMY3nhC4ouByA&ctype=46&q=&ved=2ahUKEwiz28fV5v73AhW2m44IHem6BF0QzzkoAHoECAEQCA&adurl=
-14.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwj1h9LV5v73AhU4Pq0GHTz-A1MYABADGgJwdg&sig=AOD64_3PlrRmCfHFSVPAhDpUQEVy3ubTxg&ctype=5&q=&ved=2ahUKEwiz28fV5v73AhW2m44IHem6BF0Qwg8oAHoECAEQEA&adurl=
+14.2.1.1,Sponsored_Title,Tarte Shape Tape Concealer - 20B Light
+14.2.2.1,Sponsored_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+14.2.1.2,Sponsored_Price,$30.00
+14.2.2.2,Sponsored_Price,$24.90
+14.2.1.3,Sponsored_Rating,Rated 4.7 out of 5
+14.2.2.3,Sponsored_Rating,N/A
+14.2.1.4,Sponsored_ReviewCount,9k+
+14.2.2.4,Sponsored_ReviewCount,N/A
+14.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj1h9LV5v73AhU4Pq0GHTz-A1MYABACGgJwdg&ohost=www.google.com&cid=CAASJeRoHr_R2h6qbtGCwMA9TL8Cgfjgx2FPjVasGJBeM7nRikOdy9w&sig=AOD64_2OfL54uRce5TUf3TMY3nhC4ouByA&ctype=46&q=&ved=2ahUKEwiz28fV5v73AhW2m44IHem6BF0QzzkoAHoECAEQCA&adurl=
+14.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwj1h9LV5v73AhU4Pq0GHTz-A1MYABADGgJwdg&sig=AOD64_3PlrRmCfHFSVPAhDpUQEVy3ubTxg&ctype=5&q=&ved=2ahUKEwiz28fV5v73AhW2m44IHem6BF0Qwg8oAHoECAEQEA&adurl=
 14.3.1.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
 14.3.2.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 14.3.3.1,Organic_Title,shape tape™ family | Makeup - Tarte Cosmetics
@@ -3628,16 +3628,16 @@ Index,Fields,Values
 15.1.1.3,Popular_Rating,N/A
 15.1.1.4,Popular_ReviewCount,N/A
 15.1.1.5,Popular_Links,N/A
-15.2.1.1,Sponsered_Title,Tarte Shape Tape Concealer - 35N Medium
-15.2.2.1,Sponsered_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-15.2.1.2,Sponsered_Price,$30.00
-15.2.2.2,Sponsered_Price,$24.90
-15.2.1.3,Sponsered_Rating,Rated 4.7 out of 5
-15.2.2.3,Sponsered_Rating,N/A
-15.2.1.4,Sponsered_ReviewCount,9k+
-15.2.2.4,Sponsered_ReviewCount,N/A
-15.2.1.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi6lana5v73AhX9wsIEHYhrCDUYABADGgJwdg&ohost=www.google.com&cid=CAASJeRoMTQKuvjPSlPgj-XcLWd1IDi5JFKF0NHo6J_uZ52ZdmPGgxU&sig=AOD64_2bkRy3zHi-HMzgtyu7G6ALQHsdbQ&ctype=46&q=&ved=2ahUKEwjh4Zza5v73AhW0n44IHbP4CGUQzzkoAHoECAEQCA&adurl=
-15.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwi6lana5v73AhX9wsIEHYhrCDUYABACGgJwdg&sig=AOD64_2M83Y9TOegevIyWXyh9HmtNcMZMA&ctype=5&q=&ved=2ahUKEwjh4Zza5v73AhW0n44IHbP4CGUQwg8oAHoECAEQEA&adurl=
+15.2.1.1,Sponsored_Title,Tarte Shape Tape Concealer - 35N Medium
+15.2.2.1,Sponsored_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+15.2.1.2,Sponsored_Price,$30.00
+15.2.2.2,Sponsored_Price,$24.90
+15.2.1.3,Sponsored_Rating,Rated 4.7 out of 5
+15.2.2.3,Sponsored_Rating,N/A
+15.2.1.4,Sponsored_ReviewCount,9k+
+15.2.2.4,Sponsored_ReviewCount,N/A
+15.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi6lana5v73AhX9wsIEHYhrCDUYABADGgJwdg&ohost=www.google.com&cid=CAASJeRoMTQKuvjPSlPgj-XcLWd1IDi5JFKF0NHo6J_uZ52ZdmPGgxU&sig=AOD64_2bkRy3zHi-HMzgtyu7G6ALQHsdbQ&ctype=46&q=&ved=2ahUKEwjh4Zza5v73AhW0n44IHbP4CGUQzzkoAHoECAEQCA&adurl=
+15.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwi6lana5v73AhX9wsIEHYhrCDUYABACGgJwdg&sig=AOD64_2M83Y9TOegevIyWXyh9HmtNcMZMA&ctype=5&q=&ved=2ahUKEwjh4Zza5v73AhW0n44IHbP4CGUQwg8oAHoECAEQEA&adurl=
 15.3.1.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
 15.3.2.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 15.3.3.1,Organic_Title,shape tape™ family | Makeup - Tarte Cosmetics
@@ -3724,11 +3724,11 @@ Index,Fields,Values
 16.1.1.3,Popular_Rating,N/A
 16.1.1.4,Popular_ReviewCount,N/A
 16.1.1.5,Popular_Links,N/A
-16.2.1.1,Sponsered_Title,N/A
-16.2.1.2,Sponsered_Price,N/A
-16.2.1.3,Sponsered_Rating,N/A
-16.2.1.4,Sponsered_ReviewCount,N/A
-16.2.1.5,Sponsered_Links,N/A
+16.2.1.1,Sponsored_Title,N/A
+16.2.1.2,Sponsored_Price,N/A
+16.2.1.3,Sponsored_Rating,N/A
+16.2.1.4,Sponsored_ReviewCount,N/A
+16.2.1.5,Sponsored_Links,N/A
 16.3.1.1,Organic_Title,Tarte Face Tape Foundation | Ulta Beauty
 16.3.2.1,Organic_Title,face tape™ foundation | Tarte Cosmetics
 16.3.3.1,Organic_Title,shape tape™ family | Makeup - Tarte Cosmetics
@@ -4110,11 +4110,11 @@ Index,Fields,Values
 17.1.61.5,Popular_Links,N/A
 17.1.62.5,Popular_Links,N/A
 17.1.63.5,Popular_Links,N/A
-17.2.1.1,Sponsered_Title,N/A
-17.2.1.2,Sponsered_Price,N/A
-17.2.1.3,Sponsered_Rating,N/A
-17.2.1.4,Sponsered_ReviewCount,N/A
-17.2.1.5,Sponsered_Links,N/A
+17.2.1.1,Sponsored_Title,N/A
+17.2.1.2,Sponsored_Price,N/A
+17.2.1.3,Sponsored_Rating,N/A
+17.2.1.4,Sponsored_ReviewCount,N/A
+17.2.1.5,Sponsored_Links,N/A
 17.3.1.1,Organic_Title,Amazonian clay full coverage foundation SPF 15 - Tarte Cosmetics
 17.3.2.1,Organic_Title,Amazonian clay 16-hour full coverage foundation - Tarte Cosmetics
 17.3.3.1,Organic_Title,Tarte Amazonian Clay 16-Hour Full Coverage Foundation | Ulta Beauty
@@ -4571,11 +4571,11 @@ Index,Fields,Values
 18.1.78.5,Popular_Links,N/A
 18.1.79.5,Popular_Links,N/A
 18.1.80.5,Popular_Links,N/A
-18.2.1.1,Sponsered_Title,N/A
-18.2.1.2,Sponsered_Price,N/A
-18.2.1.3,Sponsered_Rating,N/A
-18.2.1.4,Sponsered_ReviewCount,N/A
-18.2.1.5,Sponsered_Links,N/A
+18.2.1.1,Sponsored_Title,N/A
+18.2.1.2,Sponsored_Price,N/A
+18.2.1.3,Sponsored_Rating,N/A
+18.2.1.4,Sponsored_ReviewCount,N/A
+18.2.1.5,Sponsored_Links,N/A
 18.3.1.1,Organic_Title,Amazonian clay 12-hour blush - Tarte Cosmetics
 18.3.2.1,Organic_Title,"Blush, Blush Palettes & Cheek Stain - Tarte Cosmetics"
 18.3.3.1,Organic_Title,tarte™ Amazonian Clay 12-Hour Blush Reviews 2022 - Influenster
@@ -4732,16 +4732,16 @@ Index,Fields,Values
 19.1.17.5,Popular_Links,N/A
 19.1.18.5,Popular_Links,N/A
 19.1.19.5,Popular_Links,N/A
-19.2.1.1,Sponsered_Title,Tarte - Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-19.2.2.1,Sponsered_Title,Tarte - Shape Tape Concealer - 20B Light
-19.2.1.2,Sponsered_Price,$24.90
-19.2.2.2,Sponsered_Price,$30.00
-19.2.1.3,Sponsered_Rating,N/A
-19.2.2.3,Sponsered_Rating,Rated 4.7 out of 5
-19.2.1.4,Sponsered_ReviewCount,N/A
-19.2.2.4,Sponsered_ReviewCount,9k+
-19.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwignvTs5v73AhUfH60GHQgdCxsYABACGgJwdg&sig=AOD64_0F8Eutleo5uoA_zZJ_IYnlWGsCIA&ctype=5&q=&ved=2ahUKEwi9t-ns5v73AhXAoI4IHe92BS8Qwg8oAHoECAEQCA&adurl=
-19.2.2.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwignvTs5v73AhUfH60GHQgdCxsYABADGgJwdg&ohost=www.google.com&cid=CAASJeRoYyZjOP1Yz-yA5ecVl4UaEOJZntIRPB53xsbM3IR7EGEV7cA&sig=AOD64_09dwszQb0brU4Wuh-NiVSxlY26Xg&ctype=46&q=&ved=2ahUKEwi9t-ns5v73AhXAoI4IHe92BS8QzzkoAHoECAEQDQ&adurl=
+19.2.1.1,Sponsored_Title,Tarte - Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+19.2.2.1,Sponsored_Title,Tarte - Shape Tape Concealer - 20B Light
+19.2.1.2,Sponsored_Price,$24.90
+19.2.2.2,Sponsored_Price,$30.00
+19.2.1.3,Sponsored_Rating,N/A
+19.2.2.3,Sponsored_Rating,Rated 4.7 out of 5
+19.2.1.4,Sponsored_ReviewCount,N/A
+19.2.2.4,Sponsored_ReviewCount,9k+
+19.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwignvTs5v73AhUfH60GHQgdCxsYABACGgJwdg&sig=AOD64_0F8Eutleo5uoA_zZJ_IYnlWGsCIA&ctype=5&q=&ved=2ahUKEwi9t-ns5v73AhXAoI4IHe92BS8Qwg8oAHoECAEQCA&adurl=
+19.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwignvTs5v73AhUfH60GHQgdCxsYABADGgJwdg&ohost=www.google.com&cid=CAASJeRoYyZjOP1Yz-yA5ecVl4UaEOJZntIRPB53xsbM3IR7EGEV7cA&sig=AOD64_09dwszQb0brU4Wuh-NiVSxlY26Xg&ctype=46&q=&ved=2ahUKEwi9t-ns5v73AhXAoI4IHe92BS8QzzkoAHoECAEQDQ&adurl=
 19.3.1.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 19.3.2.1,Organic_Title,Face Concealer - Tarte Cosmetics
 19.3.3.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
@@ -5188,16 +5188,16 @@ Index,Fields,Values
 20.1.74.5,Popular_Links,N/A
 20.1.75.5,Popular_Links,N/A
 20.1.76.5,Popular_Links,N/A
-20.2.1.1,Sponsered_Title,Tarte - Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-20.2.2.1,Sponsered_Title,Tarte - Shape Tape Contour Concealer in Light Medium - Full Size
-20.2.1.2,Sponsered_Price,$24.90
-20.2.2.2,Sponsered_Price,$26.95
-20.2.1.3,Sponsered_Rating,N/A
-20.2.2.3,Sponsered_Rating,N/A
-20.2.1.4,Sponsered_ReviewCount,N/A
-20.2.2.4,Sponsered_ReviewCount,N/A
-20.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwjc36Lx5v73AhVvwsIEHdziCoQYABADGgJwdg&sig=AOD64_0W-9tvHeV7dUVxm8gwqQ0WY_C2Gg&ctype=5&q=&ved=2ahUKEwiYsZjx5v73AhVzlI4IHTmMBtgQwg8oAHoECAEQCA&adurl=
-20.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwjc36Lx5v73AhVvwsIEHdziCoQYABACGgJwdg&sig=AOD64_1sqOiyz_FTSv8pVbd-QMWCENQTYQ&ctype=5&q=&ved=2ahUKEwiYsZjx5v73AhVzlI4IHTmMBtgQwg8oAHoECAEQDQ&adurl=
+20.2.1.1,Sponsored_Title,Tarte - Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+20.2.2.1,Sponsored_Title,Tarte - Shape Tape Contour Concealer in Light Medium - Full Size
+20.2.1.2,Sponsored_Price,$24.90
+20.2.2.2,Sponsored_Price,$26.95
+20.2.1.3,Sponsored_Rating,N/A
+20.2.2.3,Sponsored_Rating,N/A
+20.2.1.4,Sponsored_ReviewCount,N/A
+20.2.2.4,Sponsored_ReviewCount,N/A
+20.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwjc36Lx5v73AhVvwsIEHdziCoQYABADGgJwdg&sig=AOD64_0W-9tvHeV7dUVxm8gwqQ0WY_C2Gg&ctype=5&q=&ved=2ahUKEwiYsZjx5v73AhVzlI4IHTmMBtgQwg8oAHoECAEQCA&adurl=
+20.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwjc36Lx5v73AhVvwsIEHdziCoQYABACGgJwdg&sig=AOD64_1sqOiyz_FTSv8pVbd-QMWCENQTYQ&ctype=5&q=&ved=2ahUKEwiYsZjx5v73AhVzlI4IHTmMBtgQwg8oAHoECAEQDQ&adurl=
 20.3.1.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 20.3.2.1,Organic_Title,Face Concealer - Tarte Cosmetics
 20.3.3.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
@@ -5334,11 +5334,11 @@ Index,Fields,Values
 21.1.13.5,Popular_Links,N/A
 21.1.14.5,Popular_Links,N/A
 21.1.15.5,Popular_Links,N/A
-21.2.1.1,Sponsered_Title,N/A
-21.2.1.2,Sponsered_Price,N/A
-21.2.1.3,Sponsered_Rating,N/A
-21.2.1.4,Sponsered_ReviewCount,N/A
-21.2.1.5,Sponsered_Links,N/A
+21.2.1.1,Sponsored_Title,N/A
+21.2.1.2,Sponsored_Price,N/A
+21.2.1.3,Sponsored_Rating,N/A
+21.2.1.4,Sponsored_ReviewCount,N/A
+21.2.1.5,Sponsored_Links,N/A
 21.3.1.1,Organic_Title,"Liquid Eyeliner, Gel & Pencil Liner | Eyes | Tarte Cosmetics"
 21.3.2.1,Organic_Title,Double Take Eyeliner | Tarte Cosmetics
 21.3.3.1,Organic_Title,Tarte Tarteist Double Take Eyeliner | Ulta Beauty
@@ -5560,11 +5560,11 @@ Index,Fields,Values
 22.1.28.5,Popular_Links,http://www.averysweetblog.com/2018/08/tarte-cosmetics-shape-your-money-maker.html
 22.1.29.5,Popular_Links,N/A
 22.1.30.5,Popular_Links,https://www.musingsofamuse.com/2018/06/tarte-love-trust-fairy-dust-eye-cheek-palette-review-swatches.html
-22.2.1.1,Sponsered_Title,N/A
-22.2.1.2,Sponsered_Price,N/A
-22.2.1.3,Sponsered_Rating,N/A
-22.2.1.4,Sponsered_ReviewCount,N/A
-22.2.1.5,Sponsered_Links,N/A
+22.2.1.1,Sponsored_Title,N/A
+22.2.1.2,Sponsored_Price,N/A
+22.2.1.3,Sponsored_Rating,N/A
+22.2.1.4,Sponsored_ReviewCount,N/A
+22.2.1.5,Sponsored_Links,N/A
 22.3.1.1,Organic_Title,Eyeshadow Palettes | Eyes | Tarte Cosmetics
 22.3.2.1,Organic_Title,Tarte Eyeshadow Palettes | Sephora
 22.3.3.1,Organic_Title,Rainforest of the Sea™ Sizzle Eyeshadow Palette | Tarte Cosmetics
@@ -5726,11 +5726,11 @@ Index,Fields,Values
 23.1.17.5,Popular_Links,N/A
 23.1.18.5,Popular_Links,N/A
 23.1.19.5,Popular_Links,https://www.stylecraze.com/articles/best-tinted-primer/
-23.2.1.1,Sponsered_Title,N/A
-23.2.1.2,Sponsered_Price,N/A
-23.2.1.3,Sponsered_Rating,N/A
-23.2.1.4,Sponsered_ReviewCount,N/A
-23.2.1.5,Sponsered_Links,N/A
+23.2.1.1,Sponsored_Title,N/A
+23.2.1.2,Sponsored_Price,N/A
+23.2.1.3,Sponsored_Rating,N/A
+23.2.1.4,Sponsored_ReviewCount,N/A
+23.2.1.5,Sponsored_Links,N/A
 23.3.1.1,Organic_Title,Foundation Makeup | Face | Tarte Cosmetics
 23.3.2.1,Organic_Title,face tape™ foundation | Tarte Cosmetics
 23.3.3.1,Organic_Title,Amazonian clay full coverage foundation SPF 15 - Tarte Cosmetics
@@ -6197,11 +6197,11 @@ Index,Fields,Values
 24.1.78.5,Popular_Links,N/A
 24.1.79.5,Popular_Links,N/A
 24.1.80.5,Popular_Links,N/A
-24.2.1.1,Sponsered_Title,N/A
-24.2.1.2,Sponsered_Price,N/A
-24.2.1.3,Sponsered_Rating,N/A
-24.2.1.4,Sponsered_ReviewCount,N/A
-24.2.1.5,Sponsered_Links,N/A
+24.2.1.1,Sponsored_Title,N/A
+24.2.1.2,Sponsored_Price,N/A
+24.2.1.3,Sponsored_Rating,N/A
+24.2.1.4,Sponsored_ReviewCount,N/A
+24.2.1.5,Sponsored_Links,N/A
 24.3.1.1,Organic_Title,"Liquid Lipstick, Lip Paints & Lip Stains - Tarte Cosmetics"
 24.3.2.1,Organic_Title,tarte Lip | Sephora
 24.3.3.1,Organic_Title,tarte lipstick - Amazon.com
@@ -6308,16 +6308,16 @@ Index,Fields,Values
 25.1.6.5,Popular_Links,N/A
 25.1.7.5,Popular_Links,https://www.kohls.com/product/prd-5075106/tarte-sea-surfer-curl-volumizing-mascara.jsp
 25.1.8.5,Popular_Links,https://jenniraincloud.com/tarte-mascaras-which-one-is-for-you/
-25.2.1.1,Sponsered_Title,Tarte Maneater Magnetic Volumptuous Mascara .30 Ounce Black Full Size
-25.2.2.1,Sponsered_Title,Tarte Maneater Mascara - Black
-25.2.1.2,Sponsered_Price,$20.34
-25.2.2.2,Sponsered_Price,$24.00
-25.2.1.3,Sponsered_Rating,N/A
-25.2.2.3,Sponsered_Rating,Rated 4.5 out of 5
-25.2.1.4,Sponsered_ReviewCount,N/A
-25.2.2.4,Sponsered_ReviewCount,9k+
-25.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwi2isXa5v73AhWbH60GHYITAcUYABACGgJwdg&sig=AOD64_0o4Ymgki8iSewuJEBdqQ9VKwaTug&ctype=5&q=&ved=2ahUKEwjZobra5v73AhXroY4IHRQ-DAIQwg8oAHoECAEQCA&adurl=
-25.2.2.5,Sponsered_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2isXa5v73AhWbH60GHYITAcUYABADGgJwdg&ohost=www.google.com&cid=CAASJORoFcU1FnsM6oD0gskDbfzU-7HIN6dW00AmH4f-zCUNQla_ng&sig=AOD64_33u5DyM58BStRMGzvO8h9Ub-ircQ&ctype=5&q=&ved=2ahUKEwjZobra5v73AhXroY4IHRQ-DAIQwg8oAHoECAEQDA&adurl=
+25.2.1.1,Sponsored_Title,Tarte Maneater Magnetic Volumptuous Mascara .30 Ounce Black Full Size
+25.2.2.1,Sponsored_Title,Tarte Maneater Mascara - Black
+25.2.1.2,Sponsored_Price,$20.34
+25.2.2.2,Sponsored_Price,$24.00
+25.2.1.3,Sponsored_Rating,N/A
+25.2.2.3,Sponsored_Rating,Rated 4.5 out of 5
+25.2.1.4,Sponsored_ReviewCount,N/A
+25.2.2.4,Sponsored_ReviewCount,9k+
+25.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwi2isXa5v73AhWbH60GHYITAcUYABACGgJwdg&sig=AOD64_0o4Ymgki8iSewuJEBdqQ9VKwaTug&ctype=5&q=&ved=2ahUKEwjZobra5v73AhXroY4IHRQ-DAIQwg8oAHoECAEQCA&adurl=
+25.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2isXa5v73AhWbH60GHYITAcUYABADGgJwdg&ohost=www.google.com&cid=CAASJORoFcU1FnsM6oD0gskDbfzU-7HIN6dW00AmH4f-zCUNQla_ng&sig=AOD64_33u5DyM58BStRMGzvO8h9Ub-ircQ&ctype=5&q=&ved=2ahUKEwjZobra5v73AhXroY4IHRQ-DAIQwg8oAHoECAEQDA&adurl=
 25.3.1.1,Organic_Title,Tarte Maneater Mascara | Ulta Beauty
 25.3.2.1,Organic_Title,Maneater Voluptuous Mascara | Tarte Cosmetics
 25.3.3.1,Organic_Title,maneater™ waterproof mascara | tarte™ Cosmetics
@@ -6459,11 +6459,11 @@ Index,Fields,Values
 26.1.15.5,Popular_Links,N/A
 26.1.16.5,Popular_Links,N/A
 26.1.17.5,Popular_Links,N/A
-26.2.1.1,Sponsered_Title,N/A
-26.2.1.2,Sponsered_Price,N/A
-26.2.1.3,Sponsered_Rating,N/A
-26.2.1.4,Sponsered_ReviewCount,N/A
-26.2.1.5,Sponsered_Links,N/A
+26.2.1.1,Sponsored_Title,N/A
+26.2.1.2,Sponsored_Price,N/A
+26.2.1.3,Sponsored_Rating,N/A
+26.2.1.4,Sponsored_ReviewCount,N/A
+26.2.1.5,Sponsored_Links,N/A
 26.3.1.1,Organic_Title,Long Lash Lengthening Mascara | Eyes | Tarte Cosmetics
 26.3.2.1,Organic_Title,"Lights, Camera, Lashes™ 4-in-1 Mascara | Tarte Cosmetics"
 26.3.3.1,Organic_Title,Mascara Quiz: Which is best for you? - Tarte Cosmetics
@@ -6540,11 +6540,11 @@ Index,Fields,Values
 27.1.1.3,Popular_Rating,N/A
 27.1.1.4,Popular_ReviewCount,N/A
 27.1.1.5,Popular_Links,N/A
-27.2.1.1,Sponsered_Title,N/A
-27.2.1.2,Sponsered_Price,N/A
-27.2.1.3,Sponsered_Rating,N/A
-27.2.1.4,Sponsered_ReviewCount,N/A
-27.2.1.5,Sponsered_Links,N/A
+27.2.1.1,Sponsored_Title,N/A
+27.2.1.2,Sponsored_Price,N/A
+27.2.1.3,Sponsored_Rating,N/A
+27.2.1.4,Sponsored_ReviewCount,N/A
+27.2.1.5,Sponsored_Links,N/A
 27.3.1.1,Organic_Title,Rainforest of the Sea™ Sizzle Eyeshadow Palette | Tarte Cosmetics
 27.3.2.1,Organic_Title,Tarte's Rainforest of the Sea Water Foundation Is Like Photoshop in a Bottle - Byrdie
 27.3.3.1,Organic_Title,Tarte Rainforest of the Sea Vol.II Eyeshadow Palette: Review and Swatches | The Happy Sloths
@@ -6602,16 +6602,16 @@ Index,Fields,Values
 28.1.1.3,Popular_Rating,N/A
 28.1.1.4,Popular_ReviewCount,N/A
 28.1.1.5,Popular_Links,N/A
-28.2.1.1,Sponsered_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-28.2.2.1,Sponsered_Title,Tarte Double Duty Shape Tape Facial Concealer Contour Shade Medium Full Size
-28.2.1.2,Sponsered_Price,$24.90
-28.2.2.2,Sponsered_Price,$27.92
-28.2.1.3,Sponsered_Rating,N/A
-28.2.2.3,Sponsered_Rating,N/A
-28.2.1.4,Sponsered_ReviewCount,N/A
-28.2.2.4,Sponsered_ReviewCount,N/A
-28.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwj3hbLn5v73AhWTIK0GHUMDBhwYABACGgJwdg&sig=AOD64_1gJ4ZYdEcNmkENAJoRg8RJXhFzoA&ctype=5&q=&ved=2ahUKEwi_-abn5v73AhW1m44IHQXfCZQQwg8oAHoECAEQCA&adurl=
-28.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwj3hbLn5v73AhWTIK0GHUMDBhwYABADGgJwdg&sig=AOD64_0aO-R24GMbeEBUFzS1LumvuX-W8g&ctype=5&q=&ved=2ahUKEwi_-abn5v73AhW1m44IHQXfCZQQwg8oAHoECAEQDQ&adurl=
+28.2.1.1,Sponsored_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+28.2.2.1,Sponsored_Title,Tarte Double Duty Shape Tape Facial Concealer Contour Shade Medium Full Size
+28.2.1.2,Sponsored_Price,$24.90
+28.2.2.2,Sponsored_Price,$27.92
+28.2.1.3,Sponsored_Rating,N/A
+28.2.2.3,Sponsored_Rating,N/A
+28.2.1.4,Sponsored_ReviewCount,N/A
+28.2.2.4,Sponsored_ReviewCount,N/A
+28.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwj3hbLn5v73AhWTIK0GHUMDBhwYABACGgJwdg&sig=AOD64_1gJ4ZYdEcNmkENAJoRg8RJXhFzoA&ctype=5&q=&ved=2ahUKEwi_-abn5v73AhW1m44IHQXfCZQQwg8oAHoECAEQCA&adurl=
+28.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwj3hbLn5v73AhWTIK0GHUMDBhwYABADGgJwdg&sig=AOD64_0aO-R24GMbeEBUFzS1LumvuX-W8g&ctype=5&q=&ved=2ahUKEwi_-abn5v73AhW1m44IHQXfCZQQwg8oAHoECAEQDQ&adurl=
 28.3.1.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 28.3.2.1,Organic_Title,shape tape™ family | Makeup - Tarte Cosmetics
 28.3.3.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
@@ -6671,16 +6671,16 @@ Index,Fields,Values
 29.1.1.3,Popular_Rating,N/A
 29.1.1.4,Popular_ReviewCount,N/A
 29.1.1.5,Popular_Links,N/A
-29.2.1.1,Sponsered_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
-29.2.2.1,Sponsered_Title,Tarte Shape Tape Contour Concealer in Light Medium - Full Size
-29.2.1.2,Sponsered_Price,$24.90
-29.2.2.2,Sponsered_Price,$26.95
-29.2.1.3,Sponsered_Rating,N/A
-29.2.2.3,Sponsered_Rating,N/A
-29.2.1.4,Sponsered_ReviewCount,N/A
-29.2.2.4,Sponsered_ReviewCount,N/A
-29.2.1.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwjdqpvs5v73AhU4wsIEHUolBJEYABACGgJwdg&sig=AOD64_1mBxcAeYfJ12YrnJUEknPke3x0OQ&ctype=5&q=&ved=2ahUKEwiPvY7s5v73AhUim44IHZAIAqMQwg8oAHoECAEQCA&adurl=
-29.2.2.5,Sponsered_Links,/aclk?sa=L&ai=DChcSEwjdqpvs5v73AhU4wsIEHUolBJEYABADGgJwdg&sig=AOD64_23H_8jgSPCZ_aqFc5ZFeB1y_qvVg&ctype=5&q=&ved=2ahUKEwiPvY7s5v73AhUim44IHZAIAqMQwg8oAHoECAEQDQ&adurl=
+29.2.1.1,Sponsored_Title,Tarte Double Duty Beauty Shape Tape Contour Concealer - Fair Neutral
+29.2.2.1,Sponsored_Title,Tarte Shape Tape Contour Concealer in Light Medium - Full Size
+29.2.1.2,Sponsored_Price,$24.90
+29.2.2.2,Sponsored_Price,$26.95
+29.2.1.3,Sponsored_Rating,N/A
+29.2.2.3,Sponsored_Rating,N/A
+29.2.1.4,Sponsored_ReviewCount,N/A
+29.2.2.4,Sponsored_ReviewCount,N/A
+29.2.1.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwjdqpvs5v73AhU4wsIEHUolBJEYABACGgJwdg&sig=AOD64_1mBxcAeYfJ12YrnJUEknPke3x0OQ&ctype=5&q=&ved=2ahUKEwiPvY7s5v73AhUim44IHZAIAqMQwg8oAHoECAEQCA&adurl=
+29.2.2.5,Sponsored_Links,/aclk?sa=L&ai=DChcSEwjdqpvs5v73AhU4wsIEHUolBJEYABADGgJwdg&sig=AOD64_23H_8jgSPCZ_aqFc5ZFeB1y_qvVg&ctype=5&q=&ved=2ahUKEwiPvY7s5v73AhUim44IHZAIAqMQwg8oAHoECAEQDQ&adurl=
 29.3.1.1,Organic_Title,shape tape™ concealer - Tarte Cosmetics
 29.3.2.1,Organic_Title,Shape Tape Contour Concealer | Tarte Cosmetics | Ulta Beauty
 29.3.3.1,Organic_Title,Tarte Double Duty Shape Tape Facial Concealer Contour Shade Medium Full ...
@@ -7145,11 +7145,11 @@ Index,Fields,Values
 30.1.78.5,Popular_Links,N/A
 30.1.79.5,Popular_Links,N/A
 30.1.80.5,Popular_Links,N/A
-30.2.1.1,Sponsered_Title,N/A
-30.2.1.2,Sponsered_Price,N/A
-30.2.1.3,Sponsered_Rating,N/A
-30.2.1.4,Sponsered_ReviewCount,N/A
-30.2.1.5,Sponsered_Links,N/A
+30.2.1.1,Sponsored_Title,N/A
+30.2.1.2,Sponsored_Price,N/A
+30.2.1.3,Sponsored_Rating,N/A
+30.2.1.4,Sponsored_ReviewCount,N/A
+30.2.1.5,Sponsored_Links,N/A
 30.3.1.1,Organic_Title,Sugar Rush™ | Collections - Tarte Cosmetics
 30.3.2.1,Organic_Title,Sugar Rush - Tarte Cosmetics
 30.3.3.1,Organic_Title,Skin Treat Poreless Tinted Moisturizer Broad Spectrum SPF 20 | Ulta Beauty

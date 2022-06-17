@@ -27,7 +27,7 @@ def vertical_df(mapper, path_to_json, file):
         df = pd.DataFrame(element)
         df = df.reset_index(drop = True)
 
-        category = ["Popular", "Sponsered", "Organic", "SearchMapPlace", "RelatedSearchData"]
+        category = ["Popular", "Sponsored", "Organic", "SearchMapPlace", "RelatedSearchData"]
 
         total_col = len(df.columns)
         series2 = [None] * total_col
@@ -63,12 +63,17 @@ def horizantal_df(path_to_json, file):
     ads = ads_product(all_data)
     organic = organic_data(all_data)
     map = map_data(all_data)
+    related = related_search_data(all_data)
 
-    required_data.extend(popular)
-    required_data.extend(ads)
-    required_data.extend(organic)
-    required_data.extend(map)
 
+    category_list = [popular, ads, organic, map, related]
+    category = ["Popular", "Sponsored", "Organic", "SearchMapPlace", "RelatedSearchData"]
+
+
+    for idx, elements in enumerate(category_list):
+        for element in elements:
+            element["Category"] = category[idx] 
+        required_data.extend(elements)
 
     hor_df = pd.DataFrame(required_data)
 
