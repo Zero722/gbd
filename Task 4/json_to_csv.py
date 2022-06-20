@@ -8,7 +8,6 @@ def check_folder():
         os.mkdir(csvfiles)
 
 check_folder()
-file = "2.json"
 
 # data = json.load(open(path_to_json + "\\" + file))
 # df = pd.json_normalize(data["data"])
