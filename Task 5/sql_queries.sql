@@ -113,13 +113,14 @@ SELECT dept.Name
 	WHERE emp.DepartmentId IS NULL
 	
 -- 10
-SELECT * FROM Employee 
-WHERE Salary IN
-(SELECT emp.Salary
-	FROM employee emp 
-	INNER JOIN department dept
-	ON emp.DepartmentId = dept.id
-	GROUP BY emp.Salary);
+SELECT Name, Salary 
+	FROM Employee 
+	WHERE Salary IN
+		(SELECT emp.Salary
+		FROM employee emp 
+		GROUP BY emp.Salary
+		HAVING count(emp.Salary) > 1)
+	ORDER BY Salary;
 	
 	
 	
