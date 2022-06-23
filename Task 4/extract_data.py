@@ -186,7 +186,7 @@ def organic_data(df):
             links_df = df[(df['attributes.class'] == "cz3goc BmP5tf") & (df['y'] == y)]["attributes.href"]
             rating_df = df[(df['attributes.class'] == "z3HNkc") & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
             rating_count_df = df[(df['attributes.class'] == "HypWnf YrbPuc") & (df['y'] > y) & (df['y'] < next_y)]["text"]
-            price_df = df[(df['attributes.class'] == "jC6vSe") & (df['y'] > y) & (df['y'] < next_y)]["text"]
+            price_df = df[((df['attributes.class'] == "jC6vSe") | (df['attributes.class'] == "G1tICe")) & (df['y'] > y) & (df['y'] < next_y)]["text"]
 
             df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
             split_key = ","

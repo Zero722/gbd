@@ -2347,7 +2347,7 @@ Index,Fields,Values
 9.3.8.1,Organic_Title,Tarte Face Tape Foundation - 1.014 Fl Oz - Ulta Beauty - Target
 9.3.1.2,Organic_Price,N/A
 9.3.2.2,Organic_Price,N/A
-9.3.3.2,Organic_Price,N/A
+9.3.3.2,Organic_Price,$14.95
 9.3.4.2,Organic_Price,$40.00
 9.3.5.2,Organic_Price,N/A
 9.3.6.2,Organic_Price,N/A
@@ -2422,7 +2422,7 @@ Index,Fields,Values
 10.3.1.4,Organic_ReviewCount,N/A
 10.3.2.4,Organic_ReviewCount,N/A
 10.3.3.4,Organic_ReviewCount,N/A
-10.3.4.4,Organic_ReviewCount,N/A
+10.3.4.4,Organic_ReviewCount,"53,949"
 10.3.5.4,Organic_ReviewCount,N/A
 10.3.6.4,Organic_ReviewCount,N/A
 10.3.7.4,Organic_ReviewCount,"13,929"
@@ -2872,7 +2872,7 @@ Index,Fields,Values
 11.3.2.2,Organic_Price,N/A
 11.3.3.2,Organic_Price,N/A
 11.3.4.2,Organic_Price,N/A
-11.3.5.2,Organic_Price,N/A
+11.3.5.2,Organic_Price,$9.99
 11.3.6.2,Organic_Price,N/A
 11.3.7.2,Organic_Price,N/A
 11.3.8.2,Organic_Price,N/A
@@ -2972,11 +2972,11 @@ Index,Fields,Values
 12.3.1.2,Organic_Price,$24.00
 12.3.2.2,Organic_Price,$20.34
 12.3.3.2,Organic_Price,$24.00
-12.3.4.2,Organic_Price,N/A
+12.3.4.2,Organic_Price,$24.00
 12.3.5.2,Organic_Price,N/A
 12.3.6.2,Organic_Price,N/A
 12.3.7.2,Organic_Price,$15.00
-12.3.8.2,Organic_Price,N/A
+12.3.8.2,Organic_Price,$24.00
 12.3.9.2,Organic_Price,AED 115.00
 12.3.1.3,Organic_Rating,Rated 4.2 out of 5
 12.3.2.3,Organic_Rating,Rated 4.6 out of 5
@@ -3479,7 +3479,7 @@ Index,Fields,Values
 13.3.6.2,Organic_Price,N/A
 13.3.7.2,Organic_Price,N/A
 13.3.8.2,Organic_Price,N/A
-13.3.9.2,Organic_Price,N/A
+13.3.9.2,Organic_Price,$34.00
 13.3.10.2,Organic_Price,N/A
 13.3.1.3,Organic_Rating,N/A
 13.3.2.3,Organic_Rating,N/A
@@ -3745,7 +3745,7 @@ Index,Fields,Values
 16.3.5.2,Organic_Price,N/A
 16.3.6.2,Organic_Price,N/A
 16.3.7.2,Organic_Price,N/A
-16.3.8.2,Organic_Price,N/A
+16.3.8.2,Organic_Price,$37.43
 16.3.9.2,Organic_Price,N/A
 16.3.1.3,Organic_Rating,Rated 3.6 out of 5
 16.3.2.3,Organic_Rating,Rated 4.5 out of 5
@@ -4125,12 +4125,12 @@ Index,Fields,Values
 17.3.8.1,Organic_Title,"Amazon.com : Tarte Cosmetics Amazonian Clay 12-Hour Full Coverage Foundation 1.7 fl oz SPF 15, Light Sand"
 17.3.9.1,Organic_Title,Amazon.com : Tarte Cosmetics Amazonian Clay 12-Hour Full Coverage Foundation 1.7 fl oz. (Fair Sand)
 17.3.1.2,Organic_Price,$39.00
-17.3.2.2,Organic_Price,N/A
+17.3.2.2,Organic_Price,$39.00
 17.3.3.2,Organic_Price,$39.00
 17.3.4.2,Organic_Price,N/A
 17.3.5.2,Organic_Price,N/A
 17.3.6.2,Organic_Price,$15.00 to $39.00
-17.3.7.2,Organic_Price,N/A
+17.3.7.2,Organic_Price,$39.00
 17.3.8.2,Organic_Price,$49.95 (typically $58)
 17.3.9.2,Organic_Price,N/A
 17.3.1.3,Organic_Rating,Rated 4.5 out of 5
@@ -5209,7 +5209,7 @@ Index,Fields,Values
 20.3.1.2,Organic_Price,$30.00
 20.3.2.2,Organic_Price,N/A
 20.3.3.2,Organic_Price,$30.00
-20.3.4.2,Organic_Price,N/A
+20.3.4.2,Organic_Price,$30.00
 20.3.5.2,Organic_Price,$27.92
 20.3.6.2,Organic_Price,N/A
 20.3.7.2,Organic_Price,N/A
@@ -5350,7 +5350,7 @@ Index,Fields,Values
 21.3.9.1,Organic_Title,tarte eyeliner - Amazon.com
 21.3.10.1,Organic_Title,Tarte Best Liquid Eyeliner & Gel Eyeliner - Macy's
 21.3.1.2,Organic_Price,$25.00
-21.3.2.2,Organic_Price,N/A
+21.3.2.2,Organic_Price,$25.00
 21.3.3.2,Organic_Price,N/A
 21.3.4.2,Organic_Price,N/A
 21.3.5.2,Organic_Price,N/A
@@ -5741,11 +5741,11 @@ Index,Fields,Values
 23.3.8.1,Organic_Title,Tarte's Rainforest of the Sea Water Foundation Is Like Photoshop in a Bottle - Byrdie
 23.3.9.1,Organic_Title,A hands-down honest Tarte Shape Tape foundation review | finder.com.au
 23.3.1.2,Organic_Price,N/A
-23.3.2.2,Organic_Price,N/A
-23.3.3.2,Organic_Price,N/A
+23.3.2.2,Organic_Price,$40.00
+23.3.3.2,Organic_Price,$39.00
 23.3.4.2,Organic_Price,N/A
 23.3.5.2,Organic_Price,N/A
-23.3.6.2,Organic_Price,N/A
+23.3.6.2,Organic_Price,$39.00
 23.3.7.2,Organic_Price,N/A
 23.3.8.2,Organic_Price,$39.00
 23.3.9.2,Organic_Price,N/A
@@ -6327,7 +6327,7 @@ Index,Fields,Values
 25.3.7.1,Organic_Title,tarte™ maneater voluptuous mascara Reviews 2022 - Influenster
 25.3.1.2,Organic_Price,N/A
 25.3.2.2,Organic_Price,$24.00
-25.3.3.2,Organic_Price,N/A
+25.3.3.2,Organic_Price,$24.00
 25.3.4.2,Organic_Price,$20.34
 25.3.5.2,Organic_Price,$15.00
 25.3.6.2,Organic_Price,AED 115.00
@@ -6473,9 +6473,9 @@ Index,Fields,Values
 26.3.7.1,Organic_Title,"Tarte Lights, Camera, Splashes Waterproof Mascara review - Good Housekeeping"
 26.3.8.1,Organic_Title,Tarte Tarteist Lash Paint Mascara | Ulta Beauty
 26.3.1.2,Organic_Price,N/A
-26.3.2.2,Organic_Price,N/A
+26.3.2.2,Organic_Price,$24.00
 26.3.3.2,Organic_Price,N/A
-26.3.4.2,Organic_Price,N/A
+26.3.4.2,Organic_Price,$24.00
 26.3.5.2,Organic_Price,N/A
 26.3.6.2,Organic_Price,N/A
 26.3.7.2,Organic_Price,N/A
@@ -6557,10 +6557,10 @@ Index,Fields,Values
 27.3.2.2,Organic_Price,$39.00
 27.3.3.2,Organic_Price,N/A
 27.3.4.2,Organic_Price,$27.00
-27.3.5.2,Organic_Price,N/A
-27.3.6.2,Organic_Price,N/A
+27.3.5.2,Organic_Price,$39.00
+27.3.6.2,Organic_Price,$36.00
 27.3.7.2,Organic_Price,N/A
-27.3.8.2,Organic_Price,N/A
+27.3.8.2,Organic_Price,$38.99
 27.3.1.3,Organic_Rating,Rated 5.0 out of 5
 27.3.2.3,Organic_Rating,Rated 4.0 out of 5
 27.3.3.3,Organic_Rating,N/A
@@ -6628,7 +6628,7 @@ Index,Fields,Values
 28.3.5.2,Organic_Price,N/A
 28.3.6.2,Organic_Price,N/A
 28.3.7.2,Organic_Price,$27.92
-28.3.8.2,Organic_Price,N/A
+28.3.8.2,Organic_Price,$24.95
 28.3.9.2,Organic_Price,CA$39.00
 28.3.1.3,Organic_Rating,Rated 5.0 out of 5
 28.3.2.3,Organic_Rating,N/A
@@ -7162,7 +7162,7 @@ Index,Fields,Values
 30.3.1.2,Organic_Price,N/A
 30.3.2.2,Organic_Price,N/A
 30.3.3.2,Organic_Price,$32.00
-30.3.4.2,Organic_Price,N/A
+30.3.4.2,Organic_Price,$18.00
 30.3.5.2,Organic_Price,N/A
 30.3.6.2,Organic_Price,N/A
 30.3.7.2,Organic_Price,N/A
