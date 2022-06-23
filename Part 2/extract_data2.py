@@ -72,6 +72,7 @@ def to_dict(data_value, headers):
     return dictionary
 
 
+# Done
 def popular_product(df):
 
     headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
@@ -86,17 +87,25 @@ def popular_product(df):
         
     else:
         block_list = block["x"].squeeze().tolist()
-
+        y = block['y'].squeeze().tolist()
+        y = (list(set(y)))[0]
+        
         if type(block_list) != list:
             block_list = [block_list]
+        
+        block_list = list(set(block_list))
+        block_list.sort()
 
         for x in block_list:
-            title_df = df[(df['attributes.class'] == "sjNxlc PZOoVe Ru28Ob") & (df['x'] == (x+12))]["text"]
-            price_df = df[(df['attributes.jsname'] == "HWyexd") & (df['x'] == (x+12))]["text"]
-            rating_df = df[(df['attributes.class'] == "TskR3d") & (df['x'] == (x+12))]["attributes.aria-label"]
-            rating_count_df = df[(df['attributes.class'] == "TskR3d") & (df['x'] == (x+12))]["text"]
-            links_df = df[(df['attributes.class'] == "a-no-hover-decoration") & (df['x'] == (x+12))]["attributes.href"]
-            
+            df = df[(df['y'] >= y) & (df['y'] < (y+500))]
+
+            title_df = df[(df['attributes.role'] == "heading") & (df['x'] == (x+12))]["text"]
+            price_df = df[(df['element'] == "SPAN") & (df['x'] == (x+12)) & (df['price'] == df['price'])]["price"]
+            rating_and_count_df = df[(df['height'] == 32) & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['x'] == (x+12))]
+            rating_df = rating_and_count_df["attributes.aria-label"]
+            rating_count_df = rating_and_count_df["text"]
+            links_df = df[(df['element'] == "A") & (df['width'] == 128) & (df['x'] == (x+12))]["attributes.href"]
+
             df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
             split_key = ". Rated"
 
@@ -113,11 +122,12 @@ def popular_product(df):
     return dict_list
 
 
+# Done
 def ads_product(df):
 
     headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
     dict_list = []
-    block = df[df['attributes.class'] == "pla-unit-container VoEfsd"]
+    block = df[(df['element'] == "G-INNER-CARD") & (df['y'] == 213)]
 
     if block.empty:
         df_list = [pd.DataFrame] * len(headers)
@@ -127,17 +137,24 @@ def ads_product(df):
         
     else:
         block_list = block["x"].squeeze().tolist()
+        y = block['y'].squeeze().tolist()
+        y = (list(set(y)))[0]
 
         if type(block_list) != list:
             block_list = [block_list]
+        
+        block_list = list(set(block_list))
+        block_list.sort()
+        
 
         for x in block_list:
-            title_df = df[(df['attributes.class'] == "bXPcId pymv4e") & (df['x'] == (x+12))]["text"]
-            price_df = df[(df['attributes.class'] == "dOp6Sc") & (df['x'] == (x+12))]["text"]
-            rating_df = df[(df['attributes.class'] == "z3HNkc") & (df['x'] == (x+12))]["attributes.aria-label"]
-            rating_count_df = df[(df['attributes.class'] == "GhQXkc") & (df['x'] == (x+82))]["text"]
-            # shop_name_df = df[(df['attributes.class'] == "hBvPxd zPEcBd") & (df['x'] == (x+12))]["text"]
-            links_df = df[(df['attributes.class'] == "pla-unit") & (df['x'] == x)]["attributes.href"]
+            df = df[(df['y'] >= y) & (df['y'] < (y+500))]
+
+            title_df = df[(df['element'] == "H4") & (df['x'] == (x+12))]["text"]
+            price_df = df[(df['price'] == df['price']) & (df['height'] == 30) & (df['x'] == (x+12))]["price"]
+            rating_df = df[(df['element'] == "SPAN") & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['width'] == 68) & (df['x'] == (x+12))]["attributes.aria-label"]
+            rating_count_df = df[(df['element'] == "SPAN") & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['height'] == 24) & (df['x'] == (x+82))]["text"]
+            links_df = df[(df['element'] == "A") & (df['y'] == 213) & (df['x'] == x)]["attributes.href"]
 
             df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
             split_key = ","
@@ -155,11 +172,12 @@ def ads_product(df):
     return dict_list
     
 
+# Block done others left
 def organic_data(df):
     
     headers = ["Title", "Price", "Rating", "ReviewCount", "Links"]
     dict_list = []
-    block = df[df['attributes.class'] == "mnr-c xpd O9g5cc uUPGi"]
+    block = df[(df['element'] == 'A') & (df['width'] > 1033) & (df['width'] < 1037) & ((df['height'] == 84) | (df['height'] == 110))]
     if block.empty:
         df_list = [pd.DataFrame] * len(headers)
         data_value = data_cleaning(df_list)
@@ -180,12 +198,12 @@ def organic_data(df):
         for y in block_list:
             next_y = next(cycle_block_list)
             if y == block_list[-1]:
-                next_y = y + 315
+                next_y = y + 315 
 
-            title_df = df[(df['attributes.class'] == "q8U8x MBeuO ynAwRc oewGkc LeUQr") & (df['y'] > y) & (df['y'] < next_y)]["text"]
-            links_df = df[(df['attributes.class'] == "cz3goc BmP5tf") & (df['y'] == y)]["attributes.href"]
-            rating_df = df[(df['attributes.class'] == "z3HNkc") & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
-            rating_count_df = df[(df['attributes.class'] == "HypWnf YrbPuc") & (df['y'] > y) & (df['y'] < next_y)]["text"]
+            title_df = df[(df['width'] > 1001) & (df['width'] < 1005) & (df['attributes.role'] == "link") & (df['y'] > y) & (df['y'] < next_y)]["text"]
+            links_df = block[block['y'] == y]["attributes.href"]
+            rating_df = df[(df['element'] == "SPAN") & (df['attributes.role'] == "img") & (df['width'] == 68) & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
+            rating_count_df = df[(df['element'] == "SPAN") & (df['height'] == 16)  & (df['text'].str.contains('\(')) & (df['attributes.role'] != df['attributes.role']) & (df['x'] > 109) & (df['x'] < 150) & (df['y'] > y) & (df['y'] < next_y)]["text"]
             price_df = df[(df['attributes.class'] == "jC6vSe") & (df['y'] > y) & (df['y'] < next_y)]["text"]
 
             df_list = [title_df, price_df, rating_df, rating_count_df, links_df]
@@ -208,11 +226,12 @@ def organic_data(df):
     return dict_list
 
 
+# Done
 def map_data(df):
 
     headers = ["Title", "OpeningClosing", "Rating", "ReviewCount", "Address"]
     dict_list = []
-    block = df[df['attributes.class'] == "nitkue"]
+    block = df[(df['element'] == 'A') & (df['width'] == 895)]
     if block.empty:
         df_list = [pd.DataFrame] * len(headers)
         data_value = data_cleaning(df_list)
@@ -235,11 +254,11 @@ def map_data(df):
             if y == block_list[-1]:
                 next_y = y + 315
 
-            title_df = df[(df['attributes.class'] == "tNxQIb JIFdL rllt__wrap-on-expand lrl-obh") & (df['y'] == y + 13)]["text"]
-            rating_df = df[(df['attributes.class'] == "z3HNkc") & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
-            rating_count_df = df[(df['attributes.class'] == "HypWnf YrbPuc") & (df['y'] == y + 35)]["text"]
-            address_df = df[(df['parentNode'] == "DIV.rllt__details") & (df['y'] == y + 53)]["text"]
-            opening_closing_df = df[(df['parentNode'] == "DIV.rllt__details") & (df['y'] == y + 71)]["text"]
+            title_df = df[(df['width'] == 879) & (df['y'] == y + 13) & (df['attributes.role'] == "heading")]["text"]
+            rating_df = df[(df['element'] == "SPAN") & (df['attributes.role'] == "img") & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
+            rating_count_df = df[(df['element'] == "SPAN") & (df['attributes.role'] == "text") & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['y'] == y + 35)]["text"]
+            address_df = df[(df['height'] == 18) & (df['width'] == 879) & (df['y'] == y + 53)]["text"]
+            opening_closing_df = df[(df['height'] == 18) & (df['width'] == 879) & (df['y'] == y + 71)]["text"]
 
             df_list = [title_df, opening_closing_df, rating_df, rating_count_df, address_df]
             split_key = ","
@@ -261,11 +280,12 @@ def map_data(df):
     return dict_list
 
 
+# Done
 def related_search_data(df):
 
     headers = ["Title", "Link"]
     dict_list = []
-    block = df[df['attributes.class'] == "iOJVmb"]
+    block = df[(df['element'] == 'A') & (df['width'] == 1003) & (df['height'] == 48)]
     if block.empty:
         df_list = [pd.DataFrame] * len(headers)
         data_value = data_cleaning(df_list)
@@ -280,16 +300,11 @@ def related_search_data(df):
 
         block_list = list(set(block_list))
         block_list.sort()
-        cycle_block_list = cycle(block_list)
-        next_y = next(cycle_block_list)
 
         for y in block_list:
-            next_y = next(cycle_block_list)
-            if y == block_list[-1]:
-                next_y = y + 50
 
-            title_df = df[(df['attributes.class'] == "iOJVmb") & (df['y'] >= y) & (df['y'] < next_y)]["text"]
-            links_df = df[(df['attributes.class'] == "iOJVmb") & (df['y'] >= y) & (df['y'] < next_y)]["attributes.href"]
+            title_df = block[block['y'] == y]["text"]
+            links_df = block[block['y'] == y]["attributes.href"]
             
             df_list = [title_df, links_df]
 

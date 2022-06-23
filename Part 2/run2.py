@@ -1,7 +1,7 @@
-import os, time
+import os
 import pandas as pd
-from files_folders import check_folder, mapping, convert_to_csv
-from dataframes import horizantal_df, vertical_df
+from files_folders2 import check_folder, mapping, convert_to_csv
+from dataframes2 import horizantal_df, vertical_df
 def main ():
 
     csvfiles = os.path.dirname(os.path.abspath(__file__)) + "\csv"
@@ -32,7 +32,5 @@ def main ():
 
  
 if __name__ == '__main__':
-    start_time = time.time()
     main()
-    print("--- %s seconds ---" % (time.time() - start_time))
 

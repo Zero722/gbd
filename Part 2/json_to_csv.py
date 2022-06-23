@@ -19,6 +19,6 @@ def convert(x):
     data = json.load(open(path_to_json + "\\" + file))
     df = pd.json_normalize(data["data"])
     df = pd.DataFrame(df)
-    df.to_csv(str(10) + ".csv")
+    df.to_csv(str(x) + ".csv")
 
-convert(25)
+convert(14)
