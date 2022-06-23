@@ -3,7 +3,7 @@ import json
 from extract_data2 import popular_product, ads_product, organic_data, map_data, related_search_data
 
 def vertical_df(mapper, path_to_json, file):
-
+    
     data = json.load(open(path_to_json + "\\" + file))
     all_data = pd.json_normalize(data["data"])
     final_series = pd.DataFrame()
