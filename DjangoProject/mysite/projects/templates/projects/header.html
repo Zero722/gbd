@@ -1,8 +1,17 @@
 <!DOCTYPE html>
+
 {% load static %}
+
+{# Load the tag library #}
+{% load bootstrap5 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="{% static 'projects/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'projects/css/style.css' %}">
     <title>Projects</title>
 </head>
 <body>
