@@ -1,0 +1,32 @@
+[{
+    "name": "amazon",
+    "content": [   
+        {
+            "field": "organic",
+            "xPath": "//div[contains(@cel_widget_id,'MAIN-SEARCH_RESULTS')]",
+            "is_parent": "True"
+        }, 
+        {
+            "field": "title",
+            "xPath": "//h2",
+            "parent_field": "organic"
+        },
+        {
+            "field": "rating",
+            "xPath": "//i",
+            "parent_field": "organic"
+
+        },
+        {
+            "field": "rating_count",
+            "xPath": "//span/a/span",
+            "parent_field": "organic"
+
+        },
+        {
+            "field": "price",
+            "xPath": "//span[contains(@data-a-size,'xl')]/span[1]",
+            "parent_field": "organic"
+        }
+    ]    
+}]

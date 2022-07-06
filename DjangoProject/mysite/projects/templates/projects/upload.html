@@ -1,0 +1,20 @@
+{% extends 'projects/header.html' %}
+{% block content %}
+    <h3>UPLOAD</h3>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="jsonfile">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    {% if url %}
+        <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
+    {% endif %}
+
+{% endblock content %}
+
+

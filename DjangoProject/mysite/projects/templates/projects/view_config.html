@@ -1,0 +1,41 @@
+{% extends 'projects/header.html' %}
+{% block content %}
+    <h3>Scheme Name: {{ scheme_name }}</h3>
+    <br>
+    {% if scheme_contents %}
+        <ul>
+        {% for parent_content in scheme_parent_content %}
+            <li>
+                <b>Field: </b>{{parent_content.field}}
+                <br>
+                <b>xPath: </b>{{parent_content.xpath}}
+            </li>
+            <br>
+            <br>
+
+            <table class="table table-hover">
+                <thead class="table-dark">
+                    <th>SN</th>
+                    <th>Field</th>
+                    <th>xPath</th>
+                </thead>
+                {% with idx=0 %}
+                {% for contents in scheme_contents %}
+                    {% if contents.parent_field == parent_content.field %}
+                        <tr>
+                            <td>{{ idx|add:"1" }}</td>
+                            <td>{{ contents.field }}</td>
+                            <td>{{ contents.xpath }}</td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+                {% endwith %}
+            </table>
+
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h4>No Scheme named "{{scheme_name}}" found</h4>
+    {% endif %}
+{% endblock content %}
+

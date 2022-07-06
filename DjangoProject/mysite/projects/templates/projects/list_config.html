@@ -1,0 +1,13 @@
+{% extends 'projects/header.html' %}
+{% block content %}
+    {% if scheme_list %}
+        <ul>
+        {% for scheme in scheme_list %}
+            <li>{{scheme}}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h3>No Scheme Found</h3>
+    {% endif %}
+{% endblock content %}
+
