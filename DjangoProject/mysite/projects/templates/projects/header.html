@@ -10,16 +10,94 @@
 {% load static %}
 
 <html lang="en">
+
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'projects/css/style.css' %}">
     <title>Projects</title>
 </head>
+
 <body>
-    <center><h3>Hello World!</h3></center>
+    <br>
+    <div class="navbar">
+        <center>
+            <ul class="ul_hor">
+                <li><a href="{% url 'index' %}"> Home</a></li>
+                <li><a href="{% url 'upload' %}"> Upload</a></li>
+                <li><a href="{% url 'list_config' %}"> List Config</a></li>
+            </ul>
+        </center>
+    </div>
+    <hr>
     <br>
     <!-- Main -->
-    {% block content %} 
+    {% block content %}
     {% endblock content %}
-    <!-- Main -->    
+    <!-- Main -->
+    {% block scripts %}
+
+    <script>
+        $(".json_upload").click(function (e) {
+            e.preventDefault();
+            $("#config_upload_msg").text("Uploading to database... ");
+            var data = new FormData();
+            data.append("file", $("input[id^='jsonfile']")[0].files[0]);
+            data.append("csrfmiddlewaretoken", "{{ csrf_token }}");
+
+            $.ajax({
+
+                url: "{% url 'uploadjson' %}",
+                method: "POST",
+                data: data,
+                processData: false,
+                contentType: false,
+                mimeType: "multipart/form-data",
+                success: function (response) {
+                    console.log("Success")
+                    response = JSON.parse(response)
+                    $("#config_upload_msg").text(response.message);
+
+
+                },
+                error: function (error) {
+                    console.log(error);
+                    console.log("Error")
+                    $("#config_upload_msg").text("Some error occured. Please try again");
+
+                }
+            })
+        });
+
+        $(".edit").on("submit", function (e) {
+            e.preventDefault();
+            db_id = $(this).attr('db_id')
+            console.log("slfdndskjfn")
+
+            $.ajax({
+
+                url: "{% url 'edit_scheme' %}",
+                method: "POST",
+                data: {
+                    db_id: db_id,
+                    xpath: $(`.xpath[db_id="${db_id}"]`).val(),
+                    csrfmiddlewaretoken: '{{ csrf_token }}',
+                    dataType: "json",
+                },
+                success: function (response) {
+                    console.log("Success")
+                    console.log(response);
+
+                },
+                error: function (error) {
+                    console.log(error);
+                    console.log("Error")
+                }
+            })
+        });
+
+    </script>
+
+    {% endblock %}
 </body>
+
 </html>

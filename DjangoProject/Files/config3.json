@@ -1,0 +1,32 @@
+[{
+    "name": "amazon",
+    "content": [   
+        {
+            "field": "related",
+            "xPath": "//div[contains(@data-cel-widget,'MAIN-TEXT_REFORMULATION-50')]//span/div/div/div/div",
+            "is_parent": "True"
+        }, 
+        {
+            "field": "title",
+            "xPath": "//span",
+            "parent_field": "related"
+        },
+        {
+            "field": "rating",
+            "xPath": "//i",
+            "parent_field": "popular"
+
+        },
+        {
+            "field": "rating_count",
+            "xPath": "//span/a/span",
+            "parent_field": "popular"
+
+        },
+        {
+            "field": "price",
+            "xPath": "//span[contains(@class,'a-price')][not(contains(@data-a-strike,'true'))]/span[contains(@class,'a-offscreen')]",
+            "parent_field": "popular"
+        }
+    ]    
+}]

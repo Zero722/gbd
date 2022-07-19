@@ -25,7 +25,7 @@ class Configuration(models.Model):
     parent_field = models.CharField(max_length=200, null=True, blank=True)
     field = models.CharField(max_length=200, null=False, blank=False)
     xpath = models.CharField(max_length=1000, null=False, blank=False)
-    created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(auto_now_add=False)
     updated = models.DateTimeField(auto_now=True)
 
     class Meta:

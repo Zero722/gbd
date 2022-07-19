@@ -13,19 +13,19 @@
         },
         {
             "field": "rating",
-            "xPath": "//i",
+            "xPath": "//i/span",
             "parent_field": "organic"
 
         },
         {
             "field": "rating_count",
-            "xPath": "//span/a/span",
+            "xPath": "//span[@aria-label]/a/span",
             "parent_field": "organic"
 
         },
         {
             "field": "price",
-            "xPath": "//span[contains(@data-a-size,'xl')]/span[1]",
+            "xPath": "//span[contains(@class,'a-price')][not(contains(@data-a-strike,'true'))]/span[contains(@class,'a-offscreen')]",
             "parent_field": "organic"
         }
     ]    

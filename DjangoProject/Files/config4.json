@@ -1,0 +1,27 @@
+[{
+    "name": "daraz",
+    "content": [   
+        {
+            "field": "title",
+            "xPath": "//h2",
+            "parent_field": "daraz"
+        },
+        {
+            "field": "rating",
+            "xPath": "//i",
+            "parent_field": "daraz"
+
+        },
+        {
+            "field": "rating_count",
+            "xPath": "//span/a/span",
+            "parent_field": "daraz"
+
+        },
+        {
+            "field": "price",
+            "xPath": "//span[contains(@data-a-size,'xl')]/span[1]",
+            "parent_field": "daraz"
+        }
+    ]    
+}]
