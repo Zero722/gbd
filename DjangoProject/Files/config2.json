@@ -15,7 +15,7 @@
       },
       {
         "field": "link",
-        "xPath": "//div[@class='TbwUpd NJjxre']",
+        "xPath": "//a/@href",
         "parent_field": "organic"
 
       },

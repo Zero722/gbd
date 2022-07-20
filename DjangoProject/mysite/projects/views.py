@@ -44,6 +44,7 @@ def webscraping(uploaded_file, scheme_parent_content, scheme_contents):
         
         try:
             driver.get(url)
+            time.sleep(1)
         except:
             return ""
         page_source = driver.page_source
@@ -55,19 +56,39 @@ def webscraping(uploaded_file, scheme_parent_content, scheme_contents):
 
         contents = zip(scheme_parent_content, scheme_contents)
         for cat_idx, (parents, childs) in enumerate(contents):
+            print(parents.field)
        
             parent_xpath = parents.xpath
-            parent_text: list[WebElement] = driver.find_elements(by=By.XPATH, value=parent_xpath)
-            for field_idx, parent in enumerate(parent_text):    
+            try:
+                parent_text: list[WebElement] = driver.find_elements(by=By.XPATH, value=parent_xpath)
+                if (len(parent_text)) == 0:
+                    parent_text = ["n/a"]
+            except:
+                parent_text = ["n/a"]
+            for field_idx, parent in enumerate(parent_text): 
+                print("AAAAAAAAAAAAAA")   
                 for idx, child in enumerate(childs):
-                    child_xpath = '(' + parent_xpath + ')' + '[' + str(field_idx+1) + ']' + child.xpath
-                    try:
-                        a = driver.find_element(by=By.XPATH, value=child_xpath).get_attribute('textContent')
-                    except:
-                        a="n/a"
+                    to_extract = "textContent"
 
-                    obj = { "Index": str(str(file_idx+1)+'.'+str(cat_idx+1)+'.'+str(field_idx+1)+'.'+str(idx+1)), "Field": parents.field+'_'+child.field, "Value": a }
+                    child_xpath = '(' + parent_xpath + ')' + '[' + str(field_idx+1) + ']' + child.xpath
+                    xpath_list = child_xpath.split('/')
+                    
+                    if xpath_list[-1][0] == "@":
+                        child_xpath = child_xpath.removesuffix(xpath_list[-1])
+                        while child_xpath[-1] == '/':
+                            child_xpath = child_xpath.removesuffix('/')
+                        to_extract = (xpath_list[-1]).replace('@','')
+                        print(to_extract)
+
+                    try:
+                        extracted_data = (driver.find_element(by=By.XPATH, value=child_xpath).get_attribute(to_extract)).strip()
+
+                    except:
+                        extracted_data="n/a"
+
+                    obj = { "Index": str(str(file_idx+1)+'.'+str(cat_idx+1)+'.'+str(field_idx+1)+'.'+str(idx+1)), "Field": parents.field+'_'+child.field, "Value": extracted_data }
                     # print("obj",obj)
+                    print(obj)
                     dict_list.append(obj)
 
     # print(dict_list)
@@ -300,7 +321,7 @@ def edit_config(request, scheme_name):
     scheme_parent_content = Configuration.objects.filter(scheme_name=scheme_name, is_parent=True).order_by('field')
     scheme_contents = []
     for contents in scheme_parent_content:
-        scheme_content = Configuration.objects.filter(scheme_name=scheme_name, parent_field=contents.field)
+        scheme_content = Configuration.objects.filter(scheme_name=scheme_name, parent_field=contents.field).order_by('field')
         scheme_contents.append(scheme_content)
 
     contents = zip(scheme_parent_content, scheme_contents)
@@ -328,22 +349,6 @@ def edit_scheme(request):
     return JsonResponse(context)
 
 
-def test_func(scheme_parent_content, scheme_contents):
-    for i in range(4):
-       
-        print(i)
-        contents = zip(scheme_parent_content, scheme_contents)
-        for cat_idx, (parents, childs) in enumerate(contents):
-            print(parents)
-            print(childs)
-            
-            parent_xpath = parents.xpath
-            parent_text = [1,2,3,4]
-            for field_idx, parent in enumerate(parent_text):    
-                for idx, child in enumerate(childs):
-                    print("s")
-
-
 def uploadcsv(request):
     print("apple")
     context = {}
@@ -366,6 +371,9 @@ def uploadcsv(request):
     uploaded_df = pd.read_csv(uploaded_file)
     uploaded_list = uploaded_df.values.tolist()
     url_list =  [url for urls in uploaded_list for url in urls]
+
+    print(scheme_parent_content)
+    print(scheme_contents)
 
     url = webscraping(url_list, scheme_parent_content, scheme_contents)
     print(url)

@@ -8,6 +8,7 @@
         <button id="download_latest"> Download Latest Scraped Data</button>
     </a>
 </div>
+
 <br><br><br>
 <button id='toggle_btn' onclick='toggle()'>View CSV Upload</button>
 <br><br>
@@ -43,14 +44,14 @@
         <button type="submit" class="csv_upload">Upload</button>
     </form>
     <p id="url_upload_msg"></p>
+    <br>
+    <div class="download_btn">
+        <a id="download_scraped_data" href="{% get_media_prefix %}path_to_upload/4a19ea6a51df4cd384dc32d843f08507.csv "
+            download> <button> Download </button> </a>
+    </div>
 </div>
 
 
-<br>
-<div class="download_btn">
-    <a id="download_scraped_data" href="{% get_media_prefix %}path_to_upload/4a19ea6a51df4cd384dc32d843f08507.csv "
-        download> <button> Download </button> </a>
-</div>
 
 {% block scripts %}
     <!-- block.super will get the content of the block from the parent template -->

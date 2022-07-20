@@ -8,7 +8,7 @@
         <div class="box">
             <form method="post" class="edit" db_id="{{parent.id}}">
                 {% csrf_token %}
-                <table>
+                <table class="custom-table" id="row-{{parent.id}}">
                     <tr>
                         <td><b>Category: </b></td>
                         {% comment %} <td><input type="text" style="width:800px;" name="field" value="{{parent.field}}"></td> {% endcomment %}
@@ -17,7 +17,7 @@
                     </tr>
                     <tr>
                         <td><b>Product Box xPath:  </b></td>
-                        <td><textarea class="xpath" name="xpath" db_id="{{parent.id}}" style="width:auto; height:100px;">{{parent.xpath}}</textarea> </td>
+                        <td><textarea class="xpath" name="xpath" db_id="{{parent.id}}" >{{parent.xpath}}</textarea> </td>
                     </tr>
                     <tr>
                         <td colspan="2"><button type="submit">
@@ -41,12 +41,12 @@
                     <th></th>
                 </thead>
                 {% for child in childs %}
-                    <tr>
+                    <tr id="row-{{child.id}}">
                         <form method="post" class="edit" db_id="{{child.id}}">
                             {% csrf_token %}
                             <td>{{ forloop.counter }}</td>
                             <td>{{ child.field }}</td>
-                            <td><textarea class="xpath" name="xpath" db_id="{{child.id}}">{{child.xpath}}</textarea> </td>
+                            <td><textarea class="xpath" name="xpath" db_id="{{child.id}}" style="width: 80%;">{{child.xpath}}</textarea> </td>
                             <td><button type="submit">
                                 Save Changes
                             </button></td>

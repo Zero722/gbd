@@ -6,6 +6,7 @@ body {
 tr,
 td {
   padding: 15px;
+  
 }
 
 .box {
@@ -41,4 +42,33 @@ hr.dotted {
 
 .navbar {
   display: inline;
+}
+
+/* Custom table */
+.custom-table {
+  width: 100%;
+}
+.custom-table tr td:first-of-type {
+  width: 200px
+}
+.custom-table textarea {
+  width: 100%;
+    height: 100px;
+    max-width: 800px;
+}
+
+.success {
+  background-color: #0aff0a82;
+  transition: 250ms linear;
+}
+
+.error {
+  background-color: #ff6666;
+  transition: 250ms linear;
+}
+
+
+
+.done {
+  transition: 250ms linear;
 }
