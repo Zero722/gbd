@@ -203,8 +203,8 @@ def organic_data(df):
             title_df = df[(df['width'] > 1001) & (df['width'] < 1005) & (df['attributes.role'] == "link") & (df['y'] > y) & (df['y'] < next_y)]["text"]
             links_df = block[block['y'] == y]["attributes.href"]
             rating_df = df[(df['element'] == "SPAN") & (df['attributes.role'] == "img") & (df['width'] == 68) & (df['attributes.aria-label'] == df['attributes.aria-label']) & (df['y'] > y) & (df['y'] < next_y)]["attributes.aria-label"]
-            rating_count_df = df[(df['element'] == "SPAN") & (df['height'] == 16)  & (df['text'].str.contains('\(')) & (df['attributes.role'] != df['attributes.role']) & (df['x'] > 109) & (df['x'] < 150) & (df['y'] > y) & (df['y'] < next_y)]["text"]
-            # price_df = df[((df['element'] == "DIV") & (df['height'] == 20)) & (df['width'] > 1001)  & (df['width'] < 1005)  & (df['attributes.data-content-feature'] != (df['attributes.data-content-feature'] )) & (df['y'] > y) & (df['y'] < next_y)]["text"]
+            rating_count_df = df[(df['element'] == "SPAN") & (df['height'] == 16)  & (df['text'].str.contains('\(')) & (df['x'] > 109) & (df['x'] < 150) & (df['y'] > y) & (df['y'] < next_y)]["text"]
+            # price_df = df[((df['element'] == "DIV") & (df['height'] == 20)) & (df['width'] > 1001)  & (df['width'] < 1005)  & (df['attributes.data-content-feature'] != (df['attributes.data-content-feature'] )) & (df['x'] == 16) & (df['x'] == 16) & (df['y'] > y) & (df['y'] < next_y)]["text"]
             price_df = df[((df['attributes.class'] == "jC6vSe") | (df['attributes.class'] == "G1tICe")) & (df['y'] > y) & (df['y'] < next_y)]["text"]
 
 
