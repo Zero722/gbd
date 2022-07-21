@@ -34,9 +34,9 @@ And navigate to ```http://127.0.0.1:8000/projects/```
 
 ## Endpoints
 - Home: http://127.0.0.1:8000/projects/
-- Upload config or URLs (One at a time): http://127.0.0.1:8000/projects/upload/
-- Upload config and URLs (Both at a time):http://127.0.0.1:8000/projects/upload_both/
-- List config: http://127.0.0.1:8000/projects/list_config/
+- Upload config or URLs (One at a time):  http://127.0.0.1:8000/projects/upload/
+- Upload config and URLs (Both at a time):  http://127.0.0.1:8000/projects/upload_both/
+- List config:  http://127.0.0.1:8000/projects/list_config/
 - View config of <scheme_name>: http://127.0.0.1:8000/projects/view_config/<scheme_name>
 - Edit config of <scheme_name>: http://127.0.0.1:8000/projects/config/edit/<scheme_name>/
 
