@@ -5,14 +5,30 @@
 A Web Scrapping App made in Python and the Django framework. It is able to scrape different webpages.
 
 ## Requirements
-The requirements can be found in [requirements.txt](https://github.com/Zero722/gbd/blob/django/requirements.txt)
+The requirements can be found in [requirements.txt](https://github.com/Zero722/gbd/blob/django/DjangoProject/requirements.txt)
 
 ## Installation
 The first thing to do is to clone the repository:
 ```
-git clone -b django --single-branch https://github.com/Zero722/gbd.git
-
+$ git clone -b django --single-branch https://github.com/Zero722/gbd.git
+$ cd DjangoProject
 ```
+Create a virtual environment and activate it:
+```
+$ virtualenv venv
+$ venv\scripts\activate
+```
+Install dependencies:
+```
+(venv)$ pip install -r requirements.txt
+```
+Once pip has finished downloading the dependencies:
+```
+(venv)$ cd mysite
+(venv)$ py manage.py runserver 
+```
+And navigate to ```http://127.0.0.1:8000/projects/```
+
 
 ## Screenshots
 
