@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 csvfiles = os.path.dirname(os.path.abspath(__file__)) + "\csv"
-path_to_json = os.path.dirname(os.path.abspath(__file__)) + "\json"
+path_to_json = os.path.dirname(os.path.abspath(__file__)) + "\json2"
 def check_folder():
     if(not os.path.isdir(csvfiles)):
         os.mkdir(csvfiles)
@@ -21,4 +21,4 @@ def convert(x):
     df = pd.DataFrame(df)
     df.to_csv(str(x) + ".csv")
 
-convert(12)
+convert(2)

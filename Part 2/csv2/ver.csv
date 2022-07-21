@@ -5,63 +5,20 @@ Index,Fields,Values
 1.1.1.4,Popular_ReviewCount,N/A
 1.1.1.5,Popular_Links,N/A
 1.2.1.1,Sponsored_Title,N/A
-1.2.2.1,Sponsored_Title,N/A
-1.2.3.1,Sponsored_Title,N/A
-1.2.4.1,Sponsored_Title,N/A
-1.2.5.1,Sponsored_Title,N/A
-1.2.6.1,Sponsored_Title,N/A
-1.2.7.1,Sponsored_Title,N/A
-1.2.8.1,Sponsored_Title,N/A
-1.2.9.1,Sponsored_Title,N/A
-1.2.10.1,Sponsored_Title,N/A
 1.2.1.2,Sponsored_Price,N/A
-1.2.2.2,Sponsored_Price,N/A
-1.2.3.2,Sponsored_Price,N/A
-1.2.4.2,Sponsored_Price,N/A
-1.2.5.2,Sponsored_Price,N/A
-1.2.6.2,Sponsored_Price,N/A
-1.2.7.2,Sponsored_Price,N/A
-1.2.8.2,Sponsored_Price,N/A
-1.2.9.2,Sponsored_Price,N/A
-1.2.10.2,Sponsored_Price,N/A
 1.2.1.3,Sponsored_Rating,N/A
-1.2.2.3,Sponsored_Rating,N/A
-1.2.3.3,Sponsored_Rating,N/A
-1.2.4.3,Sponsored_Rating,N/A
-1.2.5.3,Sponsored_Rating,N/A
-1.2.6.3,Sponsored_Rating,N/A
-1.2.7.3,Sponsored_Rating,N/A
-1.2.8.3,Sponsored_Rating,N/A
-1.2.9.3,Sponsored_Rating,N/A
-1.2.10.3,Sponsored_Rating,N/A
 1.2.1.4,Sponsored_ReviewCount,N/A
-1.2.2.4,Sponsored_ReviewCount,N/A
-1.2.3.4,Sponsored_ReviewCount,N/A
-1.2.4.4,Sponsored_ReviewCount,N/A
-1.2.5.4,Sponsored_ReviewCount,N/A
-1.2.6.4,Sponsored_ReviewCount,N/A
-1.2.7.4,Sponsored_ReviewCount,N/A
-1.2.8.4,Sponsored_ReviewCount,N/A
-1.2.9.4,Sponsored_ReviewCount,N/A
-1.2.10.4,Sponsored_ReviewCount,N/A
-1.2.1.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABALGgJwdg&sig=AOD64_0-fVsbrxn1W6GWVBzv25YDTqULXw&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQDw&adurl=
-1.2.2.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAJGgJwdg&sig=AOD64_2OzjRIJuAA-8c0g8ZVIr92IWKImQ&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQFg&adurl=
-1.2.3.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABANGgJwdg&sig=AOD64_1m-kQDA8NiiU1jkJibVr0twCUXZw&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQHw&adurl=
-1.2.4.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAIGgJwdg&sig=AOD64_22zuwiZj6zCqvXogf5pjwbfk2joQ&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQJg&adurl=
-1.2.5.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAKGgJwdg&sig=AOD64_2TWYiGZfaDbHlSaXERrk1WQt7hkg&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQLw&adurl=
-1.2.6.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAOGgJwdg&sig=AOD64_144NfqUAve9eFIEI6XHgCYwjnE-w&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQNw&adurl=
-1.2.7.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAPGgJwdg&sig=AOD64_1NTyf4S0QqZOuvaqimEkQf-_Lf8Q&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQQA&adurl=
-1.2.8.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAMGgJwdg&sig=AOD64_1f4A61STzV6DPsHEAS3ma2rF37cw&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQRQ&adurl=
-1.2.9.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAYGgJwdg&sig=AOD64_0w2fp9InLyGxhRwxSDojXIAZm_sA&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQTA&adurl=
-1.2.10.5,Sponsored_Links,/aclk?sa=l&ai=DChcSEwiXvYfRzf73AhXAIK0GHWlzCEsYABAVGgJwdg&sig=AOD64_228S30Avov_YM-PeHuHnit_zD6fg&ctype=5&q=&ved=2ahUKEwjb8PrQzf73AhW5K0QIHcX1D9sQ8w4oAHoECAMQUg&adurl=
-1.3.1.1,Organic_Title,Air Filters - The Home Depot
-1.3.2.1,Organic_Title,"Air Filters | All Sizes of HVAC, Furnace and AC Filters"
-1.3.3.1,Organic_Title,Furnace Filters Buying Guide | Lowe's
-1.3.4.1,Organic_Title,Best Air Filter Buying Guide - Consumer Reports
-1.3.5.1,Organic_Title,Home Air Filters 101: What to Consider Before Buying - Allstate
-1.3.6.1,Organic_Title,Which Air Filter is Better for Your Home: An Electronic Air Purifier or ...
-1.3.7.1,Organic_Title,Here's How Often You Should (Really) Change Your HVAC Air ...
-1.3.8.1,Organic_Title,air filters - Amazon.com
+1.2.1.5,Sponsored_Links,N/A
+1.3.1.1,Organic_Title,Best air filters - Cleaner air in your home
+1.3.2.1,Organic_Title,"Filtrete™ Air filter - Virus, Bacteria & Allergen"
+1.3.3.1,Organic_Title,Air Filters - The Home Depot
+1.3.4.1,Organic_Title,"Air Filters | All Sizes of HVAC, Furnace and AC Filters"
+1.3.5.1,Organic_Title,Furnace Filters Buying Guide | Lowe's
+1.3.6.1,Organic_Title,Best Air Filter Buying Guide - Consumer Reports
+1.3.7.1,Organic_Title,Home Air Filters 101: What to Consider Before Buying - Allstate
+1.3.8.1,Organic_Title,Which Air Filter is Better for Your Home: An Electronic Air Purifier or ...
+1.3.9.1,Organic_Title,Here's How Often You Should (Really) Change Your HVAC Air ...
+1.3.10.1,Organic_Title,air filters - Amazon.com
 1.3.1.2,Organic_Price,N/A
 1.3.2.2,Organic_Price,N/A
 1.3.3.2,Organic_Price,N/A
@@ -70,35 +27,53 @@ Index,Fields,Values
 1.3.6.2,Organic_Price,N/A
 1.3.7.2,Organic_Price,N/A
 1.3.8.2,Organic_Price,N/A
-1.3.1.3,Organic_Rating,Rated 3.6 out of 5
+1.3.9.2,Organic_Price,N/A
+1.3.10.2,Organic_Price,N/A
+1.3.1.3,Organic_Rating,N/A
 1.3.2.3,Organic_Rating,N/A
-1.3.3.3,Organic_Rating,N/A
+1.3.3.3,Organic_Rating,Rated 3.6 out of 5
 1.3.4.3,Organic_Rating,N/A
 1.3.5.3,Organic_Rating,N/A
 1.3.6.3,Organic_Rating,N/A
 1.3.7.3,Organic_Rating,N/A
 1.3.8.3,Organic_Rating,N/A
-1.3.1.4,Organic_ReviewCount,7.3K
+1.3.9.3,Organic_Rating,N/A
+1.3.10.3,Organic_Rating,N/A
+1.3.1.4,Organic_ReviewCount,N/A
 1.3.2.4,Organic_ReviewCount,N/A
-1.3.3.4,Organic_ReviewCount,N/A
+1.3.3.4,Organic_ReviewCount,7.3K
 1.3.4.4,Organic_ReviewCount,N/A
 1.3.5.4,Organic_ReviewCount,N/A
 1.3.6.4,Organic_ReviewCount,N/A
 1.3.7.4,Organic_ReviewCount,N/A
 1.3.8.4,Organic_ReviewCount,N/A
-1.3.1.5,Organic_Links,https://www.homedepot.com/b/Heating-Venting-Cooling-Air-Filters/N-5yc1vZc4kw
-1.3.2.5,Organic_Links,https://filterbuy.com/
-1.3.3.5,Organic_Links,https://www.lowes.com/n/buying-guide/choose-a-home-air-filter
-1.3.4.5,Organic_Links,https://www.consumerreports.org/cro/air-filters/buying-guide/index.htm
-1.3.5.5,Organic_Links,https://www.allstate.com/tr/home-insurance/choosing-home-air-filter.aspx
-1.3.6.5,Organic_Links,https://www.grossheating.com/electronic-air-purifier-or-standard-air-filter/?utm_source=rss&utm_medium=rss&utm_campaign=electronic-air-purifier-or-standard-air-filter
-1.3.7.5,Organic_Links,https://gopaschal.com/heres-how-often-you-should-really-change-your-hvac-air-filter-and-what-happens-if-you-dont/
-1.3.8.5,Organic_Links,https://www.amazon.com/air-filters/s?k=air+filters
-1.4.1.1,SearchMapPlace_Title,N/A
+1.3.9.4,Organic_ReviewCount,N/A
+1.3.10.4,Organic_ReviewCount,N/A
+1.3.1.5,Organic_Links,https://molekule.com/
+1.3.2.5,Organic_Links,https://www.filtrete.com/3M/en_US/filtrete/products/
+1.3.3.5,Organic_Links,https://www.homedepot.com/b/Heating-Venting-Cooling-Air-Filters/N-5yc1vZc4kw
+1.3.4.5,Organic_Links,https://filterbuy.com/
+1.3.5.5,Organic_Links,https://www.lowes.com/n/buying-guide/choose-a-home-air-filter
+1.3.6.5,Organic_Links,https://www.consumerreports.org/cro/air-filters/buying-guide/index.htm
+1.3.7.5,Organic_Links,https://www.allstate.com/tr/home-insurance/choosing-home-air-filter.aspx
+1.3.8.5,Organic_Links,https://www.grossheating.com/electronic-air-purifier-or-standard-air-filter/?utm_source=rss&utm_medium=rss&utm_campaign=electronic-air-purifier-or-standard-air-filter
+1.3.9.5,Organic_Links,https://gopaschal.com/heres-how-often-you-should-really-change-your-hvac-air-filter-and-what-happens-if-you-dont/
+1.3.10.5,Organic_Links,https://www.amazon.com/air-filters/s?k=air+filters
+1.4.1.1,SearchMapPlace_Title,Walmart
+1.4.2.1,SearchMapPlace_Title,Filter Services of Indiana
+1.4.3.1,SearchMapPlace_Title,Indiana Filter Supply
 1.4.1.2,SearchMapPlace_OpeningClosing,N/A
-1.4.1.3,SearchMapPlace_Rating,N/A
-1.4.1.4,SearchMapPlace_ReviewCount,N/A
+1.4.2.2,SearchMapPlace_OpeningClosing,Opens 7:30AM Fri
+1.4.3.2,SearchMapPlace_OpeningClosing,Opens 7:30AM Fri
+1.4.1.3,SearchMapPlace_Rating,Rated 3.6 out of 5
+1.4.2.3,SearchMapPlace_Rating,Rated 5.0 out of 5
+1.4.3.3,SearchMapPlace_Rating,Rated 3.3 out of 5
+1.4.1.4,SearchMapPlace_ReviewCount,7.3K
+1.4.2.4,SearchMapPlace_ReviewCount,17
+1.4.3.4,SearchMapPlace_ReviewCount,7
 1.4.1.5,SearchMapPlace_Address,N/A
+1.4.2.5,SearchMapPlace_Address,Air filter supplier · 1550 Indiana Ave
+1.4.3.5,SearchMapPlace_Address,Air filter supplier · 5719 Kopetsky Dr # G
 1.5.1.1,RelatedSearchData_Title,N/A
 1.5.1.2,RelatedSearchData_Link,N/A
 2.1.1.1,Popular_Title,Filtrete 1-in Basic Pleated Air Filter
@@ -501,21 +476,11 @@ Index,Fields,Values
 2.1.78.5,Popular_Links,https://www.techwalls.com/levoit-lv-pur131-air-purifier-with-hepa-filter-review/
 2.1.79.5,Popular_Links,N/A
 2.1.80.5,Popular_Links,N/A
-2.2.1.1,Sponsored_Title,Ace 20 in. W X 20 in. H X 1 in. D Cotton 8 MERV Pleated Air Filter 1 pk
-2.2.2.1,Sponsored_Title,"Flanders (4 Filters), 14 inch X 20 inch X 1 inch Precisionaire Nested Glass Air Filter, Size: 14x20x1"
-2.2.3.1,Sponsored_Title,Broan Duct-Free Air Filter (Charcoal) | BPQTF
-2.2.1.2,Sponsored_Price,$5.59
-2.2.2.2,Sponsored_Price,$5.98
-2.2.3.2,Sponsored_Price,$16.99
-2.2.1.3,Sponsored_Rating,Rated 4.5 out of 5
-2.2.2.3,Sponsored_Rating,Rated 4.5 out of 5
-2.2.3.3,Sponsored_Rating,Rated 4.3 out of 5
-2.2.1.4,Sponsored_ReviewCount,2k+
-2.2.2.4,Sponsored_ReviewCount,2k+
-2.2.3.4,Sponsored_ReviewCount,52
-2.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjTzs3jzf73AhXgbm8EHaIqBBkYABADGgJqZg&ohost=www.google.com&cid=CAASJeRo8vS11l2NtX3O7PeRh42_ZFs-hrHC2L7X-gADSxdbgMmEjAE&sig=AOD64_1H-7YQ81OXsGwc8jHmBZISBFD22Q&ctype=46&q=&ved=2ahUKEwj18MTjzf73AhXXNc0KHaRdAaoQzzkoAHoECAEQCw&adurl=
-2.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjTzs3jzf73AhXgbm8EHaIqBBkYABAFGgJqZg&ohost=www.google.com&cid=CAASJeRo8vS11l2NtX3O7PeRh42_ZFs-hrHC2L7X-gADSxdbgMmEjAE&sig=AOD64_1E8VLuLMDa1-3OskM8Q4L9_ZflOw&ctype=46&q=&ved=2ahUKEwj18MTjzf73AhXXNc0KHaRdAaoQzzkoAHoECAEQEg&adurl=
-2.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjTzs3jzf73AhXgbm8EHaIqBBkYABAEGgJqZg&ohost=www.google.com&cid=CAASJeRo8vS11l2NtX3O7PeRh42_ZFs-hrHC2L7X-gADSxdbgMmEjAE&sig=AOD64_3WgJT7s3DHgze3CFIipsmoUSttrw&ctype=46&q=&ved=2ahUKEwj18MTjzf73AhXXNc0KHaRdAaoQzzkoAHoECAEQGA&adurl=
+2.2.1.1,Sponsored_Title,N/A
+2.2.1.2,Sponsored_Price,N/A
+2.2.1.3,Sponsored_Rating,N/A
+2.2.1.4,Sponsored_ReviewCount,N/A
+2.2.1.5,Sponsored_Links,N/A
 2.3.1.1,Organic_Title,Air Filters: Furnace & AC Filters at Ace Hardware
 2.3.2.1,Organic_Title,"In Stock Near Me - Air Filters - Heating, Venting & Cooling - The Home Depot"
 2.3.3.1,Organic_Title,Air Filters - The Home Depot
@@ -544,7 +509,7 @@ Index,Fields,Values
 2.3.6.3,Organic_Rating,N/A
 2.3.7.3,Organic_Rating,N/A
 2.3.8.3,Organic_Rating,N/A
-2.3.9.3,Organic_Rating,Rated 4.5 out of 5
+2.3.9.3,Organic_Rating,N/A
 2.3.10.3,Organic_Rating,N/A
 2.3.1.4,Organic_ReviewCount,N/A
 2.3.2.4,Organic_ReviewCount,N/A
@@ -987,31 +952,11 @@ Index,Fields,Values
 3.1.78.5,Popular_Links,https://automotivegearz.com/best-alternators/
 3.1.79.5,Popular_Links,N/A
 3.1.80.5,Popular_Links,N/A
-3.2.1.1,Sponsored_Title,Duralast DL7140M Heavy Duty Alternator
-3.2.2.1,Sponsored_Title,Duralast Remanufactured Alternator DL75334
-3.2.3.1,Sponsored_Title,"Driveworks Alternator: Remanufactured, 102 Amps, 8234605AV"
-3.2.4.1,Sponsored_Title,Duralast Remanufactured Alternator 12233
-3.2.5.1,Sponsored_Title,Tyc 2-08258 Alternator Compatible with 2001-2005 Ford Ranger
-3.2.1.2,Sponsored_Price,$89.99
-3.2.2.2,Sponsored_Price,$89.99
-3.2.3.2,Sponsored_Price,$103.99
-3.2.4.2,Sponsored_Price,$129.99
-3.2.5.2,Sponsored_Price,$97.72
-3.2.1.3,Sponsored_Rating,Rated 3.8 out of 5
-3.2.2.3,Sponsored_Rating,N/A
-3.2.3.3,Sponsored_Rating,Rated 3.6 out of 5
-3.2.4.3,Sponsored_Rating,N/A
-3.2.5.3,Sponsored_Rating,N/A
-3.2.1.4,Sponsored_ReviewCount,38
-3.2.2.4,Sponsored_ReviewCount,N/A
-3.2.3.4,Sponsored_ReviewCount,21
-3.2.4.4,Sponsored_ReviewCount,N/A
-3.2.5.4,Sponsored_ReviewCount,N/A
-3.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4rr_1zf73AhUwbG8EHVH_Dh8YABAOGgJqZg&ohost=www.google.com&cid=CAASJeRourtN4xCVcqyHxQgyYSIBOFZXxSpGi-Wi64io0_zQ52LpksE&sig=AOD64_0fQQyFbaQ94lBkCV16ID49TLOJ1A&ctype=46&q=&ved=2ahUKEwjYqqr1zf73AhUPFM0KHTx5AeAQ0DkoAHoECAEQDg&adurl=
-3.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4rr_1zf73AhUwbG8EHVH_Dh8YABAMGgJqZg&ohost=www.google.com&cid=CAASJeRourtN4xCVcqyHxQgyYSIBOFZXxSpGi-Wi64io0_zQ52LpksE&sig=AOD64_0O9A916tzu_oXBXl6zYN8v558Xyw&ctype=46&q=&ved=2ahUKEwjYqqr1zf73AhUPFM0KHTx5AeAQ0DkoAHoECAEQFw&adurl=
-3.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4rr_1zf73AhUwbG8EHVH_Dh8YABANGgJqZg&ohost=www.google.com&cid=CAASJeRourtN4xCVcqyHxQgyYSIBOFZXxSpGi-Wi64io0_zQ52LpksE&sig=AOD64_2wsySqnroog1BpSAp0-kTxDawzeQ&ctype=46&q=&ved=2ahUKEwjYqqr1zf73AhUPFM0KHTx5AeAQ0DkoAHoECAEQHw&adurl=
-3.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4rr_1zf73AhUwbG8EHVH_Dh8YABAIGgJqZg&ohost=www.google.com&cid=CAASJeRourtN4xCVcqyHxQgyYSIBOFZXxSpGi-Wi64io0_zQ52LpksE&sig=AOD64_0G4mA1_jnMDkKO2RI7idsvx99qww&ctype=46&q=&ved=2ahUKEwjYqqr1zf73AhUPFM0KHTx5AeAQ0DkoAHoECAEQKA&adurl=
-3.2.5.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4rr_1zf73AhUwbG8EHVH_Dh8YABALGgJqZg&ohost=www.google.com&cid=CAASJeRourtN4xCVcqyHxQgyYSIBOFZXxSpGi-Wi64io0_zQ52LpksE&sig=AOD64_2HWcog2sCvDub4g4kXO7MiCU8GUw&ctype=5&q=&ved=2ahUKEwjYqqr1zf73AhUPFM0KHTx5AeAQ8w4oAHoECAEQMA&adurl=
+3.2.1.1,Sponsored_Title,N/A
+3.2.1.2,Sponsored_Price,N/A
+3.2.1.3,Sponsored_Rating,N/A
+3.2.1.4,Sponsored_ReviewCount,N/A
+3.2.1.5,Sponsored_Links,N/A
 3.3.1.1,Organic_Title,Alternator - Wikipedia
 3.3.2.1,Organic_Title,What Alternator Fits My Car? - Alternators Near Me - AutoZone Auto Parts
 3.3.3.1,Organic_Title,What Does an Alternator Do? | Firestone Complete Auto Care
@@ -1057,7 +1002,7 @@ Index,Fields,Values
 3.3.7.5,Organic_Links,https://auto.howstuffworks.com/alternator1.htm
 3.3.8.5,Organic_Links,https://www.oreillyauto.com/shop/b/charging---starting-16772/alternator-11425/f7cab2ae3cc0
 3.3.9.5,Organic_Links,https://www.repairsmith.com/i/blog/signs-of-a-bad-alternator/
-3.4.1.1,SearchMapPlace_Title,N/A
+3.4.1.1,SearchMapPlace_Title,AutoZone
 3.4.2.1,SearchMapPlace_Title,AutoZone Auto Parts
 3.4.3.1,SearchMapPlace_Title,NAPA Auto Parts - Genuine Parts Company
 3.4.1.2,SearchMapPlace_OpeningClosing,N/A
@@ -1488,21 +1433,11 @@ Index,Fields,Values
 4.1.78.5,Popular_Links,N/A
 4.1.79.5,Popular_Links,N/A
 4.1.80.5,Popular_Links,N/A
-4.2.1.1,Sponsored_Title,Duralast Remanufactured Alternator DL7078DP
-4.2.2.1,Sponsored_Title,"Driveworks Alternator: Remanufactured, 102 Amps, 8234605AV"
-4.2.3.1,Sponsored_Title,Duralast DL7140M Heavy Duty Alternator
-4.2.1.2,Sponsored_Price,$81.99
-4.2.2.2,Sponsored_Price,$103.99
-4.2.3.2,Sponsored_Price,$89.99
+4.2.1.1,Sponsored_Title,N/A
+4.2.1.2,Sponsored_Price,N/A
 4.2.1.3,Sponsored_Rating,N/A
-4.2.2.3,Sponsored_Rating,Rated 3.6 out of 5
-4.2.3.3,Sponsored_Rating,Rated 3.8 out of 5
 4.2.1.4,Sponsored_ReviewCount,N/A
-4.2.2.4,Sponsored_ReviewCount,21
-4.2.3.4,Sponsored_ReviewCount,38
-4.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjWxt2Gzv73AhUIF0wKHVk2CF0YABAGGgJvYQ&ohost=www.google.com&cid=CAASJeRouPfZ_KTGYdx8X1Gtuth758wONqwa5uCv_NtQcGfnROmnqNU&sig=AOD64_3zqijzfCkr8Gj3DRsa3Qjip6lvsQ&ctype=46&q=&ved=2ahUKEwjQzdWGzv73AhUDa80KHZPRCXUQzzkoAHoECAEQCw&adurl=
-4.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjWxt2Gzv73AhUIF0wKHVk2CF0YABAIGgJvYQ&ohost=www.google.com&cid=CAASJeRouPfZ_KTGYdx8X1Gtuth758wONqwa5uCv_NtQcGfnROmnqNU&sig=AOD64_3z4Om0Eol4EOGCApekKzmMEPsjGA&ctype=46&q=&ved=2ahUKEwjQzdWGzv73AhUDa80KHZPRCXUQzzkoAHoECAEQEQ&adurl=
-4.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjWxt2Gzv73AhUIF0wKHVk2CF0YABAKGgJvYQ&ohost=www.google.com&cid=CAASJeRouPfZ_KTGYdx8X1Gtuth758wONqwa5uCv_NtQcGfnROmnqNU&sig=AOD64_38FoLJFXQJcQcpTAfSYla2--Qc6Q&ctype=46&q=&ved=2ahUKEwjQzdWGzv73AhUDa80KHZPRCXUQzzkoAHoECAEQGA&adurl=
+4.2.1.5,Sponsored_Links,N/A
 4.3.1.1,Organic_Title,"10 Best Indianapolis, IN Alternator and Starter Repair Shops - Mechanic Advisor"
 4.3.2.1,Organic_Title,What Alternator Fits My Car? - Alternators Near Me - AutoZone Auto Parts
 4.3.3.1,Organic_Title,"Alternator Repair Service & Cost in Indianapolis, IN - YourMechanic"
@@ -1531,7 +1466,7 @@ Index,Fields,Values
 4.3.6.3,Organic_Rating,N/A
 4.3.7.3,Organic_Rating,N/A
 4.3.8.3,Organic_Rating,N/A
-4.3.9.3,Organic_Rating,Rated 3.6 out of 5
+4.3.9.3,Organic_Rating,Rated 5.0 out of 5
 4.3.10.3,Organic_Rating,N/A
 4.3.1.4,Organic_ReviewCount,N/A
 4.3.2.4,Organic_ReviewCount,N/A
@@ -1541,7 +1476,7 @@ Index,Fields,Values
 4.3.6.4,Organic_ReviewCount,N/A
 4.3.7.4,Organic_ReviewCount,N/A
 4.3.8.4,Organic_ReviewCount,N/A
-4.3.9.4,Organic_ReviewCount,1.3K
+4.3.9.4,Organic_ReviewCount,3
 4.3.10.4,Organic_ReviewCount,N/A
 4.3.1.5,Organic_Links,https://www.mechanicadvisor.com/in/indianapolis/alternator-and-starter-repair
 4.3.2.5,Organic_Links,https://www.autozone.com/batteries-starting-and-charging/alternator
@@ -1553,7 +1488,7 @@ Index,Fields,Values
 4.3.8.5,Organic_Links,https://www.firestonecompleteautocare.com/repair/services/alternator/
 4.3.9.5,Organic_Links,https://www.loc8nearme.com/indiana/indianapolis/bridgeport-starter-alternator/5355202/
 4.3.10.5,Organic_Links,https://asgindy.com/alternator-repair/
-4.4.1.1,SearchMapPlace_Title,N/A
+4.4.1.1,SearchMapPlace_Title,AutoZone
 4.4.2.1,SearchMapPlace_Title,Van's Electrical Systems
 4.4.3.1,SearchMapPlace_Title,Bridgeport Starter-Alternator
 4.4.4.1,SearchMapPlace_Title,NAPA Auto Parts - Genuine Parts Company
@@ -1628,7 +1563,7 @@ Index,Fields,Values
 5.3.7.3,Organic_Rating,N/A
 5.3.8.3,Organic_Rating,N/A
 5.3.9.3,Organic_Rating,N/A
-5.3.10.3,Organic_Rating,Rated 4.2 out of 5
+5.3.10.3,Organic_Rating,N/A
 5.3.1.4,Organic_ReviewCount,N/A
 5.3.2.4,Organic_ReviewCount,N/A
 5.3.3.4,Organic_ReviewCount,N/A
@@ -1638,7 +1573,7 @@ Index,Fields,Values
 5.3.7.4,Organic_ReviewCount,N/A
 5.3.8.4,Organic_ReviewCount,N/A
 5.3.9.4,Organic_ReviewCount,N/A
-5.3.10.4,Organic_ReviewCount,618
+5.3.10.4,Organic_ReviewCount,N/A
 5.3.1.5,Organic_Links,https://en.m.wikipedia.org/wiki/Antifreeze
 5.3.2.5,Organic_Links,https://www.valvoline.com/en/what-is-antifreeze/
 5.3.3.5,Organic_Links,https://www.britannica.com/science/antifreeze-chemical-substance
@@ -2113,7 +2048,7 @@ Index,Fields,Values
 6.3.6.3,Organic_Rating,N/A
 6.3.7.3,Organic_Rating,N/A
 6.3.8.3,Organic_Rating,N/A
-6.3.9.3,Organic_Rating,Rated 4.6 out of 5
+6.3.9.3,Organic_Rating,N/A
 6.3.10.3,Organic_Rating,N/A
 6.3.1.4,Organic_ReviewCount,N/A
 6.3.2.4,Organic_ReviewCount,N/A
@@ -2123,7 +2058,7 @@ Index,Fields,Values
 6.3.6.4,Organic_ReviewCount,N/A
 6.3.7.4,Organic_ReviewCount,N/A
 6.3.8.4,Organic_ReviewCount,N/A
-6.3.9.4,Organic_ReviewCount,154
+6.3.9.4,Organic_ReviewCount,N/A
 6.3.10.4,Organic_ReviewCount,N/A
 6.3.1.5,Organic_Links,https://www.walmart.com/browse/auto-tires/antifreeze-car-coolants/91083_1104294_1218936
 6.3.2.5,Organic_Links,https://www.autozone.com/antifreeze-radiator-additives-and-windshield-wash-fluid/antifreeze-coolant
@@ -2204,7 +2139,7 @@ Index,Fields,Values
 7.3.6.3,Organic_Rating,N/A
 7.3.7.3,Organic_Rating,N/A
 7.3.8.3,Organic_Rating,N/A
-7.3.9.3,Organic_Rating,Rated 4.0 out of 5
+7.3.9.3,Organic_Rating,N/A
 7.3.10.3,Organic_Rating,N/A
 7.3.1.4,Organic_ReviewCount,N/A
 7.3.2.4,Organic_ReviewCount,N/A
@@ -2214,7 +2149,7 @@ Index,Fields,Values
 7.3.6.4,Organic_ReviewCount,N/A
 7.3.7.4,Organic_ReviewCount,N/A
 7.3.8.4,Organic_ReviewCount,N/A
-7.3.9.4,Organic_ReviewCount,223
+7.3.9.4,Organic_ReviewCount,N/A
 7.3.10.4,Organic_ReviewCount,N/A
 7.3.1.5,Organic_Links,https://stores.advanceautoparts.com/pa/pittsburgh
 7.3.2.5,Organic_Links,https://stores.advanceautoparts.com/pa/pittsburgh/8333-perry-hwy
@@ -2295,7 +2230,7 @@ Index,Fields,Values
 8.3.6.3,Organic_Rating,N/A
 8.3.7.3,Organic_Rating,N/A
 8.3.8.3,Organic_Rating,N/A
-8.3.9.3,Organic_Rating,Rated 4.2 out of 5
+8.3.9.3,Organic_Rating,N/A
 8.3.10.3,Organic_Rating,N/A
 8.3.1.4,Organic_ReviewCount,N/A
 8.3.2.4,Organic_ReviewCount,N/A
@@ -2305,7 +2240,7 @@ Index,Fields,Values
 8.3.6.4,Organic_ReviewCount,N/A
 8.3.7.4,Organic_ReviewCount,N/A
 8.3.8.4,Organic_ReviewCount,N/A
-8.3.9.4,Organic_ReviewCount,618
+8.3.9.4,Organic_ReviewCount,N/A
 8.3.10.4,Organic_ReviewCount,N/A
 8.3.1.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis
 8.3.2.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis/4105-e-washington-st
@@ -2509,16 +2444,17 @@ Index,Fields,Values
 11.2.1.3,Sponsored_Rating,N/A
 11.2.1.4,Sponsored_ReviewCount,N/A
 11.2.1.5,Sponsored_Links,N/A
-11.3.1.1,Organic_Title,"Advance Auto Parts Locations in Indianapolis, IN"
-11.3.2.1,Organic_Title,"Advance Auto Parts in Indianapolis, IN 46201 | 4105 E Washington St"
-11.3.3.1,Organic_Title,NAPA Auto Parts - Buy Car & Truck Parts Online | Auto Supply Stores ...
-11.3.4.1,Organic_Title,"O'Reilly Auto Parts | Auto Parts, Accessories, Repair Advice, & More"
-11.3.5.1,Organic_Title,AutoZone Auto Parts | Car & Truck Parts Stores | DIY Advice
-11.3.6.1,Organic_Title,"AutoZone Auto Parts in Indianapolis, IN (4857 W 56th St): Best Auto Parts Store Near Me"
-11.3.7.1,Organic_Title,RockAuto
-11.3.8.1,Organic_Title,"THE BEST 10 Auto Parts & Supplies near Indianapolis city (balance), IN 46239 - Yelp"
-11.3.9.1,Organic_Title,Indianapolis Indiana Auto Parts Stores and Service Centers - Auto Value Locations
-11.3.10.1,Organic_Title,"3 Best Auto Parts Stores in Indianapolis, IN - Expert Recommendations - ThreeBestRated.com"
+11.3.1.1,Organic_Title,O’Reilly Auto Parts - O'Reilly Auto Parts - In Stock
+11.3.2.1,Organic_Title,"Advance Auto Parts Locations in Indianapolis, IN"
+11.3.3.1,Organic_Title,"Advance Auto Parts in Indianapolis, IN 46201 | 4105 E Washington St"
+11.3.4.1,Organic_Title,NAPA Auto Parts - Buy Car & Truck Parts Online | Auto Supply Stores ...
+11.3.5.1,Organic_Title,"O'Reilly Auto Parts | Auto Parts, Accessories, Repair Advice, & More"
+11.3.6.1,Organic_Title,AutoZone Auto Parts | Car & Truck Parts Stores | DIY Advice
+11.3.7.1,Organic_Title,"AutoZone Auto Parts in Indianapolis, IN (4857 W 56th St): Best Auto Parts Store Near Me"
+11.3.8.1,Organic_Title,RockAuto
+11.3.9.1,Organic_Title,"THE BEST 10 Auto Parts & Supplies near Indianapolis city (balance), IN 46239 - Yelp"
+11.3.10.1,Organic_Title,Indianapolis Indiana Auto Parts Stores and Service Centers - Auto Value Locations
+11.3.11.1,Organic_Title,"3 Best Auto Parts Stores in Indianapolis, IN - Expert Recommendations - ThreeBestRated.com"
 11.3.1.2,Organic_Price,N/A
 11.3.2.2,Organic_Price,N/A
 11.3.3.2,Organic_Price,N/A
@@ -2529,7 +2465,8 @@ Index,Fields,Values
 11.3.8.2,Organic_Price,N/A
 11.3.9.2,Organic_Price,N/A
 11.3.10.2,Organic_Price,N/A
-11.3.1.3,Organic_Rating,N/A
+11.3.11.2,Organic_Price,N/A
+11.3.1.3,Organic_Rating,Rated 4.6 out of 5
 11.3.2.3,Organic_Rating,N/A
 11.3.3.3,Organic_Rating,N/A
 11.3.4.3,Organic_Rating,N/A
@@ -2539,7 +2476,8 @@ Index,Fields,Values
 11.3.8.3,Organic_Rating,N/A
 11.3.9.3,Organic_Rating,N/A
 11.3.10.3,Organic_Rating,N/A
-11.3.1.4,Organic_ReviewCount,N/A
+11.3.11.3,Organic_Rating,N/A
+11.3.1.4,Organic_ReviewCount,154
 11.3.2.4,Organic_ReviewCount,N/A
 11.3.3.4,Organic_ReviewCount,N/A
 11.3.4.4,Organic_ReviewCount,N/A
@@ -2549,16 +2487,18 @@ Index,Fields,Values
 11.3.8.4,Organic_ReviewCount,N/A
 11.3.9.4,Organic_ReviewCount,N/A
 11.3.10.4,Organic_ReviewCount,N/A
-11.3.1.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis
-11.3.2.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis/4105-e-washington-st
-11.3.3.5,Organic_Links,https://www.napaonline.com/
-11.3.4.5,Organic_Links,https://www.oreillyauto.com/
-11.3.5.5,Organic_Links,https://www.autozone.com/
-11.3.6.5,Organic_Links,https://www.autozone.com/locations/in/indianapolis/4857-w-56th-st.html
-11.3.7.5,Organic_Links,https://www.rockauto.com/
-11.3.8.5,Organic_Links,https://m.yelp.com/search?cflt=autopartssupplies&find_loc=Indianapolis+city+%28balance%29%2C+IN+46239
-11.3.9.5,Organic_Links,https://locations.autovalue.com/in/indianapolis/
-11.3.10.5,Organic_Links,https://threebestrated.com/auto-parts-stores-in-indianapolis-in
+11.3.11.4,Organic_ReviewCount,N/A
+11.3.1.5,Organic_Links,https://www.oreillyauto.com/
+11.3.2.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis
+11.3.3.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis/4105-e-washington-st
+11.3.4.5,Organic_Links,https://www.napaonline.com/
+11.3.5.5,Organic_Links,https://www.oreillyauto.com/
+11.3.6.5,Organic_Links,https://www.autozone.com/
+11.3.7.5,Organic_Links,https://www.autozone.com/locations/in/indianapolis/4857-w-56th-st.html
+11.3.8.5,Organic_Links,https://www.rockauto.com/
+11.3.9.5,Organic_Links,https://m.yelp.com/search?cflt=autopartssupplies&find_loc=Indianapolis+city+%28balance%29%2C+IN+46239
+11.3.10.5,Organic_Links,https://locations.autovalue.com/in/indianapolis/
+11.3.11.5,Organic_Links,https://threebestrated.com/auto-parts-stores-in-indianapolis-in
 11.4.1.1,SearchMapPlace_Title,NAPA Auto Parts - Genuine Parts Company
 11.4.2.1,SearchMapPlace_Title,Harms Auto Supply
 11.4.3.1,SearchMapPlace_Title,AutoZone Auto Parts
@@ -2629,7 +2569,7 @@ Index,Fields,Values
 12.3.7.3,Organic_Rating,N/A
 12.3.8.3,Organic_Rating,N/A
 12.3.9.3,Organic_Rating,N/A
-12.3.10.3,Organic_Rating,Rated 4.8 out of 5
+12.3.10.3,Organic_Rating,N/A
 12.3.1.4,Organic_ReviewCount,N/A
 12.3.2.4,Organic_ReviewCount,N/A
 12.3.3.4,Organic_ReviewCount,N/A
@@ -2639,7 +2579,7 @@ Index,Fields,Values
 12.3.7.4,Organic_ReviewCount,N/A
 12.3.8.4,Organic_ReviewCount,N/A
 12.3.9.4,Organic_ReviewCount,N/A
-12.3.10.4,Organic_ReviewCount,8
+12.3.10.4,Organic_ReviewCount,N/A
 12.3.1.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis
 12.3.2.5,Organic_Links,https://stores.advanceautoparts.com/in/indianapolis/2334-e-stop-11-rd
 12.3.3.5,Organic_Links,https://www.napaonline.com/en/in/indianapolis/store/27671
@@ -3147,16 +3087,17 @@ Index,Fields,Values
 14.2.1.3,Sponsored_Rating,N/A
 14.2.1.4,Sponsored_ReviewCount,N/A
 14.2.1.5,Sponsored_Links,N/A
-14.3.1.1,Organic_Title,Best Air Filters for Cars & More - AutoZone Auto Parts
-14.3.2.1,Organic_Title,"Air Filter for Cars, Trucks & SUVs - AutoZone Auto Parts"
-14.3.3.1,Organic_Title,"Air Filters and Cleaners for Cars, Trucks & SUVs - AutoZone Auto Parts"
-14.3.4.1,Organic_Title,"Air, Breather, Cabin Filters for Cars, Trucks & SUVs - AutoZone Auto Parts"
-14.3.5.1,Organic_Title,Performance Air Filter - Find the Right Part at the Right Price | AutoZone
-14.3.6.1,Organic_Title,Air Filter - Small Engine - Find the Right Part at the Right Price - AutoZone Auto Parts
-14.3.7.1,Organic_Title,"Cabin Air Filter - Best AC Filters for Cars, Trucks, & SUVs - AutoZone Auto Parts"
-14.3.8.1,Organic_Title,Custom Air Filter - AutoZone Auto Parts
-14.3.9.1,Organic_Title,"Filters and PCV for Cars, Trucks & SUVs - AutoZone Auto Parts"
-14.3.10.1,Organic_Title,"Best Performance Universal Air Cleaner Parts for Cars, Trucks & SUVs"
+14.3.1.1,Organic_Title,AutoZone.com - Get In The Zone: AutoZone - Air Filters - Performance Air Filters
+14.3.2.1,Organic_Title,Best Air Filters for Cars & More - AutoZone Auto Parts
+14.3.3.1,Organic_Title,"Air Filter for Cars, Trucks & SUVs - AutoZone Auto Parts"
+14.3.4.1,Organic_Title,"Air Filters and Cleaners for Cars, Trucks & SUVs - AutoZone Auto Parts"
+14.3.5.1,Organic_Title,"Air, Breather, Cabin Filters for Cars, Trucks & SUVs - AutoZone Auto Parts"
+14.3.6.1,Organic_Title,Performance Air Filter - Find the Right Part at the Right Price | AutoZone
+14.3.7.1,Organic_Title,Air Filter - Small Engine - Find the Right Part at the Right Price - AutoZone Auto Parts
+14.3.8.1,Organic_Title,"Cabin Air Filter - Best AC Filters for Cars, Trucks, & SUVs - AutoZone Auto Parts"
+14.3.9.1,Organic_Title,Custom Air Filter - AutoZone Auto Parts
+14.3.10.1,Organic_Title,"Filters and PCV for Cars, Trucks & SUVs - AutoZone Auto Parts"
+14.3.11.1,Organic_Title,"Best Performance Universal Air Cleaner Parts for Cars, Trucks & SUVs"
 14.3.1.2,Organic_Price,N/A
 14.3.2.2,Organic_Price,N/A
 14.3.3.2,Organic_Price,N/A
@@ -3167,7 +3108,8 @@ Index,Fields,Values
 14.3.8.2,Organic_Price,N/A
 14.3.9.2,Organic_Price,N/A
 14.3.10.2,Organic_Price,N/A
-14.3.1.3,Organic_Rating,N/A
+14.3.11.2,Organic_Price,N/A
+14.3.1.3,Organic_Rating,Rated 4.7 out of 5
 14.3.2.3,Organic_Rating,N/A
 14.3.3.3,Organic_Rating,N/A
 14.3.4.3,Organic_Rating,N/A
@@ -3177,7 +3119,8 @@ Index,Fields,Values
 14.3.8.3,Organic_Rating,N/A
 14.3.9.3,Organic_Rating,N/A
 14.3.10.3,Organic_Rating,N/A
-14.3.1.4,Organic_ReviewCount,N/A
+14.3.11.3,Organic_Rating,N/A
+14.3.1.4,Organic_ReviewCount,450
 14.3.2.4,Organic_ReviewCount,N/A
 14.3.3.4,Organic_ReviewCount,N/A
 14.3.4.4,Organic_ReviewCount,N/A
@@ -3187,16 +3130,18 @@ Index,Fields,Values
 14.3.8.4,Organic_ReviewCount,N/A
 14.3.9.4,Organic_ReviewCount,N/A
 14.3.10.4,Organic_ReviewCount,N/A
+14.3.11.4,Organic_ReviewCount,N/A
 14.3.1.5,Organic_Links,https://www.autozone.com/filters-and-pcv/air-filter
-14.3.2.5,Organic_Links,https://www.autozone.com/parts/filters-and-pcv/air-filter
-14.3.3.5,Organic_Links,https://www.autozone.com/performance/intake-system/air-filters-and-cleaners
-14.3.4.5,Organic_Links,https://www.autozone.com/parts/ignition-tune-up-and-routine-maintenance/air-breather-cabin-filters
-14.3.5.5,Organic_Links,https://www.autozone.com/intake-system/performance-air-filter
-14.3.6.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/small-engine-air-filter
-14.3.7.5,Organic_Links,https://www.autozone.com/filters-and-pcv/cabin-air-filter
-14.3.8.5,Organic_Links,https://www.autozone.com/intake-system/custom-air-filter
-14.3.9.5,Organic_Links,https://www.autozone.com/parts/filters-and-pcv
-14.3.10.5,Organic_Links,https://www.autozone.com/intake-system/performance-universal-air-cleaner
+14.3.2.5,Organic_Links,https://www.autozone.com/filters-and-pcv/air-filter
+14.3.3.5,Organic_Links,https://www.autozone.com/parts/filters-and-pcv/air-filter
+14.3.4.5,Organic_Links,https://www.autozone.com/performance/intake-system/air-filters-and-cleaners
+14.3.5.5,Organic_Links,https://www.autozone.com/parts/ignition-tune-up-and-routine-maintenance/air-breather-cabin-filters
+14.3.6.5,Organic_Links,https://www.autozone.com/intake-system/performance-air-filter
+14.3.7.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/small-engine-air-filter
+14.3.8.5,Organic_Links,https://www.autozone.com/filters-and-pcv/cabin-air-filter
+14.3.9.5,Organic_Links,https://www.autozone.com/intake-system/custom-air-filter
+14.3.10.5,Organic_Links,https://www.autozone.com/parts/filters-and-pcv
+14.3.11.5,Organic_Links,https://www.autozone.com/intake-system/performance-universal-air-cleaner
 14.4.1.1,SearchMapPlace_Title,N/A
 14.4.1.2,SearchMapPlace_OpeningClosing,N/A
 14.4.1.3,SearchMapPlace_Rating,N/A
@@ -3223,31 +3168,11 @@ Index,Fields,Values
 15.1.1.3,Popular_Rating,N/A
 15.1.1.4,Popular_ReviewCount,N/A
 15.1.1.5,Popular_Links,N/A
-15.2.1.1,Sponsored_Title,AAA Premium Battery BCI No. 96r 600 A Flooded
-15.2.2.1,Sponsored_Title,Duralast Gold Automotive Car Battery H6-DLG Group Size 48 730 CCA - Positive Terminal Side Top Right Cranking Amps 910 Reserve Capacity 3 Year
-15.2.3.1,Sponsored_Title,AAA Premium Battery BCI No. 49 900 A Flooded
-15.2.4.1,Sponsored_Title,AAA Premium Battery BCI No. 47 650 A Flooded
-15.2.5.1,Sponsored_Title,Super Start Power Sport AGM Battery Group Size BTX5L-BS
-15.2.1.2,Sponsored_Price,$189.99
-15.2.2.2,Sponsored_Price,$221.99
-15.2.3.2,Sponsored_Price,$189.99
-15.2.4.2,Sponsored_Price,$189.99
-15.2.5.2,Sponsored_Price,$57.99
+15.2.1.1,Sponsored_Title,N/A
+15.2.1.2,Sponsored_Price,N/A
 15.2.1.3,Sponsored_Rating,N/A
-15.2.2.3,Sponsored_Rating,Rated 4.8 out of 5
-15.2.3.3,Sponsored_Rating,N/A
-15.2.4.3,Sponsored_Rating,N/A
-15.2.5.3,Sponsored_Rating,N/A
 15.2.1.4,Sponsored_ReviewCount,N/A
-15.2.2.4,Sponsored_ReviewCount,1k+
-15.2.3.4,Sponsored_ReviewCount,N/A
-15.2.4.4,Sponsored_ReviewCount,N/A
-15.2.5.4,Sponsored_ReviewCount,N/A
-15.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiRkPqMzP73AhWIam8EHXLLBhcYABAIGgJqZg&ohost=www.google.com&cid=CAASJuRov_XXYyH-vOFkNupm9hiB9TOW9uVYOKehs3h7jNcfXnT-rZYO&sig=AOD64_3GNPA-fYkLCbsMdJDBEolZfq0r-A&ctype=46&q=&ved=2ahUKEwjjrPKMzP73AhVkB50JHa5UB6UQzzkoAHoECAEQCw&adurl=
-15.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiRkPqMzP73AhWIam8EHXLLBhcYABAGGgJqZg&ohost=www.google.com&cid=CAASJuRov_XXYyH-vOFkNupm9hiB9TOW9uVYOKehs3h7jNcfXnT-rZYO&sig=AOD64_0Z1B2rHJiZV-CoBR7R8cPUoSgnjA&ctype=46&q=&ved=2ahUKEwjjrPKMzP73AhVkB50JHa5UB6UQzzkoAHoECAEQEg&adurl=
-15.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiRkPqMzP73AhWIam8EHXLLBhcYABAHGgJqZg&ohost=www.google.com&cid=CAASJuRov_XXYyH-vOFkNupm9hiB9TOW9uVYOKehs3h7jNcfXnT-rZYO&sig=AOD64_0tHw0253H-8NHZQ9EoJJ8WsATWpQ&ctype=46&q=&ved=2ahUKEwjjrPKMzP73AhVkB50JHa5UB6UQzzkoAHoECAEQGw&adurl=
-15.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiRkPqMzP73AhWIam8EHXLLBhcYABAJGgJqZg&ohost=www.google.com&cid=CAASJuRov_XXYyH-vOFkNupm9hiB9TOW9uVYOKehs3h7jNcfXnT-rZYO&sig=AOD64_2tA9x_QlBbe8Ltay5HN5VM5JW2hg&ctype=46&q=&ved=2ahUKEwjjrPKMzP73AhVkB50JHa5UB6UQzzkoAHoECAEQIg&adurl=
-15.2.5.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiRkPqMzP73AhWIam8EHXLLBhcYABAFGgJqZg&ohost=www.google.com&cid=CAASJuRov_XXYyH-vOFkNupm9hiB9TOW9uVYOKehs3h7jNcfXnT-rZYO&sig=AOD64_16aTZDUJNnIINP3AgNimStYI0IHQ&ctype=46&q=&ved=2ahUKEwjjrPKMzP73AhVkB50JHa5UB6UQzzkoAHoECAEQKQ&adurl=
+15.2.1.5,Sponsored_Links,N/A
 15.3.1.1,Organic_Title,Car Battery - The Best Car Batteries at the Right Price - AutoZone Auto Parts
 15.3.2.1,Organic_Title,AutoZone Car Battery Guide
 15.3.3.1,Organic_Title,"Batteries for Cars, Trucks & SUVs - AutoZone Auto Parts"
@@ -3274,7 +3199,7 @@ Index,Fields,Values
 15.3.6.3,Organic_Rating,N/A
 15.3.7.3,Organic_Rating,N/A
 15.3.8.3,Organic_Rating,N/A
-15.3.9.3,Organic_Rating,Rated 4.8 out of 5
+15.3.9.3,Organic_Rating,N/A
 15.3.1.4,Organic_ReviewCount,N/A
 15.3.2.4,Organic_ReviewCount,N/A
 15.3.3.4,Organic_ReviewCount,N/A
@@ -3714,26 +3639,11 @@ Index,Fields,Values
 16.1.78.5,Popular_Links,N/A
 16.1.79.5,Popular_Links,N/A
 16.1.80.5,Popular_Links,N/A
-16.2.1.1,Sponsored_Title,Duralast Gold Ceramic Brake Pads DG1071
-16.2.2.1,Sponsored_Title,BrakeBest Metallic Front Brake Pads
-16.2.3.1,Sponsored_Title,Duralast Ceramic Brake Pads D1283
-16.2.4.1,Sponsored_Title,BrakeBest Select Premium Ceramic Rear Brake Pads
-16.2.1.2,Sponsored_Price,$39.49
-16.2.2.2,Sponsored_Price,$23.99
-16.2.3.2,Sponsored_Price,$21.49
-16.2.4.2,Sponsored_Price,$19.97
-16.2.1.3,Sponsored_Rating,Rated 4.7 out of 5
-16.2.2.3,Sponsored_Rating,N/A
-16.2.3.3,Sponsored_Rating,N/A
-16.2.4.3,Sponsored_Rating,N/A
-16.2.1.4,Sponsored_ReviewCount,1k+
-16.2.2.4,Sponsored_ReviewCount,N/A
-16.2.3.4,Sponsored_ReviewCount,N/A
-16.2.4.4,Sponsored_ReviewCount,N/A
-16.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwid65KazP73AhUqKUwKHYgFB5QYABAGGgJvYQ&ohost=www.google.com&cid=CAASJuRoxgB3BYH0NzP-4hHoAaeozlEg_tlOXF0QYeFqUQcmYmVGQFkz&sig=AOD64_2h-JFG_lUCfSatMtlvSOShpvcRWA&ctype=46&q=&ved=2ahUKEwiQiYqazP73AhVzdM0KHStGC38QzzkoAHoECAEQCw&adurl=
-16.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwid65KazP73AhUqKUwKHYgFB5QYABAEGgJvYQ&ohost=www.google.com&cid=CAASJuRoxgB3BYH0NzP-4hHoAaeozlEg_tlOXF0QYeFqUQcmYmVGQFkz&sig=AOD64_2GXvb8XQ3tL_GvbOGL24VPXdzG1g&ctype=46&q=&ved=2ahUKEwiQiYqazP73AhVzdM0KHStGC38QzzkoAHoECAEQFA&adurl=
-16.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwid65KazP73AhUqKUwKHYgFB5QYABAFGgJvYQ&ohost=www.google.com&cid=CAASJuRoxgB3BYH0NzP-4hHoAaeozlEg_tlOXF0QYeFqUQcmYmVGQFkz&sig=AOD64_1NXrsRScJBznTDU-VaPGSO3XTm9Q&ctype=46&q=&ved=2ahUKEwiQiYqazP73AhVzdM0KHStGC38QzzkoAHoECAEQGg&adurl=
-16.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwid65KazP73AhUqKUwKHYgFB5QYABAHGgJvYQ&ohost=www.google.com&cid=CAASJuRoxgB3BYH0NzP-4hHoAaeozlEg_tlOXF0QYeFqUQcmYmVGQFkz&sig=AOD64_3EeY2H7LBGCkHRXtGD0yprv6ONSg&ctype=46&q=&ved=2ahUKEwiQiYqazP73AhVzdM0KHStGC38QzzkoAHoECAEQIQ&adurl=
+16.2.1.1,Sponsored_Title,N/A
+16.2.1.2,Sponsored_Price,N/A
+16.2.1.3,Sponsored_Rating,N/A
+16.2.1.4,Sponsored_ReviewCount,N/A
+16.2.1.5,Sponsored_Links,N/A
 16.3.1.1,Organic_Title,Brake Pads - The Best Front and Rear ...
 16.3.2.1,Organic_Title,"Duralast Brakes, Brake Pads, and Brake Rotors from AutoZone"
 16.3.3.1,Organic_Title,Duralast Brakes - AutoZone
@@ -3751,7 +3661,7 @@ Index,Fields,Values
 16.3.3.3,Organic_Rating,N/A
 16.3.4.3,Organic_Rating,N/A
 16.3.5.3,Organic_Rating,N/A
-16.3.6.3,Organic_Rating,Rated 4.7 out of 5
+16.3.6.3,Organic_Rating,N/A
 16.3.1.4,Organic_ReviewCount,N/A
 16.3.2.4,Organic_ReviewCount,N/A
 16.3.3.4,Organic_ReviewCount,N/A
@@ -4185,21 +4095,11 @@ Index,Fields,Values
 17.1.78.5,Popular_Links,N/A
 17.1.79.5,Popular_Links,N/A
 17.1.80.5,Popular_Links,N/A
-17.2.1.1,Sponsored_Title,Duralast Gold Ceramic Brake Pads DG1071
-17.2.2.1,Sponsored_Title,Galvanized Brake Pads - NS929 Front and Rear Pads
-17.2.3.1,Sponsored_Title,BrakeBest Metallic Front Brake Pads
-17.2.1.2,Sponsored_Price,$39.49
-17.2.2.2,Sponsored_Price,$115.99
-17.2.3.2,Sponsored_Price,$23.99
-17.2.1.3,Sponsored_Rating,Rated 4.7 out of 5
-17.2.2.3,Sponsored_Rating,N/A
-17.2.3.3,Sponsored_Rating,N/A
-17.2.1.4,Sponsored_ReviewCount,1k+
-17.2.2.4,Sponsored_ReviewCount,N/A
-17.2.3.4,Sponsored_ReviewCount,N/A
-17.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiqot2nzP73AhWIFNQBHdshDEYYABAFGgJvYQ&ohost=www.google.com&cid=CAASJuRomjJ5mg6E7awGCIi7z5G4km4D6w0mwoAfZziOqAkztbA_IEyt&sig=AOD64_3MDEZqgfe9yDq2gERt_gt6a-c9Wg&ctype=46&q=&ved=2ahUKEwjV79WnzP73AhXMLc0KHcY8CB4QzzkoAHoECAEQCw&adurl=
-17.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiqot2nzP73AhWIFNQBHdshDEYYABAEGgJvYQ&ohost=www.google.com&cid=CAASJuRomjJ5mg6E7awGCIi7z5G4km4D6w0mwoAfZziOqAkztbA_IEyt&sig=AOD64_1UqYCbSIdKuASuybLPDIQs0cdQHw&ctype=5&q=&ved=2ahUKEwjV79WnzP73AhXMLc0KHcY8CB4Qwg8oAHoECAEQFA&adurl=
-17.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiqot2nzP73AhWIFNQBHdshDEYYABADGgJvYQ&ohost=www.google.com&cid=CAASJuRomjJ5mg6E7awGCIi7z5G4km4D6w0mwoAfZziOqAkztbA_IEyt&sig=AOD64_0Lk_phlaA9ElYUmQEAwaY4WrIN6A&ctype=46&q=&ved=2ahUKEwjV79WnzP73AhXMLc0KHcY8CB4QzzkoAHoECAEQGQ&adurl=
+17.2.1.1,Sponsored_Title,N/A
+17.2.1.2,Sponsored_Price,N/A
+17.2.1.3,Sponsored_Rating,N/A
+17.2.1.4,Sponsored_ReviewCount,N/A
+17.2.1.5,Sponsored_Links,N/A
 17.3.1.1,Organic_Title,"Brake Pads - The Best Front and Rear Brake Pads for Cars, Trucks & SUVs | AutoZone"
 17.3.2.1,Organic_Title,Brakes - Car Brakes and Rotors - Traction Control - AutoZone Auto Parts
 17.3.3.1,Organic_Title,"Duralast Brakes, Brake Pads, and Brake Rotors from AutoZone"
@@ -4229,7 +4129,7 @@ Index,Fields,Values
 17.3.7.3,Organic_Rating,N/A
 17.3.8.3,Organic_Rating,N/A
 17.3.9.3,Organic_Rating,N/A
-17.3.10.3,Organic_Rating,Rated 4.7 out of 5
+17.3.10.3,Organic_Rating,N/A
 17.3.1.4,Organic_ReviewCount,N/A
 17.3.2.4,Organic_ReviewCount,N/A
 17.3.3.4,Organic_ReviewCount,N/A
@@ -4281,25 +4181,27 @@ Index,Fields,Values
 18.2.1.3,Sponsored_Rating,N/A
 18.2.1.4,Sponsored_ReviewCount,N/A
 18.2.1.5,Sponsored_Links,N/A
-18.3.1.1,Organic_Title,"Headlight - HID Headlights & Halogen Bulbs for Cars, Trucks, & SUVs - AutoZone Auto Parts"
-18.3.2.1,Organic_Title,"Headlights and Exterior Bulbs for Cars, Trucks & SUVs - AutoZone Auto Parts"
-18.3.3.1,Organic_Title,"Car Headlight Lens Housing, Cover & Motor - AutoZone Auto Parts"
-18.3.4.1,Organic_Title,"Best Headlight Replacement Parts for Cars, Trucks & SUVs"
-18.3.5.1,Organic_Title,Headlight Assembly - Best Replacement Headlight Assemblies at the Right Price | AutoZone
-18.3.6.1,Organic_Title,How to Change Headlights - AutoZone
-18.3.7.1,Organic_Title,"HID Headlights & Halogen Bulbs for Cars, Trucks, & SUVs - AutoZone Auto Parts"
-18.3.8.1,Organic_Title,Everything You Need to Know About Your Car's Lights - AutoZone
-18.3.9.1,Organic_Title,Sylvania Basic Headlight and Fog Light Bulb 9005 - AutoZone Auto Parts
-18.3.1.2,Organic_Price,$99.99
-18.3.2.2,Organic_Price,N/A
+18.3.1.1,Organic_Title,Get In The Zone: AutoZone - AutoZone Headlights
+18.3.2.1,Organic_Title,"Headlight - HID Headlights & Halogen Bulbs for Cars, Trucks, & SUVs - AutoZone Auto Parts"
+18.3.3.1,Organic_Title,"Headlights and Exterior Bulbs for Cars, Trucks & SUVs - AutoZone Auto Parts"
+18.3.4.1,Organic_Title,"Car Headlight Lens Housing, Cover & Motor - AutoZone Auto Parts"
+18.3.5.1,Organic_Title,"Best Headlight Replacement Parts for Cars, Trucks & SUVs"
+18.3.6.1,Organic_Title,Headlight Assembly - Best Replacement Headlight Assemblies at the Right Price | AutoZone
+18.3.7.1,Organic_Title,How to Change Headlights - AutoZone
+18.3.8.1,Organic_Title,"HID Headlights & Halogen Bulbs for Cars, Trucks, & SUVs - AutoZone Auto Parts"
+18.3.9.1,Organic_Title,Everything You Need to Know About Your Car's Lights - AutoZone
+18.3.10.1,Organic_Title,Sylvania Basic Headlight and Fog Light Bulb 9005 - AutoZone Auto Parts
+18.3.1.2,Organic_Price,N/A
+18.3.2.2,Organic_Price,$99.99
 18.3.3.2,Organic_Price,N/A
 18.3.4.2,Organic_Price,N/A
 18.3.5.2,Organic_Price,N/A
 18.3.6.2,Organic_Price,N/A
 18.3.7.2,Organic_Price,N/A
 18.3.8.2,Organic_Price,N/A
-18.3.9.2,Organic_Price,$13.99
-18.3.1.3,Organic_Rating,N/A
+18.3.9.2,Organic_Price,N/A
+18.3.10.2,Organic_Price,$13.99
+18.3.1.3,Organic_Rating,Rated 4.7 out of 5
 18.3.2.3,Organic_Rating,N/A
 18.3.3.3,Organic_Rating,N/A
 18.3.4.3,Organic_Rating,N/A
@@ -4307,8 +4209,9 @@ Index,Fields,Values
 18.3.6.3,Organic_Rating,N/A
 18.3.7.3,Organic_Rating,N/A
 18.3.8.3,Organic_Rating,N/A
-18.3.9.3,Organic_Rating,Rated 4.5 out of 5
-18.3.1.4,Organic_ReviewCount,N/A
+18.3.9.3,Organic_Rating,N/A
+18.3.10.3,Organic_Rating,Rated 4.5 out of 5
+18.3.1.4,Organic_ReviewCount,450
 18.3.2.4,Organic_ReviewCount,N/A
 18.3.3.4,Organic_ReviewCount,N/A
 18.3.4.4,Organic_ReviewCount,N/A
@@ -4316,16 +4219,18 @@ Index,Fields,Values
 18.3.6.4,Organic_ReviewCount,N/A
 18.3.7.4,Organic_ReviewCount,N/A
 18.3.8.4,Organic_ReviewCount,N/A
-18.3.9.4,Organic_ReviewCount,125
+18.3.9.4,Organic_ReviewCount,N/A
+18.3.10.4,Organic_ReviewCount,125
 18.3.1.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight
-18.3.2.5,Organic_Links,https://www.autozone.com/parts/electrical-and-lighting/headlights-and-exterior-bulbs
-18.3.3.5,Organic_Links,https://www.autozone.com/parts/collision-body-parts-and-hardware/headlamp-headlight
-18.3.4.5,Organic_Links,https://www.autozone.com/exterior-lighting/headlight-replacement
-18.3.5.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight-assembly
-18.3.6.5,Organic_Links,https://www.autozone.com/diy/lighting/how-to-change-headlights
-18.3.7.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight/b/silverstar-sylvania-basic/4294755153-4294918069?intcmp=LAP:ADT:3:20210708:20210000:LIG:SYL-HID
-18.3.8.5,Organic_Links,https://www.autozone.com/diy/lighting
-18.3.9.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight/p/sylvania-basic-headlight-and-fog-light-bulb-9005/377812_0_0
+18.3.2.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight
+18.3.3.5,Organic_Links,https://www.autozone.com/parts/electrical-and-lighting/headlights-and-exterior-bulbs
+18.3.4.5,Organic_Links,https://www.autozone.com/parts/collision-body-parts-and-hardware/headlamp-headlight
+18.3.5.5,Organic_Links,https://www.autozone.com/exterior-lighting/headlight-replacement
+18.3.6.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight-assembly
+18.3.7.5,Organic_Links,https://www.autozone.com/diy/lighting/how-to-change-headlights
+18.3.8.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight/b/silverstar-sylvania-basic/4294755153-4294918069?intcmp=LAP:ADT:3:20210708:20210000:LIG:SYL-HID
+18.3.9.5,Organic_Links,https://www.autozone.com/diy/lighting
+18.3.10.5,Organic_Links,https://www.autozone.com/collision-body-parts-and-hardware/headlight/p/sylvania-basic-headlight-and-fog-light-bulb-9005/377812_0_0
 18.4.1.1,SearchMapPlace_Title,N/A
 18.4.1.2,SearchMapPlace_OpeningClosing,N/A
 18.4.1.3,SearchMapPlace_Rating,N/A
@@ -4752,41 +4657,51 @@ Index,Fields,Values
 22.2.1.3,Sponsored_Rating,N/A
 22.2.1.4,Sponsored_ReviewCount,N/A
 22.2.1.5,Sponsored_Links,N/A
-22.3.1.1,Organic_Title,Oil Filter Lookup by Vehicle - AutoZone ...
-22.3.2.1,Organic_Title,Performance Oil Filter - Find the Right Part at the Right Price | AutoZone
-22.3.3.1,Organic_Title,Oil Filter - Small Engine - Find the Right Part at the Right Price - AutoZone Auto Parts
-22.3.4.1,Organic_Title,Best Replacement Performance Oil Filter - Motorcycles at the Right Price | AutoZone
-22.3.5.1,Organic_Title,K&N High Performance Oil filter - AutoZone Auto Parts
-22.3.6.1,Organic_Title,AutoZone Oil Change Specials - Oil and Filter Deals
-22.3.7.1,Organic_Title,K&N High Performance Powersports Oil Filter - AutoZone Auto Parts
+22.3.1.1,Organic_Title,Get In The Zone: AutoZone - Oil Filters
+22.3.2.1,Organic_Title,#1 Auto Repair - Indianapolis - Oil Filter Discounts - billestestoyota.com
+22.3.3.1,Organic_Title,Oil Filter Lookup by Vehicle - AutoZone ...
+22.3.4.1,Organic_Title,Performance Oil Filter - Find the Right Part at the Right Price | AutoZone
+22.3.5.1,Organic_Title,Oil Filter - Small Engine - Find the Right Part at the Right Price - AutoZone Auto Parts
+22.3.6.1,Organic_Title,Best Replacement Performance Oil Filter - Motorcycles at the Right Price | AutoZone
+22.3.7.1,Organic_Title,K&N High Performance Oil filter - AutoZone Auto Parts
+22.3.8.1,Organic_Title,AutoZone Oil Change Specials - Oil and Filter Deals
+22.3.9.1,Organic_Title,K&N High Performance Powersports Oil Filter - AutoZone Auto Parts
 22.3.1.2,Organic_Price,N/A
 22.3.2.2,Organic_Price,N/A
 22.3.3.2,Organic_Price,N/A
 22.3.4.2,Organic_Price,N/A
-22.3.5.2,Organic_Price,$29.99
+22.3.5.2,Organic_Price,N/A
 22.3.6.2,Organic_Price,N/A
-22.3.7.2,Organic_Price,$16.99
-22.3.1.3,Organic_Rating,N/A
+22.3.7.2,Organic_Price,$29.99
+22.3.8.2,Organic_Price,N/A
+22.3.9.2,Organic_Price,$16.99
+22.3.1.3,Organic_Rating,Rated 4.7 out of 5
 22.3.2.3,Organic_Rating,N/A
 22.3.3.3,Organic_Rating,N/A
 22.3.4.3,Organic_Rating,N/A
 22.3.5.3,Organic_Rating,N/A
 22.3.6.3,Organic_Rating,N/A
-22.3.7.3,Organic_Rating,Rated 4.5 out of 5
-22.3.1.4,Organic_ReviewCount,N/A
+22.3.7.3,Organic_Rating,N/A
+22.3.8.3,Organic_Rating,N/A
+22.3.9.3,Organic_Rating,Rated 4.5 out of 5
+22.3.1.4,Organic_ReviewCount,450
 22.3.2.4,Organic_ReviewCount,N/A
 22.3.3.4,Organic_ReviewCount,N/A
 22.3.4.4,Organic_ReviewCount,N/A
 22.3.5.4,Organic_ReviewCount,N/A
 22.3.6.4,Organic_ReviewCount,N/A
-22.3.7.4,Organic_ReviewCount,32
+22.3.7.4,Organic_ReviewCount,N/A
+22.3.8.4,Organic_ReviewCount,N/A
+22.3.9.4,Organic_ReviewCount,32
 22.3.1.5,Organic_Links,https://www.autozone.com/filters-and-pcv/oil-filter
-22.3.2.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter
-22.3.3.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/small-engine-oil-filter
-22.3.4.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/performance-oil-filter-motorcycle
-22.3.5.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter/p/k-n-high-performance-oil-filter/296433_0_0
-22.3.6.5,Organic_Links,https://www.autozone.com/lp/oil-change-specials
-22.3.7.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter/p/k-n-high-performance-powersports-oil-filter/594243_0_0
+22.3.2.5,Organic_Links,https://www.billestestoyota.com/specials/service.htm
+22.3.3.5,Organic_Links,https://www.autozone.com/filters-and-pcv/oil-filter
+22.3.4.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter
+22.3.5.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/small-engine-oil-filter
+22.3.6.5,Organic_Links,https://www.autozone.com/miscellaneous-non-automotive/performance-oil-filter-motorcycle
+22.3.7.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter/p/k-n-high-performance-oil-filter/296433_0_0
+22.3.8.5,Organic_Links,https://www.autozone.com/lp/oil-change-specials
+22.3.9.5,Organic_Links,https://www.autozone.com/engine-lubrication-and-oil-delivery/performance-oil-filter/p/k-n-high-performance-powersports-oil-filter/594243_0_0
 22.4.1.1,SearchMapPlace_Title,N/A
 22.4.1.2,SearchMapPlace_OpeningClosing,N/A
 22.4.1.3,SearchMapPlace_Rating,N/A
@@ -5132,31 +5047,11 @@ Index,Fields,Values
 25.1.28.5,Popular_Links,N/A
 25.1.29.5,Popular_Links,N/A
 25.1.30.5,Popular_Links,https://techunderworld.com/trico-flex-wiper-blades-review-universal-beam-wiper-blade/
-25.2.1.1,Sponsored_Title,"Valucraft 18"" Wiper Blade Conventional Design"
-25.2.2.1,Sponsored_Title,"Duralast Aero Blade 20"" Wiper Blade Hybrid Design"
-25.2.3.1,Sponsored_Title,"Rain X AdvantEdge 16"" Wiper Blade"
-25.2.4.1,Sponsored_Title,"Duralast Flex 22"" Wiper Blade"
-25.2.5.1,Sponsored_Title,"Bosch Envision 22"" Wiper Blade"
-25.2.1.2,Sponsored_Price,$6.99
-25.2.2.2,Sponsored_Price,$21.99
-25.2.3.2,Sponsored_Price,$34.99
-25.2.4.2,Sponsored_Price,$21.99
-25.2.5.2,Sponsored_Price,$34.99
-25.2.1.3,Sponsored_Rating,Rated 4.4 out of 5
-25.2.2.3,Sponsored_Rating,Rated 4.5 out of 5
-25.2.3.3,Sponsored_Rating,Rated 4.6 out of 5
-25.2.4.3,Sponsored_Rating,Rated 4.6 out of 5
-25.2.5.3,Sponsored_Rating,Rated 4.7 out of 5
-25.2.1.4,Sponsored_ReviewCount,400
-25.2.2.4,Sponsored_ReviewCount,3k+
-25.2.3.4,Sponsored_ReviewCount,1k+
-25.2.4.4,Sponsored_ReviewCount,1k+
-25.2.5.4,Sponsored_ReviewCount,1k+
-25.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYsoWMzP73AhUKG9QBHXPtCu0YABAHGgJvYQ&ohost=www.google.com&cid=CAASJeRoalRKLhtyETa96dnMyy7pzYOebel4usGV2MSkJRrRjMKfowQ&sig=AOD64_38WD_Pr5GIkaAXzrmOW47_aMfDUw&ctype=46&q=&ved=2ahUKEwj-rf2LzP73AhWWNc0KHcHjAZAQ0DkoAHoECAEQDg&adurl=
-25.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYsoWMzP73AhUKG9QBHXPtCu0YABAFGgJvYQ&ohost=www.google.com&cid=CAASJeRoalRKLhtyETa96dnMyy7pzYOebel4usGV2MSkJRrRjMKfowQ&sig=AOD64_3i7L_YCj-2jfGuLWNScW1uuyjDeg&ctype=46&q=&ved=2ahUKEwj-rf2LzP73AhWWNc0KHcHjAZAQ0DkoAHoECAEQFw&adurl=
-25.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYsoWMzP73AhUKG9QBHXPtCu0YABAJGgJvYQ&ohost=www.google.com&cid=CAASJeRoalRKLhtyETa96dnMyy7pzYOebel4usGV2MSkJRrRjMKfowQ&sig=AOD64_1BmOFimnF-nu4-Ti2OqXwwtkpYow&ctype=46&q=&ved=2ahUKEwj-rf2LzP73AhWWNc0KHcHjAZAQ0DkoAHoECAEQIA&adurl=
-25.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYsoWMzP73AhUKG9QBHXPtCu0YABAIGgJvYQ&ohost=www.google.com&cid=CAASJeRoalRKLhtyETa96dnMyy7pzYOebel4usGV2MSkJRrRjMKfowQ&sig=AOD64_1q75AlYRUC9IfEgTTKtlUDjNNwuQ&ctype=46&q=&ved=2ahUKEwj-rf2LzP73AhWWNc0KHcHjAZAQ0DkoAHoECAEQKQ&adurl=
-25.2.5.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYsoWMzP73AhUKG9QBHXPtCu0YABAGGgJvYQ&ohost=www.google.com&cid=CAASJeRoalRKLhtyETa96dnMyy7pzYOebel4usGV2MSkJRrRjMKfowQ&sig=AOD64_1bre58Wo04O7H18dOVxV8V4d5bzQ&ctype=46&q=&ved=2ahUKEwj-rf2LzP73AhWWNc0KHcHjAZAQ0DkoAHoECAEQMg&adurl=
+25.2.1.1,Sponsored_Title,N/A
+25.2.1.2,Sponsored_Price,N/A
+25.2.1.3,Sponsored_Rating,N/A
+25.2.1.4,Sponsored_ReviewCount,N/A
+25.2.1.5,Sponsored_Links,N/A
 25.3.1.1,Organic_Title,Windshield Wipers - Wiper Blades Replacement for Cars - AutoZone
 25.3.2.1,Organic_Title,"Wipers and Related Components for Cars, Trucks & SUVs - AutoZone Auto Parts"
 25.3.3.1,Organic_Title,What Type of Windshield Wiper Blades Do I Need? - AutoZone Auto Parts
@@ -5644,22 +5539,28 @@ Index,Fields,Values
 27.4.1.3,SearchMapPlace_Rating,N/A
 27.4.1.4,SearchMapPlace_ReviewCount,N/A
 27.4.1.5,SearchMapPlace_Address,N/A
-27.5.1.1,RelatedSearchData_Title,Brake caliper cost
-27.5.2.1,RelatedSearchData_Title,Brake Caliper Piston
-27.5.3.1,RelatedSearchData_Title,Rear brake caliper
-27.5.4.1,RelatedSearchData_Title,Brake caliper replacement
-27.5.5.1,RelatedSearchData_Title,Brake caliper diagram
-27.5.6.1,RelatedSearchData_Title,Brake caliper parts
-27.5.7.1,RelatedSearchData_Title,Brake Caliper AutoZone
-27.5.8.1,RelatedSearchData_Title,Brake Caliper Bracket
-27.5.1.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+cost&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgyEAE
-27.5.2.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+Piston&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgvEAE
-27.5.3.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Rear+brake+caliper&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgrEAE
-27.5.4.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+replacement&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgpEAE
-27.5.5.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+diagram&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgmEAE
-27.5.6.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+parts&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgjEAE
-27.5.7.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+AutoZone&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgfEAE
-27.5.8.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+Bracket&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgbEAE
+27.5.1.1,RelatedSearchData_Title,How to bleed brakes?
+27.5.2.1,RelatedSearchData_Title,Why is ABS light on?
+27.5.3.1,RelatedSearchData_Title,What is ABS brake system?
+27.5.4.1,RelatedSearchData_Title,Brake caliper cost
+27.5.5.1,RelatedSearchData_Title,Brake Caliper Piston
+27.5.6.1,RelatedSearchData_Title,Rear brake caliper
+27.5.7.1,RelatedSearchData_Title,Brake caliper replacement
+27.5.8.1,RelatedSearchData_Title,Brake caliper diagram
+27.5.9.1,RelatedSearchData_Title,Brake caliper parts
+27.5.10.1,RelatedSearchData_Title,Brake Caliper AutoZone
+27.5.11.1,RelatedSearchData_Title,Brake Caliper Bracket
+27.5.1.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=How+to+bleed+brakes%3F&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQmqUHegQIWxAE
+27.5.2.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Why+is+ABS+light+on%3F&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQmqUHegQIWxAG
+27.5.3.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=What+is+ABS+brake+system%3F&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQmqUHegQIWxAI
+27.5.4.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+cost&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgyEAE
+27.5.5.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+Piston&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgvEAE
+27.5.6.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Rear+brake+caliper&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgrEAE
+27.5.7.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+replacement&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgpEAE
+27.5.8.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+diagram&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgmEAE
+27.5.9.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+caliper+parts&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgjEAE
+27.5.10.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+AutoZone&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgfEAE
+27.5.11.2,RelatedSearchData_Link,/search?gl=US&hl=en&q=Brake+Caliper+Bracket&sa=X&ved=2ahUKEwjs__ejzP73AhXVRM0KHbtDCYoQ1QJ6BAgbEAE
 28.1.1.1,Popular_Title,Duralast Brake Caliper C554
 28.1.2.1,Popular_Title,Power Stop S4838 Brake Calipers
 28.1.3.1,Popular_Title,ACDelco Professional Disc Brake Caliper Assembly 18FR
@@ -5843,7 +5744,7 @@ Index,Fields,Values
 28.3.6.3,Organic_Rating,N/A
 28.3.7.3,Organic_Rating,N/A
 28.3.8.3,Organic_Rating,N/A
-28.3.9.3,Organic_Rating,Rated 4.2 out of 5
+28.3.9.3,Organic_Rating,N/A
 28.3.10.3,Organic_Rating,N/A
 28.3.1.4,Organic_ReviewCount,N/A
 28.3.2.4,Organic_ReviewCount,N/A
@@ -5853,7 +5754,7 @@ Index,Fields,Values
 28.3.6.4,Organic_ReviewCount,N/A
 28.3.7.4,Organic_ReviewCount,N/A
 28.3.8.4,Organic_ReviewCount,N/A
-28.3.9.4,Organic_ReviewCount,618
+28.3.9.4,Organic_ReviewCount,N/A
 28.3.10.4,Organic_ReviewCount,N/A
 28.3.1.5,Organic_Links,https://www.walmart.com/browse/auto-tires/brake-calipers/91083_1074765_9038935_7787668
 28.3.2.5,Organic_Links,https://www.autozone.com/brakes-and-traction-control/brake-caliper
@@ -6046,26 +5947,11 @@ Index,Fields,Values
 29.1.28.5,Popular_Links,N/A
 29.1.29.5,Popular_Links,https://propermechanic.com/vehicle-parts/brakes/brakes-for-a-honda-civic/
 29.1.30.5,Popular_Links,N/A
-29.2.1.1,Sponsored_Title,BrakeBest Metallic Front Brake Pads
-29.2.2.1,Sponsored_Title,Galvanized Brake Pads - NS929 Front and Rear Pads
-29.2.3.1,Sponsored_Title,2014 Camaro 3.6L V6 PowerStop OE Replacement Brake Rotor and Pad Kit; Rear
-29.2.4.1,Sponsored_Title,BrakeBest Select Premium Ceramic Rear Brake Pads
-29.2.1.2,Sponsored_Price,$23.99
-29.2.2.2,Sponsored_Price,$115.99
-29.2.3.2,Sponsored_Price,$189.99
-29.2.4.2,Sponsored_Price,$19.97
+29.2.1.1,Sponsored_Title,N/A
+29.2.1.2,Sponsored_Price,N/A
 29.2.1.3,Sponsored_Rating,N/A
-29.2.2.3,Sponsored_Rating,N/A
-29.2.3.3,Sponsored_Rating,Rated 4.6 out of 5
-29.2.4.3,Sponsored_Rating,N/A
 29.2.1.4,Sponsored_ReviewCount,N/A
-29.2.2.4,Sponsored_ReviewCount,N/A
-29.2.3.4,Sponsored_ReviewCount,1k+
-29.2.4.4,Sponsored_ReviewCount,N/A
-29.2.1.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj45sm-zP73AhXLbW8EHQycDi0YABALGgJqZg&ohost=www.google.com&cid=CAASJeRoqPlLDOwq8wfYbWTF8ItgczB9hWKkcf4Z_Y48-_6X6b-RPN8&sig=AOD64_0xDdXt3JtR7kYKfSYlLtFFlx0NDA&ctype=46&q=&ved=2ahUKEwjQy8G-zP73AhXRKM0KHWXJAU4Q0DkoAHoECAEQDg&adurl=
-29.2.2.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj45sm-zP73AhXLbW8EHQycDi0YABAHGgJqZg&ohost=www.google.com&cid=CAASJeRoqPlLDOwq8wfYbWTF8ItgczB9hWKkcf4Z_Y48-_6X6b-RPN8&sig=AOD64_2ARYcoltIpF0GugxkXmkJ2DCdY_Q&ctype=5&q=&ved=2ahUKEwjQy8G-zP73AhXRKM0KHWXJAU4Q8w4oAHoECAEQFA&adurl=
-29.2.3.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj45sm-zP73AhXLbW8EHQycDi0YABANGgJqZg&ohost=www.google.com&cid=CAASJeRoqPlLDOwq8wfYbWTF8ItgczB9hWKkcf4Z_Y48-_6X6b-RPN8&sig=AOD64_3kQrYENSift-pQ8m4-tldgUS4-OQ&ctype=5&q=&ved=2ahUKEwjQy8G-zP73AhXRKM0KHWXJAU4Q8w4oAHoECAEQGQ&adurl=
-29.2.4.5,Sponsored_Links,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj45sm-zP73AhXLbW8EHQycDi0YABAJGgJqZg&ohost=www.google.com&cid=CAASJeRoqPlLDOwq8wfYbWTF8ItgczB9hWKkcf4Z_Y48-_6X6b-RPN8&sig=AOD64_38cBeWj8XrAct1DD0ecbt48_mYIw&ctype=46&q=&ved=2ahUKEwjQy8G-zP73AhXRKM0KHWXJAU4Q0DkoAHoECAEQHw&adurl=
+29.2.1.5,Sponsored_Links,N/A
 29.3.1.1,Organic_Title,"Brake Pads - The Best Front and Rear Brake Pads for Cars, Trucks & SUVs"
 29.3.2.1,Organic_Title,Brake Pads & Shoes - Advance Auto Parts
 29.3.3.1,Organic_Title,Brake Pads | O'Reilly Auto Parts
@@ -6116,7 +6002,7 @@ Index,Fields,Values
 29.3.8.5,Organic_Links,https://www.powerstop.com/product-type/brake-pads/
 29.3.9.5,Organic_Links,https://www.napaonline.com/en/c/replacement-parts/brakes/201579366
 29.3.10.5,Organic_Links,https://www.geico.com/living/driving/auto/auto-care/instant-expert-5-signs-you-need-new-brake-pads/amp/
-29.4.1.1,SearchMapPlace_Title,N/A
+29.4.1.1,SearchMapPlace_Title,O'Reilly Auto Parts
 29.4.2.1,SearchMapPlace_Title,AutoZone Auto Parts
 29.4.3.1,SearchMapPlace_Title,Firestone Complete Auto Care
 29.4.1.2,SearchMapPlace_OpeningClosing,N/A
