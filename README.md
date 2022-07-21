@@ -8,6 +8,11 @@ A Web Scrapping App made in Python and the Django framework. It is able to scrap
 The requirements can be found in [requirements.txt](https://github.com/Zero722/gbd/blob/django/requirements.txt)
 
 ## Installation
+The first thing to do is to clone the repository:
+```
+git clone -b django --single-branch https://github.com/Zero722/gbd.git
+
+```
 
 ## Screenshots
 
